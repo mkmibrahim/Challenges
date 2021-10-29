@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge_1", "Challenge_1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challeng_1.Tests", "Challeng_1.Tests\Challeng_1.Tests.csproj", "{42F92F9A-03E3-4F29-B145-61431AE8D3E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_SumOfOddNumbers", "2_SumOfOddNumbers\2_SumOfOddNumbers.csproj", "{E8DF5E59-1D3A-4169-9684-4FDAD4F885C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_SumOfOddNumbers", "2_SumOfOddNumbers\2_SumOfOddNumbers.csproj", "{E8DF5E59-1D3A-4169-9684-4FDAD4F885C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_SumOfOddNumbers.Tests", "2_SumOfOddNumbers.Tests\2_SumOfOddNumbers.Tests.csproj", "{4E60F76F-479D-4E85-BE12-A8AF044E301F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_SumOfOddNumbers.Tests", "2_SumOfOddNumbers.Tests\2_SumOfOddNumbers.Tests.csproj", "{4E60F76F-479D-4E85-BE12-A8AF044E301F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_NumberToStringFormat", "3_NumberToStringFormat\3_NumberToStringFormat.csproj", "{749EBFD4-0D0B-4C22-8816-834214FB4A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_NumberToStringFormat.Tests", "3_NumberToStringFormat.Tests\3_NumberToStringFormat.Tests.csproj", "{10D576CC-CEDC-4B96-B2AC-D2F101A52467}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{4E60F76F-479D-4E85-BE12-A8AF044E301F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E60F76F-479D-4E85-BE12-A8AF044E301F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E60F76F-479D-4E85-BE12-A8AF044E301F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749EBFD4-0D0B-4C22-8816-834214FB4A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749EBFD4-0D0B-4C22-8816-834214FB4A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749EBFD4-0D0B-4C22-8816-834214FB4A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749EBFD4-0D0B-4C22-8816-834214FB4A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D576CC-CEDC-4B96-B2AC-D2F101A52467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D576CC-CEDC-4B96-B2AC-D2F101A52467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D576CC-CEDC-4B96-B2AC-D2F101A52467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D576CC-CEDC-4B96-B2AC-D2F101A52467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
