@@ -1,0 +1,16 @@
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\bin\Debug\net5.0\2_SumOfOddNumbers.exe
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\bin\Debug\net5.0\2_SumOfOddNumbers.deps.json
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\bin\Debug\net5.0\2_SumOfOddNumbers.runtimeconfig.json
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\bin\Debug\net5.0\2_SumOfOddNumbers.runtimeconfig.dev.json
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\bin\Debug\net5.0\2_SumOfOddNumbers.dll
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\bin\Debug\net5.0\ref\2_SumOfOddNumbers.dll
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\bin\Debug\net5.0\2_SumOfOddNumbers.pdb
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\2_SumOfOddNumbers.csproj.AssemblyReference.cache
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\2_SumOfOddNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\2_SumOfOddNumbers.AssemblyInfoInputs.cache
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\2_SumOfOddNumbers.AssemblyInfo.cs
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\2_SumOfOddNumbers.csproj.CoreCompileInputs.cache
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\2_SumOfOddNumbers.dll
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\ref\2_SumOfOddNumbers.dll
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\2_SumOfOddNumbers.pdb
+C:\Repos\Challenges\Challenges\2_SumOfOddNumbers\obj\Debug\net5.0\2_SumOfOddNumbers.genruntimeconfig.cache
