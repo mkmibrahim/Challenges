@@ -1,0 +1,16 @@
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\bin\Debug\net5.0\4_LastSamplesOfNumber.exe
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\bin\Debug\net5.0\4_LastSamplesOfNumber.deps.json
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\bin\Debug\net5.0\4_LastSamplesOfNumber.runtimeconfig.json
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\bin\Debug\net5.0\4_LastSamplesOfNumber.runtimeconfig.dev.json
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\bin\Debug\net5.0\4_LastSamplesOfNumber.dll
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\bin\Debug\net5.0\ref\4_LastSamplesOfNumber.dll
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\bin\Debug\net5.0\4_LastSamplesOfNumber.pdb
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\4_LastSamplesOfNumber.csproj.AssemblyReference.cache
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\4_LastSamplesOfNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\4_LastSamplesOfNumber.AssemblyInfoInputs.cache
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\4_LastSamplesOfNumber.AssemblyInfo.cs
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\4_LastSamplesOfNumber.csproj.CoreCompileInputs.cache
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\4_LastSamplesOfNumber.dll
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\ref\4_LastSamplesOfNumber.dll
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\4_LastSamplesOfNumber.pdb
+C:\Repos\Challenges\Challenges\4_LastSamplesOfNumber\obj\Debug\net5.0\4_LastSamplesOfNumber.genruntimeconfig.cache

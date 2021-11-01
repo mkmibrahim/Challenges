@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_NumberToStringFormat", "3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_NumberToStringFormat.Tests", "3_NumberToStringFormat.Tests\3_NumberToStringFormat.Tests.csproj", "{10D576CC-CEDC-4B96-B2AC-D2F101A52467}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_LastSamplesOfNumber", "4_LastSamplesOfNumber\4_LastSamplesOfNumber.csproj", "{EAD3DA2F-E454-434A-9F9A-F2CFBD1B54ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_LastSamplesOfNumber.Tests", "4_LastSamplesOfNumber.Tests\4_LastSamplesOfNumber.Tests.csproj", "{B93C4FD8-07A4-4BD6-8D90-A615B8404D1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{10D576CC-CEDC-4B96-B2AC-D2F101A52467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10D576CC-CEDC-4B96-B2AC-D2F101A52467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10D576CC-CEDC-4B96-B2AC-D2F101A52467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD3DA2F-E454-434A-9F9A-F2CFBD1B54ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD3DA2F-E454-434A-9F9A-F2CFBD1B54ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD3DA2F-E454-434A-9F9A-F2CFBD1B54ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD3DA2F-E454-434A-9F9A-F2CFBD1B54ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93C4FD8-07A4-4BD6-8D90-A615B8404D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93C4FD8-07A4-4BD6-8D90-A615B8404D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93C4FD8-07A4-4BD6-8D90-A615B8404D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93C4FD8-07A4-4BD6-8D90-A615B8404D1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
