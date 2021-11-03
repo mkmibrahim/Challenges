@@ -1,0 +1,15 @@
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\bin\Debug\net5.0\6_PrintBinaryTriangle.exe
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\bin\Debug\net5.0\6_PrintBinaryTriangle.deps.json
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\bin\Debug\net5.0\6_PrintBinaryTriangle.runtimeconfig.json
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\bin\Debug\net5.0\6_PrintBinaryTriangle.runtimeconfig.dev.json
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\bin\Debug\net5.0\6_PrintBinaryTriangle.dll
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\bin\Debug\net5.0\ref\6_PrintBinaryTriangle.dll
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\bin\Debug\net5.0\6_PrintBinaryTriangle.pdb
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.AssemblyInfoInputs.cache
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.AssemblyInfo.cs
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.csproj.CoreCompileInputs.cache
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.dll
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\ref\6_PrintBinaryTriangle.dll
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.pdb
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.genruntimeconfig.cache
