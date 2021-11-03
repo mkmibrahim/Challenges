@@ -13,3 +13,4 @@ C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBin
 C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\ref\6_PrintBinaryTriangle.dll
 C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.pdb
 C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.genruntimeconfig.cache
+C:\Repos\Challenges\Challenges\6_PrintBinaryTriangle\obj\Debug\net5.0\6_PrintBinaryTriangle.csproj.AssemblyReference.cache
