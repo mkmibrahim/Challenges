@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_LastSamplesOfNumber", "4_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_LastSamplesOfNumber.Tests", "4_LastSamplesOfNumber.Tests\4_LastSamplesOfNumber.Tests.csproj", "{B93C4FD8-07A4-4BD6-8D90-A615B8404D1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_MaxAndMin", "5_MaxAndMin\5_MaxAndMin.csproj", "{7B517191-BA2A-4BF6-BC27-B9C6C52B1F63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_MaxAndMin", "5_MaxAndMin\5_MaxAndMin.csproj", "{7B517191-BA2A-4BF6-BC27-B9C6C52B1F63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_MaxAndMin.Tests", "5_MaxAndMin.Tests\5_MaxAndMin.Tests.csproj", "{83717A72-6B49-46B6-88EB-1A1C23027FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_MaxAndMin.Tests", "5_MaxAndMin.Tests\5_MaxAndMin.Tests.csproj", "{83717A72-6B49-46B6-88EB-1A1C23027FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_PrintBinaryTriangle", "6_PrintBinaryTriangle\6_PrintBinaryTriangle.csproj", "{BB70EC53-D653-4BD5-AA3F-AC4BC7B0B8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_PrintBinaryTriangle.Tests", "6_PrintBinaryTriangle.Tests\6_PrintBinaryTriangle.Tests.csproj", "{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{83717A72-6B49-46B6-88EB-1A1C23027FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83717A72-6B49-46B6-88EB-1A1C23027FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83717A72-6B49-46B6-88EB-1A1C23027FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB70EC53-D653-4BD5-AA3F-AC4BC7B0B8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB70EC53-D653-4BD5-AA3F-AC4BC7B0B8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB70EC53-D653-4BD5-AA3F-AC4BC7B0B8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB70EC53-D653-4BD5-AA3F-AC4BC7B0B8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

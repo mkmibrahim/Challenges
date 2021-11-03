@@ -30,6 +30,7 @@ namespace _5_MaxAndMin
             }
             MaxTemp = doubleArray.Max();
             MinTemp = doubleArray.Min();
+            // when Max and Min can not be used
             for (int i = 0; i < doubleArray.Length; i++)
             {
                 double thisNum = doubleArray[i];
