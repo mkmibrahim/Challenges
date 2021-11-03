@@ -16,17 +16,16 @@
 //10101
 //010101
 using System;
-using System.Reflection;
 
 namespace _6_PrintBinaryTriangle
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int size;
             Console.WriteLine("Enter the size:");
-            size = int.Parse(Console.ReadLine());
+            size = int.Parse(Console.ReadLine() ?? string.Empty);
 
             Console.WriteLine("Triangle Size " + size + " is:");
             for (int i = 0; i < size +1; i++)
@@ -40,24 +39,35 @@ namespace _6_PrintBinaryTriangle
     {
         public static string BinaryString(int number)
         {
-            string result = "";
-            // determine starting digit
+            var startWith0 = GetStartingDigit(number);
+
+            var result = BuildBinaryString(number, startWith0);
+            return result;
+        }
+
+        private static string BuildBinaryString(int number, bool startWith0)
+        {
+            string result ="";
+            string nextDigit = startWith0 ? "0" : "1";
+            for (int i = 0; i < number; i++)
+            {
+                result += nextDigit;
+                nextDigit = nextDigit == "0" ? "1" : "0";
+            }
+
+            return result;
+        }
+
+        private static bool GetStartingDigit(int number)
+        {
             bool startWith0 = false;
             for (int i = 0; i < number; i++)
             {
                 if (i % 2 != 0)
-                {
                     startWith0 = !startWith0;
-                }
             }
 
-            string nextDigit = startWith0 ? "0" : "1";
-            for (int i = 0; i < number; i++)
-            {
-                result = result + nextDigit;
-                nextDigit = nextDigit == "0" ? "1" : "0";
-            }
-            return result;
+            return startWith0;
         }
     }
 }
