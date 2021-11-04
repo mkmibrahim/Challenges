@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_MaxAndMin", "5_MaxAndMin\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_MaxAndMin.Tests", "5_MaxAndMin.Tests\5_MaxAndMin.Tests.csproj", "{83717A72-6B49-46B6-88EB-1A1C23027FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_PrintBinaryTriangle", "6_PrintBinaryTriangle\6_PrintBinaryTriangle.csproj", "{BB70EC53-D653-4BD5-AA3F-AC4BC7B0B8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_PrintBinaryTriangle", "6_PrintBinaryTriangle\6_PrintBinaryTriangle.csproj", "{BB70EC53-D653-4BD5-AA3F-AC4BC7B0B8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_PrintBinaryTriangle.Tests", "6_PrintBinaryTriangle.Tests\6_PrintBinaryTriangle.Tests.csproj", "{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_PrintBinaryTriangle.Tests", "6_PrintBinaryTriangle.Tests\6_PrintBinaryTriangle.Tests.csproj", "{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_NumberOfOccurence", "7_NumberOfOccurence\7_NumberOfOccurence.csproj", "{34DDDB07-D4A3-4D3D-9E36-9971B2EF5709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_NumberOfOccurence.Tests", "7_NumberOfOccurence.Tests\7_NumberOfOccurence.Tests.csproj", "{E0E3B4CA-6CA2-43FB-A0C1-F2D761F05930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5F0461-CAA9-4B82-8C6D-E821ACCB1A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DDDB07-D4A3-4D3D-9E36-9971B2EF5709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DDDB07-D4A3-4D3D-9E36-9971B2EF5709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DDDB07-D4A3-4D3D-9E36-9971B2EF5709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DDDB07-D4A3-4D3D-9E36-9971B2EF5709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E3B4CA-6CA2-43FB-A0C1-F2D761F05930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E3B4CA-6CA2-43FB-A0C1-F2D761F05930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E3B4CA-6CA2-43FB-A0C1-F2D761F05930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E3B4CA-6CA2-43FB-A0C1-F2D761F05930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

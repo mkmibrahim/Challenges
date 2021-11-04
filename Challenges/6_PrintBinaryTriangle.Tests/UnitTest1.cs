@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace _6_PrintBinaryTriangle.Tests
