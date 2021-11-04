@@ -54,7 +54,6 @@ namespace _6_PrintBinaryTriangle
                 result += nextDigit;
                 nextDigit = nextDigit == "0" ? "1" : "0";
             }
-
             return result;
         }
 
@@ -66,7 +65,6 @@ namespace _6_PrintBinaryTriangle
                 if (i % 2 != 0)
                     startWith0 = !startWith0;
             }
-
             return startWith0;
         }
     }
