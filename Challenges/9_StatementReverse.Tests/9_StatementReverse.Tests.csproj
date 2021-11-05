@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_9_StatementReverse.Tests</RootNamespace>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -20,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Challenge_1\Challenge_1.csproj" />
+    <ProjectReference Include="..\9_StatementReverse\9_StatementReverse.csproj" />
   </ItemGroup>
 
 </Project>

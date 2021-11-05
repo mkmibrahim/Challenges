@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Challenge_1
+namespace _01_ReverseArray
 {
     public class ReverseArrayHelper
     {

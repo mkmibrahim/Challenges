@@ -8,11 +8,10 @@
 //13 27 24 58 65 45 12 26 23 25
 
 //Note: Make sure the output format is same as above given example.
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace Challenge_1
+using System;
+
+namespace _01_ReverseArray
 {
     class Program
     {
