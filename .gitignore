@@ -1,5 +1,5 @@
 *.Cache
-
+*.testlog
 # Build results
 [Dd]ebug/
 [Rr]elease/
