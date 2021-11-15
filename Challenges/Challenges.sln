@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_SumOfOddNumbers", "2_SumOfOddNumbers\2_SumOfOddNumbers.csproj", "{E8DF5E59-1D3A-4169-9684-4FDAD4F885C1}"
 EndProject
@@ -53,9 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_IndianRupeesFormat", "14
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_IndianRupeesFormat.Tests", "14_IndianRupeesFormat.Tests\14_IndianRupeesFormat.Tests.csproj", "{9D7199FA-06C5-4DF1-9FE5-5B446F3B5777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_PerfectNumber", "15_PerfectNumber\15_PerfectNumber.csproj", "{5D0DFF94-EF9D-491F-AABE-6400A9120E40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_PerfectNumber", "15_PerfectNumber\15_PerfectNumber.csproj", "{5D0DFF94-EF9D-491F-AABE-6400A9120E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_PerfectNumber.Tests", "15_PerfectNumber.Tests\15_PerfectNumber.Tests.csproj", "{2FBF481F-F92D-421E-AB53-5B6F2366DD80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_PerfectNumber.Tests", "15_PerfectNumber.Tests\15_PerfectNumber.Tests.csproj", "{2FBF481F-F92D-421E-AB53-5B6F2366DD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_PrimeFactors", "16_PrimeFactors\16_PrimeFactors.csproj", "{E4DF6AAD-DFC2-4749-9B86-ACF691B546FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_PrimeFactors.Tests", "16_PrimeFactors.Tests\16_PrimeFactors.Tests.csproj", "{E4D8711B-0156-46F5-9ADD-84D7DA312F6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +175,14 @@ Global
 		{2FBF481F-F92D-421E-AB53-5B6F2366DD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FBF481F-F92D-421E-AB53-5B6F2366DD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FBF481F-F92D-421E-AB53-5B6F2366DD80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DF6AAD-DFC2-4749-9B86-ACF691B546FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DF6AAD-DFC2-4749-9B86-ACF691B546FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DF6AAD-DFC2-4749-9B86-ACF691B546FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DF6AAD-DFC2-4749-9B86-ACF691B546FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D8711B-0156-46F5-9ADD-84D7DA312F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D8711B-0156-46F5-9ADD-84D7DA312F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D8711B-0156-46F5-9ADD-84D7DA312F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D8711B-0156-46F5-9ADD-84D7DA312F6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
