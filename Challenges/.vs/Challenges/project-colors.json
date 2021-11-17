@@ -30,7 +30,17 @@
       "ProjectGuid": "1f747930-4788-41ca-921e-d01cdc64b0ed",
       "DisplayName": "17_NumberOccurencesInArray.Tests",
       "ColorIndex": 5
+    },
+    "96af4aeb-74a3-423d-9f08-21173f350745": {
+      "ProjectGuid": "96af4aeb-74a3-423d-9f08-21173f350745",
+      "DisplayName": "18_WindChill",
+      "ColorIndex": 6
+    },
+    "417dee52-842c-450a-acb4-4614fffb2614": {
+      "ProjectGuid": "417dee52-842c-450a-acb4-4614fffb2614",
+      "DisplayName": "18_WindChill.Tests",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 8
 }
