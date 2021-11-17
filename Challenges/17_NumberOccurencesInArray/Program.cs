@@ -49,9 +49,13 @@ namespace _17_NumberOccurencesInArray
         {
             var result = 0;
             int[] arrayInt = ConvertArrayToInts(arrayString);
-
             result = GetOccurence(arrayInt, number);
+            return result;
+        }
 
+        public static int Get(int[] arrayInt, int number)
+        {
+            int result = GetOccurence(arrayInt, number);
             return result;
         }
 
@@ -63,14 +67,7 @@ namespace _17_NumberOccurencesInArray
             {
                 arrayInt[i] = int.Parse(arraySplitted[i]);
             }
-
             return arrayInt;
-        }
-
-        public static int Get(int[] arrayInt, int number)
-        {
-            int result = GetOccurence(arrayInt, number);
-            return result;
         }
 
         private static int GetOccurence(int[] arrayInt, int number)
@@ -81,7 +78,6 @@ namespace _17_NumberOccurencesInArray
                 if (arrayInt[i] == number)
                     result++;
             }
-
             return result;
         }
     }

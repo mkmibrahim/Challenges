@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ead3da2f-e454-434a-9f9a-f2cfbd1b54ed": {
+      "ProjectGuid": "ead3da2f-e454-434a-9f9a-f2cfbd1b54ed",
+      "DisplayName": "4_LastSamplesOfNumber",
+      "ColorIndex": 0
+    },
+    "0b9b3783-63d9-4af1-b678-4f3a0ec21d6f": {
+      "ProjectGuid": "0b9b3783-63d9-4af1-b678-4f3a0ec21d6f",
+      "DisplayName": "9_StatementReverse",
+      "ColorIndex": 1
+    },
+    "e4df6aad-dfc2-4749-9b86-acf691b546fb": {
+      "ProjectGuid": "e4df6aad-dfc2-4749-9b86-acf691b546fb",
+      "DisplayName": "16_PrimeFactors",
+      "ColorIndex": 2
+    },
+    "e4d8711b-0156-46f5-9add-84d7da312f6e": {
+      "ProjectGuid": "e4d8711b-0156-46f5-9add-84d7da312f6e",
+      "DisplayName": "16_PrimeFactors.Tests",
+      "ColorIndex": 3
+    },
+    "1a92c253-f623-4218-8eea-b3370bae4bdf": {
+      "ProjectGuid": "1a92c253-f623-4218-8eea-b3370bae4bdf",
+      "DisplayName": "17_NumberOccurencesInArray",
+      "ColorIndex": 4
+    },
+    "1f747930-4788-41ca-921e-d01cdc64b0ed": {
+      "ProjectGuid": "1f747930-4788-41ca-921e-d01cdc64b0ed",
+      "DisplayName": "17_NumberOccurencesInArray.Tests",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
