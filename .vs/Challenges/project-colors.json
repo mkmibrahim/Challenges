@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ead3da2f-e454-434a-9f9a-f2cfbd1b54ed": {
+      "ProjectGuid": "ead3da2f-e454-434a-9f9a-f2cfbd1b54ed",
+      "DisplayName": "4_LastSamplesOfNumber",
+      "ColorIndex": 0
+    },
+    "0b9b3783-63d9-4af1-b678-4f3a0ec21d6f": {
+      "ProjectGuid": "0b9b3783-63d9-4af1-b678-4f3a0ec21d6f",
+      "DisplayName": "9_StatementReverse",
+      "ColorIndex": 1
+    },
+    "e4df6aad-dfc2-4749-9b86-acf691b546fb": {
+      "ProjectGuid": "e4df6aad-dfc2-4749-9b86-acf691b546fb",
+      "DisplayName": "16_PrimeFactors",
+      "ColorIndex": 2
+    },
+    "e4d8711b-0156-46f5-9add-84d7da312f6e": {
+      "ProjectGuid": "e4d8711b-0156-46f5-9add-84d7da312f6e",
+      "DisplayName": "16_PrimeFactors.Tests",
+      "ColorIndex": 3
+    },
+    "1a92c253-f623-4218-8eea-b3370bae4bdf": {
+      "ProjectGuid": "1a92c253-f623-4218-8eea-b3370bae4bdf",
+      "DisplayName": "17_NumberOccurencesInArray",
+      "ColorIndex": 4
+    },
+    "1f747930-4788-41ca-921e-d01cdc64b0ed": {
+      "ProjectGuid": "1f747930-4788-41ca-921e-d01cdc64b0ed",
+      "DisplayName": "17_NumberOccurencesInArray.Tests",
+      "ColorIndex": 5
+    },
+    "96af4aeb-74a3-423d-9f08-21173f350745": {
+      "ProjectGuid": "96af4aeb-74a3-423d-9f08-21173f350745",
+      "DisplayName": "18_WindChill",
+      "ColorIndex": 6
+    },
+    "417dee52-842c-450a-acb4-4614fffb2614": {
+      "ProjectGuid": "417dee52-842c-450a-acb4-4614fffb2614",
+      "DisplayName": "18_WindChill.Tests",
+      "ColorIndex": 7
+    },
+    "546e5746-b2e8-42af-b268-9d9340d0e446": {
+      "ProjectGuid": "546e5746-b2e8-42af-b268-9d9340d0e446",
+      "DisplayName": "19_GreyCode",
+      "ColorIndex": 8
+    },
+    "a5fc1944-d18f-46da-ad19-de5b8adfc00f": {
+      "ProjectGuid": "a5fc1944-d18f-46da-ad19-de5b8adfc00f",
+      "DisplayName": "19_GreyCode.Tests",
+      "ColorIndex": 9
+    },
+    "e8df5e59-1d3a-4169-9684-4fdad4f885c1": {
+      "ProjectGuid": "e8df5e59-1d3a-4169-9684-4fdad4f885c1",
+      "DisplayName": "20_SumOfOddNumbers",
+      "ColorIndex": 10
+    },
+    "4e60f76f-479d-4e85-be12-a8af044e301f": {
+      "ProjectGuid": "4e60f76f-479d-4e85-be12-a8af044e301f",
+      "DisplayName": "2_SumOfOddNumbers.Tests",
+      "ColorIndex": 11
+    },
+    "005fe45b-eae0-4d41-9202-9ebca1354d33": {
+      "ProjectGuid": "005fe45b-eae0-4d41-9202-9ebca1354d33",
+      "DisplayName": "02_SumOfOddNumbers",
+      "ColorIndex": 12
+    },
+    "bec7fd0d-d523-482b-b25f-59930ce5a788": {
+      "ProjectGuid": "bec7fd0d-d523-482b-b25f-59930ce5a788",
+      "DisplayName": "2_SumOfOddNumbers.Tests",
+      "ColorIndex": 13
+    },
+    "9bc8245a-22e5-4008-abf3-5bc7c2cd2278": {
+      "ProjectGuid": "9bc8245a-22e5-4008-abf3-5bc7c2cd2278",
+      "DisplayName": "02_SumOfOddNumbers.Tests",
+      "ColorIndex": 14
+    },
+    "210ba1be-9f59-447d-8701-b0140d35a801": {
+      "ProjectGuid": "210ba1be-9f59-447d-8701-b0140d35a801",
+      "DisplayName": "03_NumberToStringFormat",
+      "ColorIndex": 15
+    },
+    "f775f131-6fd5-461a-be23-29fbc704ea97": {
+      "ProjectGuid": "f775f131-6fd5-461a-be23-29fbc704ea97",
+      "DisplayName": "03_NumberToStringFormat.Tests",
+      "ColorIndex": 0
+    },
+    "e3ed58d2-59cf-4747-86dd-3affd006f720": {
+      "ProjectGuid": "e3ed58d2-59cf-4747-86dd-3affd006f720",
+      "DisplayName": "04_LastSamplesOfNumber",
+      "ColorIndex": 1
+    },
+    "97a9e0f1-7d1b-4f6c-9b51-17037b55cb99": {
+      "ProjectGuid": "97a9e0f1-7d1b-4f6c-9b51-17037b55cb99",
+      "DisplayName": "04_LastSamplesOfNumber.Tests",
+      "ColorIndex": 2
+    },
+    "a1b83d80-e112-451b-9d18-0e5cedc0cfdd": {
+      "ProjectGuid": "a1b83d80-e112-451b-9d18-0e5cedc0cfdd",
+      "DisplayName": "05_MaxAndMin",
+      "ColorIndex": 3
+    },
+    "3a85c831-fbaf-4816-88dd-c3b591d25678": {
+      "ProjectGuid": "3a85c831-fbaf-4816-88dd-c3b591d25678",
+      "DisplayName": "05_MaxAndMin.Tests",
+      "ColorIndex": 4
+    },
+    "42e55506-a4c4-46f4-b7d7-829874c01224": {
+      "ProjectGuid": "42e55506-a4c4-46f4-b7d7-829874c01224",
+      "DisplayName": "06_PrintBinaryTriangle",
+      "ColorIndex": 5
+    },
+    "5348c8a1-6663-4f98-a538-85fbdac546d4": {
+      "ProjectGuid": "5348c8a1-6663-4f98-a538-85fbdac546d4",
+      "DisplayName": "06_PrintBinaryTriangle.Tests",
+      "ColorIndex": 6
+    },
+    "d4589e6e-370a-478e-a0cc-72d3d0183480": {
+      "ProjectGuid": "d4589e6e-370a-478e-a0cc-72d3d0183480",
+      "DisplayName": "07_NumberOfOccurence",
+      "ColorIndex": 7
+    },
+    "4a8870b1-d5d6-4cd0-890c-f9cf2c19a853": {
+      "ProjectGuid": "4a8870b1-d5d6-4cd0-890c-f9cf2c19a853",
+      "DisplayName": "07_NumberOfOccurence.Tests",
+      "ColorIndex": 8
+    },
+    "b5056def-26f4-46da-ae4d-b55340164e7c": {
+      "ProjectGuid": "b5056def-26f4-46da-ae4d-b55340164e7c",
+      "DisplayName": "08_PrintRectangle",
+      "ColorIndex": 9
+    },
+    "30addfc7-83b6-45cc-aaae-3be2c2be80ac": {
+      "ProjectGuid": "30addfc7-83b6-45cc-aaae-3be2c2be80ac",
+      "DisplayName": "09_StatementReverse",
+      "ColorIndex": 10
+    },
+    "e9a51222-b047-47f8-87a0-1eb634da1173": {
+      "ProjectGuid": "e9a51222-b047-47f8-87a0-1eb634da1173",
+      "DisplayName": "09_StatementReverse.Tests",
+      "ColorIndex": 11
+    },
+    "a4b2bd59-e7ea-4e15-a2f6-aee2683a6929": {
+      "ProjectGuid": "a4b2bd59-e7ea-4e15-a2f6-aee2683a6929",
+      "DisplayName": "02_SumOfOddNumbers.Tests",
+      "ColorIndex": 12
+    }
+  },
+  "NextColorIndex": 13
+}
