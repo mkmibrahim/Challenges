@@ -39,39 +39,43 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_WindChill", "18_WindChil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_WindChill.Tests", "18_WindChill.Tests\18_WindChill.Tests.csproj", "{417DEE52-842C-450A-ACB4-4614FFFB2614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_GreyCode", "19_GreyCode\19_GreyCode.csproj", "{546E5746-B2E8-42AF-B268-9D9340D0E446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_GreyCode", "19_GreyCode\19_GreyCode.csproj", "{546E5746-B2E8-42AF-B268-9D9340D0E446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_GreyCode.Tests", "19_GreyCode.Tests\19_GreyCode.Tests.csproj", "{A5FC1944-D18F-46DA-AD19-DE5B8ADFC00F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_GreyCode.Tests", "19_GreyCode.Tests\19_GreyCode.Tests.csproj", "{A5FC1944-D18F-46DA-AD19-DE5B8ADFC00F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_SumOfOddNumbers", "02_SumOfOddNumbers\02_SumOfOddNumbers.csproj", "{005FE45B-EAE0-4D41-9202-9EBCA1354D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_SumOfOddNumbers", "02_SumOfOddNumbers\02_SumOfOddNumbers.csproj", "{005FE45B-EAE0-4D41-9202-9EBCA1354D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_NumberToStringFormat", "03_NumberToStringFormat\03_NumberToStringFormat.csproj", "{210BA1BE-9F59-447D-8701-B0140D35A801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_NumberToStringFormat", "03_NumberToStringFormat\03_NumberToStringFormat.csproj", "{210BA1BE-9F59-447D-8701-B0140D35A801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_NumberToStringFormat.Tests", "03_NumberToStringFormat.Tests\03_NumberToStringFormat.Tests.csproj", "{F775F131-6FD5-461A-BE23-29FBC704EA97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_NumberToStringFormat.Tests", "03_NumberToStringFormat.Tests\03_NumberToStringFormat.Tests.csproj", "{F775F131-6FD5-461A-BE23-29FBC704EA97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_LastSamplesOfNumber", "04_LastSamplesOfNumber\04_LastSamplesOfNumber.csproj", "{E3ED58D2-59CF-4747-86DD-3AFFD006F720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_LastSamplesOfNumber", "04_LastSamplesOfNumber\04_LastSamplesOfNumber.csproj", "{E3ED58D2-59CF-4747-86DD-3AFFD006F720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_LastSamplesOfNumber.Tests", "04_LastSamplesOfNumber.Tests\04_LastSamplesOfNumber.Tests.csproj", "{97A9E0F1-7D1B-4F6C-9B51-17037B55CB99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_LastSamplesOfNumber.Tests", "04_LastSamplesOfNumber.Tests\04_LastSamplesOfNumber.Tests.csproj", "{97A9E0F1-7D1B-4F6C-9B51-17037B55CB99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_MaxAndMin", "05_MaxAndMin\05_MaxAndMin.csproj", "{A1B83D80-E112-451B-9D18-0E5CEDC0CFDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_MaxAndMin", "05_MaxAndMin\05_MaxAndMin.csproj", "{A1B83D80-E112-451B-9D18-0E5CEDC0CFDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_MaxAndMin.Tests", "05_MaxAndMin.Tests\05_MaxAndMin.Tests.csproj", "{3A85C831-FBAF-4816-88DD-C3B591D25678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_MaxAndMin.Tests", "05_MaxAndMin.Tests\05_MaxAndMin.Tests.csproj", "{3A85C831-FBAF-4816-88DD-C3B591D25678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_PrintBinaryTriangle", "06_PrintBinaryTriangle\06_PrintBinaryTriangle.csproj", "{42E55506-A4C4-46F4-B7D7-829874C01224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_PrintBinaryTriangle", "06_PrintBinaryTriangle\06_PrintBinaryTriangle.csproj", "{42E55506-A4C4-46F4-B7D7-829874C01224}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_PrintBinaryTriangle.Tests", "06_PrintBinaryTriangle.Tests\06_PrintBinaryTriangle.Tests.csproj", "{5348C8A1-6663-4F98-A538-85FBDAC546D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_PrintBinaryTriangle.Tests", "06_PrintBinaryTriangle.Tests\06_PrintBinaryTriangle.Tests.csproj", "{5348C8A1-6663-4F98-A538-85FBDAC546D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_NumberOfOccurence", "07_NumberOfOccurence\07_NumberOfOccurence.csproj", "{D4589E6E-370A-478E-A0CC-72D3D0183480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_NumberOfOccurence", "07_NumberOfOccurence\07_NumberOfOccurence.csproj", "{D4589E6E-370A-478E-A0CC-72D3D0183480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_NumberOfOccurence.Tests", "07_NumberOfOccurence.Tests\07_NumberOfOccurence.Tests.csproj", "{4A8870B1-D5D6-4CD0-890C-F9CF2C19A853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_NumberOfOccurence.Tests", "07_NumberOfOccurence.Tests\07_NumberOfOccurence.Tests.csproj", "{4A8870B1-D5D6-4CD0-890C-F9CF2C19A853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_PrintRectangle", "08_PrintRectangle\08_PrintRectangle.csproj", "{B5056DEF-26F4-46DA-AE4D-B55340164E7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_PrintRectangle", "08_PrintRectangle\08_PrintRectangle.csproj", "{B5056DEF-26F4-46DA-AE4D-B55340164E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_StatementReverse", "09_StatementReverse\09_StatementReverse.csproj", "{30ADDFC7-83B6-45CC-AAAE-3BE2C2BE80AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_StatementReverse", "09_StatementReverse\09_StatementReverse.csproj", "{30ADDFC7-83B6-45CC-AAAE-3BE2C2BE80AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_StatementReverse.Tests", "09_StatementReverse.Tests\09_StatementReverse.Tests.csproj", "{E9A51222-B047-47F8-87A0-1EB634DA1173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_StatementReverse.Tests", "09_StatementReverse.Tests\09_StatementReverse.Tests.csproj", "{E9A51222-B047-47F8-87A0-1EB634DA1173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_SumOfOddNumbers.Tests", "02_SumOfOddNumbers.Tests\02_SumOfOddNumbers.Tests.csproj", "{A4B2BD59-E7EA-4E15-A2F6-AEE2683A6929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_SumOfOddNumbers.Tests", "02_SumOfOddNumbers.Tests\02_SumOfOddNumbers.Tests.csproj", "{A4B2BD59-E7EA-4E15-A2F6-AEE2683A6929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_SexyPairs", "20_SexyPairs\20_SexyPairs.csproj", "{6B6A9804-BD27-4319-A8F8-BC1CD90435BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_SexyPairs.Tests", "20_SexyPairs.Tests\20_SexyPairs.Tests.csproj", "{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,14 @@ Global
 		{A4B2BD59-E7EA-4E15-A2F6-AEE2683A6929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4B2BD59-E7EA-4E15-A2F6-AEE2683A6929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4B2BD59-E7EA-4E15-A2F6-AEE2683A6929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6A9804-BD27-4319-A8F8-BC1CD90435BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6A9804-BD27-4319-A8F8-BC1CD90435BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6A9804-BD27-4319-A8F8-BC1CD90435BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6A9804-BD27-4319-A8F8-BC1CD90435BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
