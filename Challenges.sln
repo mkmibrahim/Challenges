@@ -73,9 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_StatementReverse.Tests",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_SumOfOddNumbers.Tests", "02_SumOfOddNumbers.Tests\02_SumOfOddNumbers.Tests.csproj", "{A4B2BD59-E7EA-4E15-A2F6-AEE2683A6929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_SexyPairs", "20_SexyPairs\20_SexyPairs.csproj", "{6B6A9804-BD27-4319-A8F8-BC1CD90435BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_SexyPairs", "20_SexyPairs\20_SexyPairs.csproj", "{6B6A9804-BD27-4319-A8F8-BC1CD90435BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_SexyPairs.Tests", "20_SexyPairs.Tests\20_SexyPairs.Tests.csproj", "{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_SexyPairs.Tests", "20_SexyPairs.Tests\20_SexyPairs.Tests.csproj", "{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_NameSearch", "21_NameSearch\21_NameSearch.csproj", "{2CBF321B-581D-4B3A-BFC1-3D01038FDF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_NameSearch.Tests", "21_NameSearch.Tests\21_NameSearch.Tests.csproj", "{A9103390-D121-42F5-8102-FBD1C307304E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +235,14 @@ Global
 		{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96FACB9C-2ADD-44C2-B3D8-AAFE49645F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBF321B-581D-4B3A-BFC1-3D01038FDF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBF321B-581D-4B3A-BFC1-3D01038FDF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBF321B-581D-4B3A-BFC1-3D01038FDF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBF321B-581D-4B3A-BFC1-3D01038FDF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9103390-D121-42F5-8102-FBD1C307304E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9103390-D121-42F5-8102-FBD1C307304E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9103390-D121-42F5-8102-FBD1C307304E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9103390-D121-42F5-8102-FBD1C307304E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
