@@ -145,7 +145,37 @@
       "ProjectGuid": "a4b2bd59-e7ea-4e15-a2f6-aee2683a6929",
       "DisplayName": "02_SumOfOddNumbers.Tests",
       "ColorIndex": 12
+    },
+    "b42df31b-ea1d-4530-8a16-5730e1b3022f": {
+      "ProjectGuid": "b42df31b-ea1d-4530-8a16-5730e1b3022f",
+      "DisplayName": "21_AmicableTotal",
+      "ColorIndex": 13
+    },
+    "6b6a9804-bd27-4319-a8f8-bc1cd90435ba": {
+      "ProjectGuid": "6b6a9804-bd27-4319-a8f8-bc1cd90435ba",
+      "DisplayName": "20_SexyPairs",
+      "ColorIndex": 14
+    },
+    "b125f585-19e7-4cd0-bd13-0ee1dcd71805": {
+      "ProjectGuid": "b125f585-19e7-4cd0-bd13-0ee1dcd71805",
+      "DisplayName": "21_AmicableTotal.Tests",
+      "ColorIndex": 15
+    },
+    "96facb9c-2add-44c2-b3d8-aafe49645f80": {
+      "ProjectGuid": "96facb9c-2add-44c2-b3d8-aafe49645f80",
+      "DisplayName": "20_SexyPairs.Tests",
+      "ColorIndex": 0
+    },
+    "2cbf321b-581d-4b3a-bfc1-3d01038fdf25": {
+      "ProjectGuid": "2cbf321b-581d-4b3a-bfc1-3d01038fdf25",
+      "DisplayName": "21_NameSearch",
+      "ColorIndex": 1
+    },
+    "a9103390-d121-42f5-8102-fbd1c307304e": {
+      "ProjectGuid": "a9103390-d121-42f5-8102-fbd1c307304e",
+      "DisplayName": "21_NameSearch.Tests",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 3
 }
