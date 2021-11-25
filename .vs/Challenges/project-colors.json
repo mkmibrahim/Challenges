@@ -175,7 +175,27 @@
       "ProjectGuid": "a9103390-d121-42f5-8102-fbd1c307304e",
       "DisplayName": "21_NameSearch.Tests",
       "ColorIndex": 2
+    },
+    "845e927e-1ecc-45bf-8b0e-dbc5cc3fa861": {
+      "ProjectGuid": "845e927e-1ecc-45bf-8b0e-dbc5cc3fa861",
+      "DisplayName": "22_Capitalization",
+      "ColorIndex": 3
+    },
+    "6d92c6bb-974c-44f1-8ffb-27dc09fd714b": {
+      "ProjectGuid": "6d92c6bb-974c-44f1-8ffb-27dc09fd714b",
+      "DisplayName": "22_Capitalization.Tests",
+      "ColorIndex": 4
+    },
+    "75fc3e22-7fff-4739-8b52-535032f27040": {
+      "ProjectGuid": "75fc3e22-7fff-4739-8b52-535032f27040",
+      "DisplayName": "23_CountOnes",
+      "ColorIndex": 5
+    },
+    "b6339e96-1e97-49a0-8588-d6b990dc9d19": {
+      "ProjectGuid": "b6339e96-1e97-49a0-8588-d6b990dc9d19",
+      "DisplayName": "23_CountOnes.Tests",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 7
 }
