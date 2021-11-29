@@ -195,7 +195,17 @@
       "ProjectGuid": "b6339e96-1e97-49a0-8588-d6b990dc9d19",
       "DisplayName": "23_CountOnes.Tests",
       "ColorIndex": 6
+    },
+    "d2c72775-5a75-4dee-b0f8-3d6c5167d3d9": {
+      "ProjectGuid": "d2c72775-5a75-4dee-b0f8-3d6c5167d3d9",
+      "DisplayName": "24_SumOfTheDigits",
+      "ColorIndex": 7
+    },
+    "ca48f9bb-e1d3-46fd-af2e-63521917f653": {
+      "ProjectGuid": "ca48f9bb-e1d3-46fd-af2e-63521917f653",
+      "DisplayName": "24_SumOfTheDigits.Tests",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }
