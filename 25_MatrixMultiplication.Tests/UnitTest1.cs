@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace _25_MatrixMultiplication.Tests
@@ -16,8 +15,7 @@ namespace _25_MatrixMultiplication.Tests
 
             var result = MatrixHelper.Multiply(firstMatrix, secondMatrix);
             
-            var expectedResultMatrix = new int[3,3];
-            expectedResultMatrix = new[,] { { 19, 21, 11 },
+            int[,] expectedResultMatrix = new[,] { { 19, 21, 11 },
                                              {43, 48, 29 },
                                              {35, 35, 31 }};
 
@@ -35,8 +33,8 @@ namespace _25_MatrixMultiplication.Tests
 
             var result = MatrixHelper.Multiply(firstMatrix, secondMatrix);
 
-            var expectedResultMatrix = new int[3, 3];
-            expectedResultMatrix = new[,] { { 20, 32, 44 },
+
+            int[,] expectedResultMatrix = new[,] { { 20, 32, 44 },
                                              {10, 16, 22 },
                                              {15, 24, 33 }};
 
