@@ -97,9 +97,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_MatrixMultiplication", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_MatrixMultiplication.Tests", "25_MatrixMultiplication.Tests\25_MatrixMultiplication.Tests.csproj", "{05F9438A-EC61-479B-87D4-482B2746565B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_NumberSequence", "26_NumberSequence\26_NumberSequence.csproj", "{0E9D2214-EF4E-4FCA-9C60-8FF6C7F0DABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_NumberSequence", "26_NumberSequence\26_NumberSequence.csproj", "{0E9D2214-EF4E-4FCA-9C60-8FF6C7F0DABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_NumberSequence.Tests", "26_NumberSequence.Tests\26_NumberSequence.Tests.csproj", "{51F5919F-CC95-4866-B5CA-DF0EB67C81E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_NumberSequence.Tests", "26_NumberSequence.Tests\26_NumberSequence.Tests.csproj", "{51F5919F-CC95-4866-B5CA-DF0EB67C81E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_CountOccurrenceOfCharacter", "27_CountOccurrenceOfCharacter\27_CountOccurrenceOfCharacter.csproj", "{814BF345-6974-4897-8176-37B78F69F32D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_CountOccurrenceOfCharacter.Tests", "27_CountOccurrenceOfCharacter.Tests\27_CountOccurrenceOfCharacter.Tests.csproj", "{B68C7FD1-37EC-4734-8851-EEFADE6353C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +307,14 @@ Global
 		{51F5919F-CC95-4866-B5CA-DF0EB67C81E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51F5919F-CC95-4866-B5CA-DF0EB67C81E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51F5919F-CC95-4866-B5CA-DF0EB67C81E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814BF345-6974-4897-8176-37B78F69F32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814BF345-6974-4897-8176-37B78F69F32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814BF345-6974-4897-8176-37B78F69F32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814BF345-6974-4897-8176-37B78F69F32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68C7FD1-37EC-4734-8851-EEFADE6353C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68C7FD1-37EC-4734-8851-EEFADE6353C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68C7FD1-37EC-4734-8851-EEFADE6353C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68C7FD1-37EC-4734-8851-EEFADE6353C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
