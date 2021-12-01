@@ -205,7 +205,27 @@
       "ProjectGuid": "ca48f9bb-e1d3-46fd-af2e-63521917f653",
       "DisplayName": "24_SumOfTheDigits.Tests",
       "ColorIndex": 8
+    },
+    "eaa2e4a7-e190-45fb-a229-587bd0df7e9f": {
+      "ProjectGuid": "eaa2e4a7-e190-45fb-a229-587bd0df7e9f",
+      "DisplayName": "25_MatrixMultiplication",
+      "ColorIndex": 9
+    },
+    "05f9438a-ec61-479b-87d4-482b2746565b": {
+      "ProjectGuid": "05f9438a-ec61-479b-87d4-482b2746565b",
+      "DisplayName": "25_MatrixMultiplication.Tests",
+      "ColorIndex": 10
+    },
+    "0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba": {
+      "ProjectGuid": "0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba",
+      "DisplayName": "26_NumberSequence",
+      "ColorIndex": 11
+    },
+    "51f5919f-cc95-4866-b5ca-df0eb67c81e7": {
+      "ProjectGuid": "51f5919f-cc95-4866-b5ca-df0eb67c81e7",
+      "DisplayName": "26_NumberSequence.Tests",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 13
 }
