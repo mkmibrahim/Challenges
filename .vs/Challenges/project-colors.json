@@ -225,7 +225,17 @@
       "ProjectGuid": "51f5919f-cc95-4866-b5ca-df0eb67c81e7",
       "DisplayName": "26_NumberSequence.Tests",
       "ColorIndex": 12
+    },
+    "814bf345-6974-4897-8176-37b78f69f32d": {
+      "ProjectGuid": "814bf345-6974-4897-8176-37b78f69f32d",
+      "DisplayName": "27_CountOccurrenceOfCharacter",
+      "ColorIndex": 13
+    },
+    "b68c7fd1-37ec-4734-8851-eefade6353c4": {
+      "ProjectGuid": "b68c7fd1-37ec-4734-8851-eefade6353c4",
+      "DisplayName": "27_CountOccurrenceOfCharacter.Tests",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 15
 }
