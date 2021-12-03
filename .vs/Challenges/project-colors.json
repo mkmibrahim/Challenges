@@ -235,7 +235,27 @@
       "ProjectGuid": "b68c7fd1-37ec-4734-8851-eefade6353c4",
       "DisplayName": "27_CountOccurrenceOfCharacter.Tests",
       "ColorIndex": 14
+    },
+    "1e9dcef1-98f5-432a-b2fa-313f5cd1a1db": {
+      "ProjectGuid": "1e9dcef1-98f5-432a-b2fa-313f5cd1a1db",
+      "DisplayName": "28_QuadrantOfAnAngle",
+      "ColorIndex": 15
+    },
+    "b4aa747e-76d6-4295-8007-9a45f83c16dc": {
+      "ProjectGuid": "b4aa747e-76d6-4295-8007-9a45f83c16dc",
+      "DisplayName": "28_QuadrantOfAnAngle.Tests",
+      "ColorIndex": 0
+    },
+    "bc90be3f-2466-4760-a2ce-d11e025d0d60": {
+      "ProjectGuid": "bc90be3f-2466-4760-a2ce-d11e025d0d60",
+      "DisplayName": "29_ISBNValidation",
+      "ColorIndex": 1
+    },
+    "1f7476c3-503a-4307-b045-5e48d0e48a35": {
+      "ProjectGuid": "1f7476c3-503a-4307-b045-5e48d0e48a35",
+      "DisplayName": "29_ISBNValidation.Tests",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 3
 }
