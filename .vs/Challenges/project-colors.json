@@ -255,7 +255,42 @@
       "ProjectGuid": "1f7476c3-503a-4307-b045-5e48d0e48a35",
       "DisplayName": "29_ISBNValidation.Tests",
       "ColorIndex": 2
+    },
+    "209b412d-0052-4ef5-bf1b-4c7da0b03705": {
+      "ProjectGuid": "209b412d-0052-4ef5-bf1b-4c7da0b03705",
+      "DisplayName": "30_DecimalToOctal",
+      "ColorIndex": 3
+    },
+    "4751a885-ed9c-43a4-8d0b-fcb629db4bc3": {
+      "ProjectGuid": "4751a885-ed9c-43a4-8d0b-fcb629db4bc3",
+      "DisplayName": "30_DecimalToOctal.Tests",
+      "ColorIndex": 4
+    },
+    "f697b18d-01ec-4fdb-8401-343322be5d99": {
+      "ProjectGuid": "f697b18d-01ec-4fdb-8401-343322be5d99",
+      "DisplayName": "Array_01",
+      "ColorIndex": 5
+    },
+    "22aa8cd2-c6a0-4c60-94b0-8eab505146ce": {
+      "ProjectGuid": "22aa8cd2-c6a0-4c60-94b0-8eab505146ce",
+      "DisplayName": "Array_01.Tests",
+      "ColorIndex": 6
+    },
+    "ae2483d9-2e8e-4c29-8f83-9a83ae8a9ff7": {
+      "ProjectGuid": "ae2483d9-2e8e-4c29-8f83-9a83ae8a9ff7",
+      "DisplayName": "Array_01.Tests",
+      "ColorIndex": 7
+    },
+    "18a62fcd-7b5d-406a-9b87-32ad5a3fd6ce": {
+      "ProjectGuid": "18a62fcd-7b5d-406a-9b87-32ad5a3fd6ce",
+      "DisplayName": "Array_01.Tests",
+      "ColorIndex": 8
+    },
+    "72cdbf91-226d-4153-a7ba-e2ce04a8c5e1": {
+      "ProjectGuid": "72cdbf91-226d-4153-a7ba-e2ce04a8c5e1",
+      "DisplayName": "Array_01.Tests",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 10
 }
