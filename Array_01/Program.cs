@@ -37,9 +37,13 @@ namespace Array_01
     {
         private int[] arrayContents;
 
-        public int[] ArrayContents { 
-            get => arrayContents; 
-             }
+        public int[] ArrayContents
+        {
+            get
+            {
+                return arrayContents;
+            }
+        }
 
         public ArrayInstance(int Size, int higherLimit)
         {

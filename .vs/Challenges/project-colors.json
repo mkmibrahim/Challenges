@@ -290,7 +290,12 @@
       "ProjectGuid": "72cdbf91-226d-4153-a7ba-e2ce04a8c5e1",
       "DisplayName": "Array_01.Tests",
       "ColorIndex": 9
+    },
+    "8677568a-d0f7-43b7-9c17-e77e276539a2": {
+      "ProjectGuid": "8677568a-d0f7-43b7-9c17-e77e276539a2",
+      "DisplayName": "Array_01.Tests",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }
