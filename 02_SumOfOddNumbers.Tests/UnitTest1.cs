@@ -2,7 +2,7 @@ using _02_SumOfOddNumbers;
 using System;
 using Xunit;
 
-namespace _2_SumOfOddNumbers.Tests
+namespace _02_SumOfOddNumbers.Tests
 {
     public class UnitTest1
     {
