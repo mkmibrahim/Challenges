@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Array_03\Array_03.csproj" />
+  </ItemGroup>
+
 </Project>
