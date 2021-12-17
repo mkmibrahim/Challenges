@@ -330,7 +330,17 @@
       "ProjectGuid": "be2f0df7-e56d-4fd8-97be-3d9f07deea0c",
       "DisplayName": "Array_04.Tests",
       "ColorIndex": 0
+    },
+    "54e4d550-e5e4-4154-a4f8-88b5763b9db4": {
+      "ProjectGuid": "54e4d550-e5e4-4154-a4f8-88b5763b9db4",
+      "DisplayName": "Array_05",
+      "ColorIndex": 1
+    },
+    "c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8": {
+      "ProjectGuid": "c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8",
+      "DisplayName": "Array_05.Tests",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
