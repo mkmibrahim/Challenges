@@ -10,7 +10,7 @@ namespace Strings_01
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter string");
+            Console.Write("Enter string:");
             var inputString = Console.ReadLine();
             var result = StringHelper.CountEZ(inputString);
             Console.Write("Total words ending in y or z:"+ result);
