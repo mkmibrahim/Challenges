@@ -380,7 +380,22 @@
       "ProjectGuid": "d1ed8766-8583-42d7-bc98-6ef1029a525a",
       "DisplayName": "Strings_02.Tests",
       "ColorIndex": 10
+    },
+    "e0f04e5f-4b44-47fd-84d5-28d885f431bf": {
+      "ProjectGuid": "e0f04e5f-4b44-47fd-84d5-28d885f431bf",
+      "DisplayName": "String_03",
+      "ColorIndex": 11
+    },
+    "10c6337b-f1e3-480e-ab1f-b72c94e62bd7": {
+      "ProjectGuid": "10c6337b-f1e3-480e-ab1f-b72c94e62bd7",
+      "DisplayName": "Strings_03",
+      "ColorIndex": 12
+    },
+    "f95fa165-f584-4335-8562-c5c8e75d6f81": {
+      "ProjectGuid": "f95fa165-f584-4335-8562-c5c8e75d6f81",
+      "DisplayName": "Strings_03.Tests",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 14
 }
