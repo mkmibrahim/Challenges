@@ -405,7 +405,27 @@
       "ProjectGuid": "0f8f1af6-ebcb-476e-ad51-73c593743b5e",
       "DisplayName": "Strings_04.Tests",
       "ColorIndex": 15
+    },
+    "dda04ed8-4e76-4c69-b1f4-74b7e2e117a9": {
+      "ProjectGuid": "dda04ed8-4e76-4c69-b1f4-74b7e2e117a9",
+      "DisplayName": "30_TrimSpace",
+      "ColorIndex": 0
+    },
+    "1537a5a3-383f-4187-b702-0d8f7d626b3f": {
+      "ProjectGuid": "1537a5a3-383f-4187-b702-0d8f7d626b3f",
+      "DisplayName": "30_TrimSpace.Tests",
+      "ColorIndex": 1
+    },
+    "f71539d1-6e01-48e1-9a2a-8ebf771aa86a": {
+      "ProjectGuid": "f71539d1-6e01-48e1-9a2a-8ebf771aa86a",
+      "DisplayName": "31_TrimSpace",
+      "ColorIndex": 2
+    },
+    "e999a5a9-43b2-450c-a07b-c595aa523cbd": {
+      "ProjectGuid": "e999a5a9-43b2-450c-a07b-c595aa523cbd",
+      "DisplayName": "31_TrimSpace.Tests",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 4
 }
