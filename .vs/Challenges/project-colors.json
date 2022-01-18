@@ -425,7 +425,27 @@
       "ProjectGuid": "e999a5a9-43b2-450c-a07b-c595aa523cbd",
       "DisplayName": "31_TrimSpace.Tests",
       "ColorIndex": 3
+    },
+    "4a7a89ba-fc9b-440e-963a-5ecd1785efed": {
+      "ProjectGuid": "4a7a89ba-fc9b-440e-963a-5ecd1785efed",
+      "DisplayName": "32_XYZ",
+      "ColorIndex": 4
+    },
+    "89a155f2-669d-4ac7-bb3b-d17c55438e41": {
+      "ProjectGuid": "89a155f2-669d-4ac7-bb3b-d17c55438e41",
+      "DisplayName": "32_XYZ.Tests",
+      "ColorIndex": 5
+    },
+    "0d70fc0d-2006-49f1-9d67-2268e4599190": {
+      "ProjectGuid": "0d70fc0d-2006-49f1-9d67-2268e4599190",
+      "DisplayName": "33_CheckIf",
+      "ColorIndex": 6
+    },
+    "e7baa821-a040-4ff7-b6eb-06656504d4de": {
+      "ProjectGuid": "e7baa821-a040-4ff7-b6eb-06656504d4de",
+      "DisplayName": "33_CheckIf.Tests",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 8
 }
