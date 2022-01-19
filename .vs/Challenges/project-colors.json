@@ -445,7 +445,17 @@
       "ProjectGuid": "e7baa821-a040-4ff7-b6eb-06656504d4de",
       "DisplayName": "33_CheckIf.Tests",
       "ColorIndex": 7
+    },
+    "ef778be4-339e-4ba5-8222-4e2f4f8b835e": {
+      "ProjectGuid": "ef778be4-339e-4ba5-8222-4e2f4f8b835e",
+      "DisplayName": "34_SumOfPrime",
+      "ColorIndex": 8
+    },
+    "769c9dd8-5d5d-48d9-bbda-cf673f455754": {
+      "ProjectGuid": "769c9dd8-5d5d-48d9-bbda-cf673f455754",
+      "DisplayName": "34_SumOfPrime.Tests",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 10
 }
