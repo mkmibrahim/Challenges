@@ -455,7 +455,17 @@
       "ProjectGuid": "769c9dd8-5d5d-48d9-bbda-cf673f455754",
       "DisplayName": "34_SumOfPrime.Tests",
       "ColorIndex": 9
+    },
+    "be923a81-2529-4a10-9b43-1f1f49a36736": {
+      "ProjectGuid": "be923a81-2529-4a10-9b43-1f1f49a36736",
+      "DisplayName": "35_ReverseTheWords",
+      "ColorIndex": 10
+    },
+    "54ebd2e4-12fd-4846-8278-44765556fedb": {
+      "ProjectGuid": "54ebd2e4-12fd-4846-8278-44765556fedb",
+      "DisplayName": "35_ReverseTheWords.Tests",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 12
 }
