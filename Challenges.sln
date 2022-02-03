@@ -181,9 +181,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings_05", "Strings_05\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings_05.Tests", "Strings_05.Tests\Strings_05.Tests.csproj", "{1613CD87-442D-486C-8E86-80FEAF70B8CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_SumTwoInts", "36_SumTwoInts\36_SumTwoInts.csproj", "{3B21EF56-1227-4A47-AF79-E41C987631EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36_SumTwoInts", "36_SumTwoInts\36_SumTwoInts.csproj", "{3B21EF56-1227-4A47-AF79-E41C987631EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_SumTwoInts.Tests", "36_SumTwoInts.Tests\36_SumTwoInts.Tests.csproj", "{F12BB5A4-B6C6-427A-9C24-0EBBFD521474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36_SumTwoInts.Tests", "36_SumTwoInts.Tests\36_SumTwoInts.Tests.csproj", "{F12BB5A4-B6C6-427A-9C24-0EBBFD521474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_NeededInts", "37_NeededInts\37_NeededInts.csproj", "{2ACFF49C-03EF-431A-A5FC-60DC9121B371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_NeededInts.Tests", "37_NeededInts.Tests\37_NeededInts.Tests.csproj", "{277E95DA-F72A-4CF6-BFA9-FB33C79D86AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -555,6 +559,14 @@ Global
 		{F12BB5A4-B6C6-427A-9C24-0EBBFD521474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F12BB5A4-B6C6-427A-9C24-0EBBFD521474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F12BB5A4-B6C6-427A-9C24-0EBBFD521474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACFF49C-03EF-431A-A5FC-60DC9121B371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACFF49C-03EF-431A-A5FC-60DC9121B371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACFF49C-03EF-431A-A5FC-60DC9121B371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACFF49C-03EF-431A-A5FC-60DC9121B371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277E95DA-F72A-4CF6-BFA9-FB33C79D86AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277E95DA-F72A-4CF6-BFA9-FB33C79D86AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277E95DA-F72A-4CF6-BFA9-FB33C79D86AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277E95DA-F72A-4CF6-BFA9-FB33C79D86AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
