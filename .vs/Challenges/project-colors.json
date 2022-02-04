@@ -495,7 +495,17 @@
       "ProjectGuid": "1613cd87-442d-486c-8e86-80feaf70b8cf",
       "DisplayName": "Strings_05.Tests",
       "ColorIndex": 1
+    },
+    "9c9bd2d1-09a0-4928-87a6-c38ffc582f1f": {
+      "ProjectGuid": "9c9bd2d1-09a0-4928-87a6-c38ffc582f1f",
+      "DisplayName": "38_NextPrime",
+      "ColorIndex": 2
+    },
+    "8587abc5-1d11-4bae-a47d-feac5ed0f301": {
+      "ProjectGuid": "8587abc5-1d11-4bae-a47d-feac5ed0f301",
+      "DisplayName": "38_NextPrime.Tests",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }
