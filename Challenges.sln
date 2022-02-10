@@ -189,9 +189,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37_NeededInts", "37_NeededI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37_NeededInts.Tests", "37_NeededInts.Tests\37_NeededInts.Tests.csproj", "{277E95DA-F72A-4CF6-BFA9-FB33C79D86AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_NextPrime", "38_NextPrime\38_NextPrime.csproj", "{9C9BD2D1-09A0-4928-87A6-C38FFC582F1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "38_NextPrime", "38_NextPrime\38_NextPrime.csproj", "{9C9BD2D1-09A0-4928-87A6-C38FFC582F1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_NextPrime.Tests", "38_NextPrime.Tests\38_NextPrime.Tests.csproj", "{8587ABC5-1D11-4BAE-A47D-FEAC5ED0F301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "38_NextPrime.Tests", "38_NextPrime.Tests\38_NextPrime.Tests.csproj", "{8587ABC5-1D11-4BAE-A47D-FEAC5ED0F301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_Switchcharacters", "39_Switchcharacters\39_Switchcharacters.csproj", "{78D80F18-4ACD-439B-84E6-56BCBF099256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_Switchcharacters.Tests", "39_Switchcharacters.Tests\39_Switchcharacters.Tests.csproj", "{822EC944-2CE1-4586-A18F-C5A04AFB0213}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -579,6 +583,14 @@ Global
 		{8587ABC5-1D11-4BAE-A47D-FEAC5ED0F301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8587ABC5-1D11-4BAE-A47D-FEAC5ED0F301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8587ABC5-1D11-4BAE-A47D-FEAC5ED0F301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D80F18-4ACD-439B-84E6-56BCBF099256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D80F18-4ACD-439B-84E6-56BCBF099256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D80F18-4ACD-439B-84E6-56BCBF099256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D80F18-4ACD-439B-84E6-56BCBF099256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822EC944-2CE1-4586-A18F-C5A04AFB0213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822EC944-2CE1-4586-A18F-C5A04AFB0213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822EC944-2CE1-4586-A18F-C5A04AFB0213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822EC944-2CE1-4586-A18F-C5A04AFB0213}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
