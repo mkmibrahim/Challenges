@@ -555,7 +555,42 @@
       "ProjectGuid": "5d0dff94-ef9d-491f-aabe-6400a9120e40",
       "DisplayName": "15_PerfectNumber",
       "ColorIndex": 13
+    },
+    "729b819b-b906-495c-b576-9c9dc4dd6098": {
+      "ProjectGuid": "729b819b-b906-495c-b576-9c9dc4dd6098",
+      "DisplayName": "41_CheckInts",
+      "ColorIndex": 14
+    },
+    "8b001a52-e879-4e51-bdf0-0e25adbda804": {
+      "ProjectGuid": "8b001a52-e879-4e51-bdf0-0e25adbda804",
+      "DisplayName": "41_CheckInts.Tests",
+      "ColorIndex": 15
+    },
+    "3cd54640-121a-457a-89f5-e799f3679ed1": {
+      "ProjectGuid": "3cd54640-121a-457a-89f5-e799f3679ed1",
+      "DisplayName": "12_AbundantNumbers.Tests",
+      "ColorIndex": 0
+    },
+    "15702d13-f7c7-473d-ab91-127ebb2c97ec": {
+      "ProjectGuid": "15702d13-f7c7-473d-ab91-127ebb2c97ec",
+      "DisplayName": "11_SortThreeNumbers.Tests",
+      "ColorIndex": 1
+    },
+    "46f74f20-4a9c-445f-9998-4a7a15ceeb5f": {
+      "ProjectGuid": "46f74f20-4a9c-445f-9998-4a7a15ceeb5f",
+      "DisplayName": "13_CatesianToPolarCoordinates.Tests",
+      "ColorIndex": 2
+    },
+    "9d7199fa-06c5-4df1-9fe5-5b446f3b5777": {
+      "ProjectGuid": "9d7199fa-06c5-4df1-9fe5-5b446f3b5777",
+      "DisplayName": "14_IndianRupeesFormat.Tests",
+      "ColorIndex": 3
+    },
+    "2fbf481f-f92d-421e-ab53-5b6f2366dd80": {
+      "ProjectGuid": "2fbf481f-f92d-421e-ab53-5b6f2366dd80",
+      "DisplayName": "15_PerfectNumber.Tests",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 14
+  "NextColorIndex": 5
 }
