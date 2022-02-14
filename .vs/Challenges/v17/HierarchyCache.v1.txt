@@ -1,0 +1,1327 @@
+﻿++Solution 'Challenges' ‎(101 of 101 projects)
+i:{00000000-0000-0000-0000-000000000000}:Challenges.sln
+++41_CheckInts.Tests
+i:{00000000-0000-0000-0000-000000000000}:41_CheckInts.Tests
+++Dependencies
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:>6283
+i:{729b819b-b906-495c-b576-9c9dc4dd6098}:>6225
+i:{6747b7d4-bc88-4bb2-9fdf-24a717f9e533}:>1042
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:>1083
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:>1920
+i:{75fc3e22-7fff-4739-8b52-535032f27040}:>2035
+i:{814bf345-6974-4897-8176-37b78f69f32d}:>2380
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:>2557
+i:{209b412d-0052-4ef5-bf1b-4c7da0b03705}:>2753
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:>3686
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:>3937
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:>3837
+i:{ef778be4-339e-4ba5-8222-4e2f4f8b835e}:>4256
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:>4331
+i:{5db54675-2ef4-42c8-b3a0-3107823fe3a8}:>4278
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:>4409
+i:{3b21ef56-1227-4a47-af79-e41c987631ef}:>4498
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:>4527
+i:{2acff49c-03ef-431a-a5fc-60dc9121b371}:>4497
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:>4683
+i:{9c9bd2d1-09a0-4928-87a6-c38ffc582f1f}:>4682
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:>4706
+i:{78d80f18-4acd-439b-84e6-56bcbf099256}:>4769
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:>4859
+i:{85ce6b01-19a2-4dc6-979d-9e3f78ddf604}:>4829
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:>5148
+i:{7047590a-9040-47a0-ba96-14edf8e70792}:>1139
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:>1085
+i:{b5d2424c-c6bd-4655-b00e-4e93bff4006a}:>1138
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:>1097
+i:{13b038fe-dfac-45d7-b73b-c9b248eb5e37}:>1041
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:>1082
+i:{f7d70db2-e0c1-4273-9dd3-c7ce244d8b38}:>1135
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:>1045
+i:{5d0dff94-ef9d-491f-aabe-6400a9120e40}:>1134
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:>1084
+i:{e4df6aad-dfc2-4749-9b86-acf691b546fb}:>1098
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:>1079
+i:{1a92c253-f623-4218-8eea-b3370bae4bdf}:>1081
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:>1044
+i:{96af4aeb-74a3-423d-9f08-21173f350745}:>1078
+i:{417dee52-842c-450a-acb4-4614fffb2614}:>1069
+i:{546e5746-b2e8-42af-b268-9d9340d0e446}:>1136
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:>1043
+i:{005fe45b-eae0-4d41-9202-9ebca1354d33}:>1137
+i:{210ba1be-9f59-447d-8701-b0140d35a801}:>1080
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:>1385
+i:{e3ed58d2-59cf-4747-86dd-3affd006f720}:>1133
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:>1181
+i:{a1b83d80-e112-451b-9d18-0e5cedc0cfdd}:>1279
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:>1257
+i:{42e55506-a4c4-46f4-b7d7-829874c01224}:>1454
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:>1332
+i:{d4589e6e-370a-478e-a0cc-72d3d0183480}:>1626
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:>1483
+i:{b5056def-26f4-46da-ae4d-b55340164e7c}:>1528
+i:{30addfc7-83b6-45cc-aaae-3be2c2be80ac}:>1792
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:>1581
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:>1724
+i:{6b6a9804-bd27-4319-a8f8-bc1cd90435ba}:>1671
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:>1867
+i:{2cbf321b-581d-4b3a-bfc1-3d01038fdf25}:>1814
+i:{845e927e-1ecc-45bf-8b0e-dbc5cc3fa861}:>2065
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:>2034
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:>2216
+i:{d2c72775-5a75-4dee-b0f8-3d6c5167d3d9}:>2215
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:>2118
+i:{eaa2e4a7-e190-45fb-a229-587bd0df7e9f}:>2383
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:>2269
+i:{0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba}:>2406
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:>2504
+i:{1e9dcef1-98f5-432a-b2fa-313f5cd1a1db}:>2475
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:>2678
+i:{bc90be3f-2466-4760-a2ce-d11e025d0d60}:>2602
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:>2905
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:>2731
+i:{f697b18d-01ec-4fdb-8401-343322be5d99}:>2903
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:>2906
+i:{41587b76-adef-4cd9-a5b6-3dfb2ad49339}:>3041
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:>3049
+i:{09e9b4fe-59cc-4cd7-8f6c-d97f0da63aba}:>2998
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:>3147
+i:{95623010-51f8-401c-8af3-2178c220f285}:>3094
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:>3245
+i:{54e4d550-e5e4-4154-a4f8-88b5763b9db4}:>3192
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:>3343
+i:{becaaf1d-a813-4c7e-9bce-0c3b4c458238}:>3342
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:>3532
+i:{c8d4b776-81b1-4460-a206-c482ca31b9eb}:>3533
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:>3632
+i:{f1743237-c894-47aa-95fe-2d71b35bbbe7}:>3608
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:>3737
+i:{73c13af6-dbc6-4610-a3ac-efcc64956304}:>3633
+i:{10c6337b-f1e3-480e-ab1f-b72c94e62bd7}:>3708
+i:{28ac96d4-969b-4ad2-806c-f39854509e7c}:>3884
+i:{f71539d1-6e01-48e1-9a2a-8ebf771aa86a}:>3782
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:>4080
+i:{4a7a89ba-fc9b-440e-963a-5ecd1785efed}:>3982
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:>4135
+i:{0d70fc0d-2006-49f1-9d67-2268e4599190}:>4027
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:>4255
+++UnitTest1.cs
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:c:\repos\challenges\41_checkints.tests\unittest1.cs
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:c:\repos\challenges\12_abundantnumbers.tests\unittest1.cs
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:c:\repos\challenges\21_namesearch.tests\unittest1.cs
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:c:\repos\challenges\27_countoccurrenceofcharacter.tests\unittest1.cs
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:c:\repos\challenges\strings_02.tests\unittest1.cs
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:c:\repos\challenges\strings_03.tests\unittest1.cs
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:c:\repos\challenges\strings_04.tests\unittest1.cs
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:c:\repos\challenges\34_sumofprime.tests\unittest1.cs
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:c:\repos\challenges\strings_05.tests\unittest1.cs
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:c:\repos\challenges\36_sumtwoints.tests\unittest1.cs
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:c:\repos\challenges\37_neededints.tests\unittest1.cs
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:c:\repos\challenges\38_nextprime.tests\unittest1.cs
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:c:\repos\challenges\39_switchcharacters.tests\unittest1.cs
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:c:\repos\challenges\40_repeatfirsttwo.tests\unittest1.cs
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:c:\repos\challenges\01_reversearray.tests\unittest1.cs
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:c:\repos\challenges\11_sortthreenumbers.tests\unittest1.cs
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:c:\repos\challenges\13_catesiantopolarcoordinates.tests\unittest1.cs
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:c:\repos\challenges\14_indianrupeesformat.tests\unittest1.cs
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:c:\repos\challenges\15_perfectnumber.tests\unittest1.cs
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:c:\repos\challenges\16_primefactors.tests\unittest1.cs
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:c:\repos\challenges\17_numberoccurencesinarray.tests\unittest1.cs
+i:{417dee52-842c-450a-acb4-4614fffb2614}:c:\repos\challenges\18_windchill.tests\unittest1.cs
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:c:\repos\challenges\19_greycode.tests\unittest1.cs
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:c:\repos\challenges\03_numbertostringformat.tests\unittest1.cs
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:c:\repos\challenges\04_lastsamplesofnumber.tests\unittest1.cs
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:c:\repos\challenges\05_maxandmin.tests\unittest1.cs
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:c:\repos\challenges\06_printbinarytriangle.tests\unittest1.cs
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:c:\repos\challenges\07_numberofoccurence.tests\unittest1.cs
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:c:\repos\challenges\09_statementreverse.tests\unittest1.cs
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:c:\repos\challenges\02_sumofoddnumbers.tests\unittest1.cs
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:c:\repos\challenges\20_sexypairs.tests\unittest1.cs
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:c:\repos\challenges\22_capitalization.tests\unittest1.cs
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:c:\repos\challenges\23_countones.tests\unittest1.cs
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:c:\repos\challenges\24_sumofthedigits.tests\unittest1.cs
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:c:\repos\challenges\25_matrixmultiplication.tests\unittest1.cs
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:c:\repos\challenges\26_numbersequence.tests\unittest1.cs
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:c:\repos\challenges\28_quadrantofanangle.tests\unittest1.cs
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:c:\repos\challenges\29_isbnvalidation.tests\unittest1.cs
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:c:\repos\challenges\30_decimaltooctal.tests\unittest1.cs
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:c:\repos\challenges\array_01.tests\unittest1.cs
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:c:\repos\challenges\array_02.tests\unittest1.cs
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:c:\repos\challenges\array_03.tests\unittest1.cs
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:c:\repos\challenges\array_04.tests\unittest1.cs
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:c:\repos\challenges\array_05.tests\unittest1.cs
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:c:\repos\challenges\array_06.tests\unittest1.cs
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:c:\repos\challenges\array_07.tests\unittest1.cs
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:c:\repos\challenges\strings_01.tests\unittest1.cs
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:c:\repos\challenges\31_trimspace.tests\unittest1.cs
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:c:\repos\challenges\32_xyz.tests\unittest1.cs
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:c:\repos\challenges\33_checkif.tests\unittest1.cs
+++Analyzers
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:analyzers
+i:{729b819b-b906-495c-b576-9c9dc4dd6098}:analyzers
+i:{6747b7d4-bc88-4bb2-9fdf-24a717f9e533}:analyzers
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:analyzers
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:analyzers
+i:{75fc3e22-7fff-4739-8b52-535032f27040}:analyzers
+i:{814bf345-6974-4897-8176-37b78f69f32d}:analyzers
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:analyzers
+i:{209b412d-0052-4ef5-bf1b-4c7da0b03705}:analyzers
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:analyzers
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:analyzers
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:analyzers
+i:{ef778be4-339e-4ba5-8222-4e2f4f8b835e}:analyzers
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:analyzers
+i:{5db54675-2ef4-42c8-b3a0-3107823fe3a8}:analyzers
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:analyzers
+i:{3b21ef56-1227-4a47-af79-e41c987631ef}:analyzers
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:analyzers
+i:{2acff49c-03ef-431a-a5fc-60dc9121b371}:analyzers
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:analyzers
+i:{9c9bd2d1-09a0-4928-87a6-c38ffc582f1f}:analyzers
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:analyzers
+i:{78d80f18-4acd-439b-84e6-56bcbf099256}:analyzers
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:analyzers
+i:{85ce6b01-19a2-4dc6-979d-9e3f78ddf604}:analyzers
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:analyzers
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:analyzers
+i:{b5d2424c-c6bd-4655-b00e-4e93bff4006a}:analyzers
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:analyzers
+i:{13b038fe-dfac-45d7-b73b-c9b248eb5e37}:analyzers
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:analyzers
+i:{f7d70db2-e0c1-4273-9dd3-c7ce244d8b38}:analyzers
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:analyzers
+i:{5d0dff94-ef9d-491f-aabe-6400a9120e40}:analyzers
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:analyzers
+i:{e4df6aad-dfc2-4749-9b86-acf691b546fb}:analyzers
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:analyzers
+i:{1a92c253-f623-4218-8eea-b3370bae4bdf}:analyzers
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:analyzers
+i:{96af4aeb-74a3-423d-9f08-21173f350745}:analyzers
+i:{417dee52-842c-450a-acb4-4614fffb2614}:analyzers
+i:{546e5746-b2e8-42af-b268-9d9340d0e446}:analyzers
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:analyzers
+i:{005fe45b-eae0-4d41-9202-9ebca1354d33}:analyzers
+i:{210ba1be-9f59-447d-8701-b0140d35a801}:analyzers
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:analyzers
+i:{e3ed58d2-59cf-4747-86dd-3affd006f720}:analyzers
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:analyzers
+i:{a1b83d80-e112-451b-9d18-0e5cedc0cfdd}:analyzers
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:analyzers
+i:{42e55506-a4c4-46f4-b7d7-829874c01224}:analyzers
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:analyzers
+i:{d4589e6e-370a-478e-a0cc-72d3d0183480}:analyzers
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:analyzers
+i:{b5056def-26f4-46da-ae4d-b55340164e7c}:analyzers
+i:{30addfc7-83b6-45cc-aaae-3be2c2be80ac}:analyzers
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:analyzers
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:analyzers
+i:{6b6a9804-bd27-4319-a8f8-bc1cd90435ba}:analyzers
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:analyzers
+i:{2cbf321b-581d-4b3a-bfc1-3d01038fdf25}:analyzers
+i:{845e927e-1ecc-45bf-8b0e-dbc5cc3fa861}:analyzers
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:analyzers
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:analyzers
+i:{d2c72775-5a75-4dee-b0f8-3d6c5167d3d9}:analyzers
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:analyzers
+i:{eaa2e4a7-e190-45fb-a229-587bd0df7e9f}:analyzers
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:analyzers
+i:{0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba}:analyzers
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:analyzers
+i:{1e9dcef1-98f5-432a-b2fa-313f5cd1a1db}:analyzers
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:analyzers
+i:{bc90be3f-2466-4760-a2ce-d11e025d0d60}:analyzers
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:analyzers
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:analyzers
+i:{f697b18d-01ec-4fdb-8401-343322be5d99}:analyzers
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:analyzers
+i:{41587b76-adef-4cd9-a5b6-3dfb2ad49339}:analyzers
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:analyzers
+i:{09e9b4fe-59cc-4cd7-8f6c-d97f0da63aba}:analyzers
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:analyzers
+i:{95623010-51f8-401c-8af3-2178c220f285}:analyzers
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:analyzers
+i:{54e4d550-e5e4-4154-a4f8-88b5763b9db4}:analyzers
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:analyzers
+i:{becaaf1d-a813-4c7e-9bce-0c3b4c458238}:analyzers
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:analyzers
+i:{c8d4b776-81b1-4460-a206-c482ca31b9eb}:analyzers
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:analyzers
+i:{f1743237-c894-47aa-95fe-2d71b35bbbe7}:analyzers
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:analyzers
+i:{73c13af6-dbc6-4610-a3ac-efcc64956304}:analyzers
+i:{10c6337b-f1e3-480e-ab1f-b72c94e62bd7}:analyzers
+i:{28ac96d4-969b-4ad2-806c-f39854509e7c}:analyzers
+i:{f71539d1-6e01-48e1-9a2a-8ebf771aa86a}:analyzers
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:analyzers
+i:{4a7a89ba-fc9b-440e-963a-5ecd1785efed}:analyzers
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:analyzers
+i:{0d70fc0d-2006-49f1-9d67-2268e4599190}:analyzers
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:analyzers
+++Frameworks
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:frameworks
+i:{729b819b-b906-495c-b576-9c9dc4dd6098}:frameworks
+i:{6747b7d4-bc88-4bb2-9fdf-24a717f9e533}:frameworks
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:frameworks
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:frameworks
+i:{75fc3e22-7fff-4739-8b52-535032f27040}:frameworks
+i:{814bf345-6974-4897-8176-37b78f69f32d}:frameworks
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:frameworks
+i:{209b412d-0052-4ef5-bf1b-4c7da0b03705}:frameworks
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:frameworks
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:frameworks
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:frameworks
+i:{ef778be4-339e-4ba5-8222-4e2f4f8b835e}:frameworks
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:frameworks
+i:{5db54675-2ef4-42c8-b3a0-3107823fe3a8}:frameworks
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:frameworks
+i:{3b21ef56-1227-4a47-af79-e41c987631ef}:frameworks
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:frameworks
+i:{2acff49c-03ef-431a-a5fc-60dc9121b371}:frameworks
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:frameworks
+i:{9c9bd2d1-09a0-4928-87a6-c38ffc582f1f}:frameworks
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:frameworks
+i:{78d80f18-4acd-439b-84e6-56bcbf099256}:frameworks
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:frameworks
+i:{85ce6b01-19a2-4dc6-979d-9e3f78ddf604}:frameworks
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:frameworks
+i:{7047590a-9040-47a0-ba96-14edf8e70792}:frameworks
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:frameworks
+i:{b5d2424c-c6bd-4655-b00e-4e93bff4006a}:frameworks
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:frameworks
+i:{13b038fe-dfac-45d7-b73b-c9b248eb5e37}:frameworks
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:frameworks
+i:{f7d70db2-e0c1-4273-9dd3-c7ce244d8b38}:frameworks
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:frameworks
+i:{5d0dff94-ef9d-491f-aabe-6400a9120e40}:frameworks
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:frameworks
+i:{e4df6aad-dfc2-4749-9b86-acf691b546fb}:frameworks
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:frameworks
+i:{1a92c253-f623-4218-8eea-b3370bae4bdf}:frameworks
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:frameworks
+i:{96af4aeb-74a3-423d-9f08-21173f350745}:frameworks
+i:{417dee52-842c-450a-acb4-4614fffb2614}:frameworks
+i:{546e5746-b2e8-42af-b268-9d9340d0e446}:frameworks
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:frameworks
+i:{005fe45b-eae0-4d41-9202-9ebca1354d33}:frameworks
+i:{210ba1be-9f59-447d-8701-b0140d35a801}:frameworks
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:frameworks
+i:{e3ed58d2-59cf-4747-86dd-3affd006f720}:frameworks
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:frameworks
+i:{a1b83d80-e112-451b-9d18-0e5cedc0cfdd}:frameworks
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:frameworks
+i:{42e55506-a4c4-46f4-b7d7-829874c01224}:frameworks
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:frameworks
+i:{d4589e6e-370a-478e-a0cc-72d3d0183480}:frameworks
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:frameworks
+i:{b5056def-26f4-46da-ae4d-b55340164e7c}:frameworks
+i:{30addfc7-83b6-45cc-aaae-3be2c2be80ac}:frameworks
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:frameworks
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:frameworks
+i:{6b6a9804-bd27-4319-a8f8-bc1cd90435ba}:frameworks
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:frameworks
+i:{2cbf321b-581d-4b3a-bfc1-3d01038fdf25}:frameworks
+i:{845e927e-1ecc-45bf-8b0e-dbc5cc3fa861}:frameworks
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:frameworks
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:frameworks
+i:{d2c72775-5a75-4dee-b0f8-3d6c5167d3d9}:frameworks
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:frameworks
+i:{eaa2e4a7-e190-45fb-a229-587bd0df7e9f}:frameworks
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:frameworks
+i:{0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba}:frameworks
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:frameworks
+i:{1e9dcef1-98f5-432a-b2fa-313f5cd1a1db}:frameworks
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:frameworks
+i:{bc90be3f-2466-4760-a2ce-d11e025d0d60}:frameworks
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:frameworks
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:frameworks
+i:{f697b18d-01ec-4fdb-8401-343322be5d99}:frameworks
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:frameworks
+i:{41587b76-adef-4cd9-a5b6-3dfb2ad49339}:frameworks
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:frameworks
+i:{09e9b4fe-59cc-4cd7-8f6c-d97f0da63aba}:frameworks
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:frameworks
+i:{95623010-51f8-401c-8af3-2178c220f285}:frameworks
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:frameworks
+i:{54e4d550-e5e4-4154-a4f8-88b5763b9db4}:frameworks
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:frameworks
+i:{becaaf1d-a813-4c7e-9bce-0c3b4c458238}:frameworks
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:frameworks
+i:{c8d4b776-81b1-4460-a206-c482ca31b9eb}:frameworks
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:frameworks
+i:{f1743237-c894-47aa-95fe-2d71b35bbbe7}:frameworks
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:frameworks
+i:{73c13af6-dbc6-4610-a3ac-efcc64956304}:frameworks
+i:{10c6337b-f1e3-480e-ab1f-b72c94e62bd7}:frameworks
+i:{28ac96d4-969b-4ad2-806c-f39854509e7c}:frameworks
+i:{f71539d1-6e01-48e1-9a2a-8ebf771aa86a}:frameworks
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:frameworks
+i:{4a7a89ba-fc9b-440e-963a-5ecd1785efed}:frameworks
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:frameworks
+i:{0d70fc0d-2006-49f1-9d67-2268e4599190}:frameworks
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:frameworks
+++Packages
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:packages
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:packages
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:packages
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:packages
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:packages
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:packages
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:packages
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:packages
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:packages
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:packages
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:packages
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:packages
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:packages
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:packages
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:packages
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:packages
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:packages
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:packages
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:packages
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:packages
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:packages
+i:{417dee52-842c-450a-acb4-4614fffb2614}:packages
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:packages
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:packages
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:packages
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:packages
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:packages
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:packages
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:packages
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:packages
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:packages
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:packages
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:packages
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:packages
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:packages
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:packages
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:packages
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:packages
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:packages
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:packages
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:packages
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:packages
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:packages
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:packages
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:packages
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:packages
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:packages
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:packages
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:packages
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:packages
+++Projects
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:projects
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:projects
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:projects
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:projects
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:projects
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:projects
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:projects
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:projects
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:projects
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:projects
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:projects
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:projects
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:projects
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:projects
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:projects
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:projects
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:projects
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:projects
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:projects
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:projects
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:projects
+i:{417dee52-842c-450a-acb4-4614fffb2614}:projects
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:projects
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:projects
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:projects
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:projects
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:projects
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:projects
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:projects
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:projects
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:projects
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:projects
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:projects
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:projects
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:projects
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:projects
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:projects
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:projects
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:projects
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:projects
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:projects
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:projects
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:projects
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:projects
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:projects
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:projects
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:projects
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:projects
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:projects
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:projects
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{729b819b-b906-495c-b576-9c9dc4dd6098}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6747b7d4-bc88-4bb2-9fdf-24a717f9e533}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{75fc3e22-7fff-4739-8b52-535032f27040}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{814bf345-6974-4897-8176-37b78f69f32d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{209b412d-0052-4ef5-bf1b-4c7da0b03705}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ef778be4-339e-4ba5-8222-4e2f4f8b835e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5db54675-2ef4-42c8-b3a0-3107823fe3a8}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3b21ef56-1227-4a47-af79-e41c987631ef}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2acff49c-03ef-431a-a5fc-60dc9121b371}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{9c9bd2d1-09a0-4928-87a6-c38ffc582f1f}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{78d80f18-4acd-439b-84e6-56bcbf099256}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{85ce6b01-19a2-4dc6-979d-9e3f78ddf604}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b5d2424c-c6bd-4655-b00e-4e93bff4006a}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{13b038fe-dfac-45d7-b73b-c9b248eb5e37}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f7d70db2-e0c1-4273-9dd3-c7ce244d8b38}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5d0dff94-ef9d-491f-aabe-6400a9120e40}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e4df6aad-dfc2-4749-9b86-acf691b546fb}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1a92c253-f623-4218-8eea-b3370bae4bdf}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{96af4aeb-74a3-423d-9f08-21173f350745}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{417dee52-842c-450a-acb4-4614fffb2614}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{546e5746-b2e8-42af-b268-9d9340d0e446}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{005fe45b-eae0-4d41-9202-9ebca1354d33}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{210ba1be-9f59-447d-8701-b0140d35a801}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e3ed58d2-59cf-4747-86dd-3affd006f720}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a1b83d80-e112-451b-9d18-0e5cedc0cfdd}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{42e55506-a4c4-46f4-b7d7-829874c01224}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d4589e6e-370a-478e-a0cc-72d3d0183480}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b5056def-26f4-46da-ae4d-b55340164e7c}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{30addfc7-83b6-45cc-aaae-3be2c2be80ac}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6b6a9804-bd27-4319-a8f8-bc1cd90435ba}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2cbf321b-581d-4b3a-bfc1-3d01038fdf25}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{845e927e-1ecc-45bf-8b0e-dbc5cc3fa861}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d2c72775-5a75-4dee-b0f8-3d6c5167d3d9}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{eaa2e4a7-e190-45fb-a229-587bd0df7e9f}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1e9dcef1-98f5-432a-b2fa-313f5cd1a1db}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{bc90be3f-2466-4760-a2ce-d11e025d0d60}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f697b18d-01ec-4fdb-8401-343322be5d99}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{41587b76-adef-4cd9-a5b6-3dfb2ad49339}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{09e9b4fe-59cc-4cd7-8f6c-d97f0da63aba}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{95623010-51f8-401c-8af3-2178c220f285}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{54e4d550-e5e4-4154-a4f8-88b5763b9db4}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{becaaf1d-a813-4c7e-9bce-0c3b4c458238}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c8d4b776-81b1-4460-a206-c482ca31b9eb}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f1743237-c894-47aa-95fe-2d71b35bbbe7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{73c13af6-dbc6-4610-a3ac-efcc64956304}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{10c6337b-f1e3-480e-ab1f-b72c94e62bd7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{28ac96d4-969b-4ad2-806c-f39854509e7c}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f71539d1-6e01-48e1-9a2a-8ebf771aa86a}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4a7a89ba-fc9b-440e-963a-5ecd1785efed}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0d70fc0d-2006-49f1-9d67-2268e4599190}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{729b819b-b906-495c-b576-9c9dc4dd6098}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6747b7d4-bc88-4bb2-9fdf-24a717f9e533}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{75fc3e22-7fff-4739-8b52-535032f27040}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{814bf345-6974-4897-8176-37b78f69f32d}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{209b412d-0052-4ef5-bf1b-4c7da0b03705}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ef778be4-339e-4ba5-8222-4e2f4f8b835e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5db54675-2ef4-42c8-b3a0-3107823fe3a8}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3b21ef56-1227-4a47-af79-e41c987631ef}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2acff49c-03ef-431a-a5fc-60dc9121b371}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{9c9bd2d1-09a0-4928-87a6-c38ffc582f1f}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{78d80f18-4acd-439b-84e6-56bcbf099256}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{85ce6b01-19a2-4dc6-979d-9e3f78ddf604}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b5d2424c-c6bd-4655-b00e-4e93bff4006a}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{13b038fe-dfac-45d7-b73b-c9b248eb5e37}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f7d70db2-e0c1-4273-9dd3-c7ce244d8b38}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5d0dff94-ef9d-491f-aabe-6400a9120e40}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e4df6aad-dfc2-4749-9b86-acf691b546fb}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1a92c253-f623-4218-8eea-b3370bae4bdf}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{96af4aeb-74a3-423d-9f08-21173f350745}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{417dee52-842c-450a-acb4-4614fffb2614}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{546e5746-b2e8-42af-b268-9d9340d0e446}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{005fe45b-eae0-4d41-9202-9ebca1354d33}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{210ba1be-9f59-447d-8701-b0140d35a801}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e3ed58d2-59cf-4747-86dd-3affd006f720}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a1b83d80-e112-451b-9d18-0e5cedc0cfdd}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{42e55506-a4c4-46f4-b7d7-829874c01224}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d4589e6e-370a-478e-a0cc-72d3d0183480}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b5056def-26f4-46da-ae4d-b55340164e7c}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{30addfc7-83b6-45cc-aaae-3be2c2be80ac}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6b6a9804-bd27-4319-a8f8-bc1cd90435ba}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2cbf321b-581d-4b3a-bfc1-3d01038fdf25}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{845e927e-1ecc-45bf-8b0e-dbc5cc3fa861}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d2c72775-5a75-4dee-b0f8-3d6c5167d3d9}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{eaa2e4a7-e190-45fb-a229-587bd0df7e9f}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1e9dcef1-98f5-432a-b2fa-313f5cd1a1db}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{bc90be3f-2466-4760-a2ce-d11e025d0d60}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f697b18d-01ec-4fdb-8401-343322be5d99}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{41587b76-adef-4cd9-a5b6-3dfb2ad49339}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{09e9b4fe-59cc-4cd7-8f6c-d97f0da63aba}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{95623010-51f8-401c-8af3-2178c220f285}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{54e4d550-e5e4-4154-a4f8-88b5763b9db4}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{becaaf1d-a813-4c7e-9bce-0c3b4c458238}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c8d4b776-81b1-4460-a206-c482ca31b9eb}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f1743237-c894-47aa-95fe-2d71b35bbbe7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{73c13af6-dbc6-4610-a3ac-efcc64956304}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{10c6337b-f1e3-480e-ab1f-b72c94e62bd7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{28ac96d4-969b-4ad2-806c-f39854509e7c}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f71539d1-6e01-48e1-9a2a-8ebf771aa86a}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4a7a89ba-fc9b-440e-963a-5ecd1785efed}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0d70fc0d-2006-49f1-9d67-2268e4599190}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++xunit.analyzers
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{417dee52-842c-450a-acb4-4614fffb2614}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:c:\users\azureuser\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++Microsoft.NETCore.App
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:c:\repos\challenges\41_checkints.tests\microsoft.netcore.app
+i:{729b819b-b906-495c-b576-9c9dc4dd6098}:c:\repos\challenges\41_checkints\microsoft.netcore.app
+i:{6747b7d4-bc88-4bb2-9fdf-24a717f9e533}:c:\repos\challenges\12_abundantnumbers\microsoft.netcore.app
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:c:\repos\challenges\12_abundantnumbers.tests\microsoft.netcore.app
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:c:\repos\challenges\21_namesearch.tests\microsoft.netcore.app
+i:{75fc3e22-7fff-4739-8b52-535032f27040}:c:\repos\challenges\23_countones\microsoft.netcore.app
+i:{814bf345-6974-4897-8176-37b78f69f32d}:c:\repos\challenges\27_countoccurrenceofcharacter\microsoft.netcore.app
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:c:\repos\challenges\27_countoccurrenceofcharacter.tests\microsoft.netcore.app
+i:{209b412d-0052-4ef5-bf1b-4c7da0b03705}:c:\repos\challenges\30_decimaltooctal\microsoft.netcore.app
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:c:\repos\challenges\strings_02.tests\microsoft.netcore.app
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:c:\repos\challenges\strings_03.tests\microsoft.netcore.app
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:c:\repos\challenges\strings_04.tests\microsoft.netcore.app
+i:{ef778be4-339e-4ba5-8222-4e2f4f8b835e}:c:\repos\challenges\34_sumofprime\microsoft.netcore.app
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:c:\repos\challenges\34_sumofprime.tests\microsoft.netcore.app
+i:{5db54675-2ef4-42c8-b3a0-3107823fe3a8}:c:\repos\challenges\strings_05\microsoft.netcore.app
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:c:\repos\challenges\strings_05.tests\microsoft.netcore.app
+i:{3b21ef56-1227-4a47-af79-e41c987631ef}:c:\repos\challenges\36_sumtwoints\microsoft.netcore.app
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:c:\repos\challenges\36_sumtwoints.tests\microsoft.netcore.app
+i:{2acff49c-03ef-431a-a5fc-60dc9121b371}:c:\repos\challenges\37_neededints\microsoft.netcore.app
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:c:\repos\challenges\37_neededints.tests\microsoft.netcore.app
+i:{9c9bd2d1-09a0-4928-87a6-c38ffc582f1f}:c:\repos\challenges\38_nextprime\microsoft.netcore.app
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:c:\repos\challenges\38_nextprime.tests\microsoft.netcore.app
+i:{78d80f18-4acd-439b-84e6-56bcbf099256}:c:\repos\challenges\39_switchcharacters\microsoft.netcore.app
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:c:\repos\challenges\39_switchcharacters.tests\microsoft.netcore.app
+i:{85ce6b01-19a2-4dc6-979d-9e3f78ddf604}:c:\repos\challenges\40_repeatfirsttwo\microsoft.netcore.app
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:c:\repos\challenges\40_repeatfirsttwo.tests\microsoft.netcore.app
+i:{7047590a-9040-47a0-ba96-14edf8e70792}:c:\repos\challenges\01_reversearray\microsoft.netcore.app
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:c:\repos\challenges\01_reversearray.tests\microsoft.netcore.app
+i:{b5d2424c-c6bd-4655-b00e-4e93bff4006a}:c:\repos\challenges\11_sortthreenumbers\microsoft.netcore.app
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:c:\repos\challenges\11_sortthreenumbers.tests\microsoft.netcore.app
+i:{13b038fe-dfac-45d7-b73b-c9b248eb5e37}:c:\repos\challenges\13_catesiantopolarcoordinates\microsoft.netcore.app
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:c:\repos\challenges\13_catesiantopolarcoordinates.tests\microsoft.netcore.app
+i:{f7d70db2-e0c1-4273-9dd3-c7ce244d8b38}:c:\repos\challenges\14_indianrupeesformat\microsoft.netcore.app
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:c:\repos\challenges\14_indianrupeesformat.tests\microsoft.netcore.app
+i:{5d0dff94-ef9d-491f-aabe-6400a9120e40}:c:\repos\challenges\15_perfectnumber\microsoft.netcore.app
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:c:\repos\challenges\15_perfectnumber.tests\microsoft.netcore.app
+i:{e4df6aad-dfc2-4749-9b86-acf691b546fb}:c:\repos\challenges\16_primefactors\microsoft.netcore.app
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:c:\repos\challenges\16_primefactors.tests\microsoft.netcore.app
+i:{1a92c253-f623-4218-8eea-b3370bae4bdf}:c:\repos\challenges\17_numberoccurencesinarray\microsoft.netcore.app
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:c:\repos\challenges\17_numberoccurencesinarray.tests\microsoft.netcore.app
+i:{96af4aeb-74a3-423d-9f08-21173f350745}:c:\repos\challenges\18_windchill\microsoft.netcore.app
+i:{417dee52-842c-450a-acb4-4614fffb2614}:c:\repos\challenges\18_windchill.tests\microsoft.netcore.app
+i:{546e5746-b2e8-42af-b268-9d9340d0e446}:c:\repos\challenges\19_greycode\microsoft.netcore.app
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:c:\repos\challenges\19_greycode.tests\microsoft.netcore.app
+i:{005fe45b-eae0-4d41-9202-9ebca1354d33}:c:\repos\challenges\02_sumofoddnumbers\microsoft.netcore.app
+i:{210ba1be-9f59-447d-8701-b0140d35a801}:c:\repos\challenges\03_numbertostringformat\microsoft.netcore.app
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:c:\repos\challenges\03_numbertostringformat.tests\microsoft.netcore.app
+i:{e3ed58d2-59cf-4747-86dd-3affd006f720}:c:\repos\challenges\04_lastsamplesofnumber\microsoft.netcore.app
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:c:\repos\challenges\04_lastsamplesofnumber.tests\microsoft.netcore.app
+i:{a1b83d80-e112-451b-9d18-0e5cedc0cfdd}:c:\repos\challenges\05_maxandmin\microsoft.netcore.app
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:c:\repos\challenges\05_maxandmin.tests\microsoft.netcore.app
+i:{42e55506-a4c4-46f4-b7d7-829874c01224}:c:\repos\challenges\06_printbinarytriangle\microsoft.netcore.app
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:c:\repos\challenges\06_printbinarytriangle.tests\microsoft.netcore.app
+i:{d4589e6e-370a-478e-a0cc-72d3d0183480}:c:\repos\challenges\07_numberofoccurence\microsoft.netcore.app
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:c:\repos\challenges\07_numberofoccurence.tests\microsoft.netcore.app
+i:{b5056def-26f4-46da-ae4d-b55340164e7c}:c:\repos\challenges\08_printrectangle\microsoft.netcore.app
+i:{30addfc7-83b6-45cc-aaae-3be2c2be80ac}:c:\repos\challenges\09_statementreverse\microsoft.netcore.app
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:c:\repos\challenges\09_statementreverse.tests\microsoft.netcore.app
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:c:\repos\challenges\02_sumofoddnumbers.tests\microsoft.netcore.app
+i:{6b6a9804-bd27-4319-a8f8-bc1cd90435ba}:c:\repos\challenges\20_sexypairs\microsoft.netcore.app
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:c:\repos\challenges\20_sexypairs.tests\microsoft.netcore.app
+i:{2cbf321b-581d-4b3a-bfc1-3d01038fdf25}:c:\repos\challenges\21_namesearch\microsoft.netcore.app
+i:{845e927e-1ecc-45bf-8b0e-dbc5cc3fa861}:c:\repos\challenges\22_capitalization\microsoft.netcore.app
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:c:\repos\challenges\22_capitalization.tests\microsoft.netcore.app
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:c:\repos\challenges\23_countones.tests\microsoft.netcore.app
+i:{d2c72775-5a75-4dee-b0f8-3d6c5167d3d9}:c:\repos\challenges\24_sumofthedigits\microsoft.netcore.app
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:c:\repos\challenges\24_sumofthedigits.tests\microsoft.netcore.app
+i:{eaa2e4a7-e190-45fb-a229-587bd0df7e9f}:c:\repos\challenges\25_matrixmultiplication\microsoft.netcore.app
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:c:\repos\challenges\25_matrixmultiplication.tests\microsoft.netcore.app
+i:{0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba}:c:\repos\challenges\26_numbersequence\microsoft.netcore.app
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:c:\repos\challenges\26_numbersequence.tests\microsoft.netcore.app
+i:{1e9dcef1-98f5-432a-b2fa-313f5cd1a1db}:c:\repos\challenges\28_quadrantofanangle\microsoft.netcore.app
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:c:\repos\challenges\28_quadrantofanangle.tests\microsoft.netcore.app
+i:{bc90be3f-2466-4760-a2ce-d11e025d0d60}:c:\repos\challenges\29_isbnvalidation\microsoft.netcore.app
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:c:\repos\challenges\29_isbnvalidation.tests\microsoft.netcore.app
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:c:\repos\challenges\30_decimaltooctal.tests\microsoft.netcore.app
+i:{f697b18d-01ec-4fdb-8401-343322be5d99}:c:\repos\challenges\array_01\microsoft.netcore.app
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:c:\repos\challenges\array_01.tests\microsoft.netcore.app
+i:{41587b76-adef-4cd9-a5b6-3dfb2ad49339}:c:\repos\challenges\array_02\microsoft.netcore.app
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:c:\repos\challenges\array_02.tests\microsoft.netcore.app
+i:{09e9b4fe-59cc-4cd7-8f6c-d97f0da63aba}:c:\repos\challenges\array_03\microsoft.netcore.app
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:c:\repos\challenges\array_03.tests\microsoft.netcore.app
+i:{95623010-51f8-401c-8af3-2178c220f285}:c:\repos\challenges\array_04\microsoft.netcore.app
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:c:\repos\challenges\array_04.tests\microsoft.netcore.app
+i:{54e4d550-e5e4-4154-a4f8-88b5763b9db4}:c:\repos\challenges\array_05\microsoft.netcore.app
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:c:\repos\challenges\array_05.tests\microsoft.netcore.app
+i:{becaaf1d-a813-4c7e-9bce-0c3b4c458238}:c:\repos\challenges\array_06\microsoft.netcore.app
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:c:\repos\challenges\array_06.tests\microsoft.netcore.app
+i:{c8d4b776-81b1-4460-a206-c482ca31b9eb}:c:\repos\challenges\array_07\microsoft.netcore.app
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:c:\repos\challenges\array_07.tests\microsoft.netcore.app
+i:{f1743237-c894-47aa-95fe-2d71b35bbbe7}:c:\repos\challenges\strings_01\microsoft.netcore.app
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:c:\repos\challenges\strings_01.tests\microsoft.netcore.app
+i:{73c13af6-dbc6-4610-a3ac-efcc64956304}:c:\repos\challenges\strings_02\microsoft.netcore.app
+i:{10c6337b-f1e3-480e-ab1f-b72c94e62bd7}:c:\repos\challenges\strings_03\microsoft.netcore.app
+i:{28ac96d4-969b-4ad2-806c-f39854509e7c}:c:\repos\challenges\strings_04\microsoft.netcore.app
+i:{f71539d1-6e01-48e1-9a2a-8ebf771aa86a}:c:\repos\challenges\31_trimspace\microsoft.netcore.app
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:c:\repos\challenges\31_trimspace.tests\microsoft.netcore.app
+i:{4a7a89ba-fc9b-440e-963a-5ecd1785efed}:c:\repos\challenges\32_xyz\microsoft.netcore.app
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:c:\repos\challenges\32_xyz.tests\microsoft.netcore.app
+i:{0d70fc0d-2006-49f1-9d67-2268e4599190}:c:\repos\challenges\33_checkif\microsoft.netcore.app
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:c:\repos\challenges\33_checkif.tests\microsoft.netcore.app
+++coverlet.collector (3.1.0)
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:>6293
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:>5657
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:>5548
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:>5910
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:>5909
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:>5888
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:>5825
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:>5803
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:>5791
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:>5774
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:>5757
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:>5978
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:>5960
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:>5259
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:>5237
+i:{417dee52-842c-450a-acb4-4614fffb2614}:>5160
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:>5354
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:>5337
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:>5320
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:>5308
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:>5612
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:>5725
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:>5703
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:>5691
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:>5669
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:>5640
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:>5628
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:>5590
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:>5599
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:>5565
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:>5536
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:>5514
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:>5502
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:>5485
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:>5468
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:>5446
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:>5434
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:>5412
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:>5400
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:>5383
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:>5366
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:>5879
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:>5864
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:>5837
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:>6290
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:>5654
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:>5545
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:>5904
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:>5903
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:>5885
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:>5822
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:>5800
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:>5788
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:>5771
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:>5754
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:>5972
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:>5957
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:>5256
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:>5234
+i:{417dee52-842c-450a-acb4-4614fffb2614}:>5157
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:>5351
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:>5334
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:>5317
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:>5305
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:>5608
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:>5722
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:>5700
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:>5688
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:>5666
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:>5637
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:>5625
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:>5585
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:>5596
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:>5562
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:>5533
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:>5511
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:>5499
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:>5482
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:>5465
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:>5443
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:>5431
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:>5409
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:>5397
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:>5380
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:>5363
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:>5874
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:>5861
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:>5834
+++xunit (2.4.1)
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:>6291
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:>5206
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:>5655
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:>5546
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:>5905
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:>5906
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:>5886
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:>5823
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:>5801
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:>5789
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:>5772
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:>5755
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:>5975
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:>5958
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:>5269
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:>5218
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:>5190
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:>5189
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:>5170
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:>5257
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:>5235
+i:{417dee52-842c-450a-acb4-4614fffb2614}:>5158
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:>5352
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:>5335
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:>5318
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:>5306
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:>5609
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:>5723
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:>5701
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:>5689
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:>5667
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:>5638
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:>5626
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:>5587
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:>5597
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:>5563
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:>5534
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:>5512
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:>5500
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:>5483
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:>5466
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:>5444
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:>5432
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:>5410
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:>5398
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:>5381
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:>5364
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:>5875
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:>5862
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:>5835
+++xunit.runner.visualstudio (2.4.3)
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:>6292
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:>5207
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:>5656
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:>5547
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:>5908
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:>5907
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:>5887
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:>5824
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:>5802
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:>5790
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:>5773
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:>5756
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:>5976
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:>5959
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:>5270
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:>5219
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:>5191
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:>5192
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:>5171
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:>5258
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:>5236
+i:{417dee52-842c-450a-acb4-4614fffb2614}:>5159
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:>5353
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:>5336
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:>5319
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:>5307
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:>5610
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:>5724
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:>5702
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:>5690
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:>5668
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:>5639
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:>5627
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:>5588
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:>5598
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:>5564
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:>5535
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:>5513
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:>5501
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:>5484
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:>5467
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:>5445
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:>5433
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:>5411
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:>5399
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:>5382
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:>5365
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:>5877
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:>5863
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:>5836
+++41_CheckInts
+i:{8b001a52-e879-4e51-bdf0-0e25adbda804}:c:\repos\challenges\41_checkints\41_checkints.csproj
+i:{00000000-0000-0000-0000-000000000000}:41_CheckInts
+++Program.cs
+i:{729b819b-b906-495c-b576-9c9dc4dd6098}:c:\repos\challenges\41_checkints\program.cs
+i:{6747b7d4-bc88-4bb2-9fdf-24a717f9e533}:c:\repos\challenges\12_abundantnumbers\program.cs
+i:{75fc3e22-7fff-4739-8b52-535032f27040}:c:\repos\challenges\23_countones\program.cs
+i:{814bf345-6974-4897-8176-37b78f69f32d}:c:\repos\challenges\27_countoccurrenceofcharacter\program.cs
+i:{209b412d-0052-4ef5-bf1b-4c7da0b03705}:c:\repos\challenges\30_decimaltooctal\program.cs
+i:{ef778be4-339e-4ba5-8222-4e2f4f8b835e}:c:\repos\challenges\34_sumofprime\program.cs
+i:{5db54675-2ef4-42c8-b3a0-3107823fe3a8}:c:\repos\challenges\strings_05\program.cs
+i:{3b21ef56-1227-4a47-af79-e41c987631ef}:c:\repos\challenges\36_sumtwoints\program.cs
+i:{2acff49c-03ef-431a-a5fc-60dc9121b371}:c:\repos\challenges\37_neededints\program.cs
+i:{9c9bd2d1-09a0-4928-87a6-c38ffc582f1f}:c:\repos\challenges\38_nextprime\program.cs
+i:{78d80f18-4acd-439b-84e6-56bcbf099256}:c:\repos\challenges\39_switchcharacters\program.cs
+i:{85ce6b01-19a2-4dc6-979d-9e3f78ddf604}:c:\repos\challenges\40_repeatfirsttwo\program.cs
+i:{7047590a-9040-47a0-ba96-14edf8e70792}:c:\repos\challenges\01_reversearray\program.cs
+i:{b5d2424c-c6bd-4655-b00e-4e93bff4006a}:c:\repos\challenges\11_sortthreenumbers\program.cs
+i:{13b038fe-dfac-45d7-b73b-c9b248eb5e37}:c:\repos\challenges\13_catesiantopolarcoordinates\program.cs
+i:{f7d70db2-e0c1-4273-9dd3-c7ce244d8b38}:c:\repos\challenges\14_indianrupeesformat\program.cs
+i:{5d0dff94-ef9d-491f-aabe-6400a9120e40}:c:\repos\challenges\15_perfectnumber\program.cs
+i:{e4df6aad-dfc2-4749-9b86-acf691b546fb}:c:\repos\challenges\16_primefactors\program.cs
+i:{1a92c253-f623-4218-8eea-b3370bae4bdf}:c:\repos\challenges\17_numberoccurencesinarray\program.cs
+i:{96af4aeb-74a3-423d-9f08-21173f350745}:c:\repos\challenges\18_windchill\program.cs
+i:{546e5746-b2e8-42af-b268-9d9340d0e446}:c:\repos\challenges\19_greycode\program.cs
+i:{005fe45b-eae0-4d41-9202-9ebca1354d33}:c:\repos\challenges\02_sumofoddnumbers\program.cs
+i:{210ba1be-9f59-447d-8701-b0140d35a801}:c:\repos\challenges\03_numbertostringformat\program.cs
+i:{e3ed58d2-59cf-4747-86dd-3affd006f720}:c:\repos\challenges\04_lastsamplesofnumber\program.cs
+i:{a1b83d80-e112-451b-9d18-0e5cedc0cfdd}:c:\repos\challenges\05_maxandmin\program.cs
+i:{42e55506-a4c4-46f4-b7d7-829874c01224}:c:\repos\challenges\06_printbinarytriangle\program.cs
+i:{d4589e6e-370a-478e-a0cc-72d3d0183480}:c:\repos\challenges\07_numberofoccurence\program.cs
+i:{b5056def-26f4-46da-ae4d-b55340164e7c}:c:\repos\challenges\08_printrectangle\program.cs
+i:{30addfc7-83b6-45cc-aaae-3be2c2be80ac}:c:\repos\challenges\09_statementreverse\program.cs
+i:{6b6a9804-bd27-4319-a8f8-bc1cd90435ba}:c:\repos\challenges\20_sexypairs\program.cs
+i:{2cbf321b-581d-4b3a-bfc1-3d01038fdf25}:c:\repos\challenges\21_namesearch\program.cs
+i:{845e927e-1ecc-45bf-8b0e-dbc5cc3fa861}:c:\repos\challenges\22_capitalization\program.cs
+i:{d2c72775-5a75-4dee-b0f8-3d6c5167d3d9}:c:\repos\challenges\24_sumofthedigits\program.cs
+i:{eaa2e4a7-e190-45fb-a229-587bd0df7e9f}:c:\repos\challenges\25_matrixmultiplication\program.cs
+i:{0e9d2214-ef4e-4fca-9c60-8ff6c7f0daba}:c:\repos\challenges\26_numbersequence\program.cs
+i:{1e9dcef1-98f5-432a-b2fa-313f5cd1a1db}:c:\repos\challenges\28_quadrantofanangle\program.cs
+i:{bc90be3f-2466-4760-a2ce-d11e025d0d60}:c:\repos\challenges\29_isbnvalidation\program.cs
+i:{f697b18d-01ec-4fdb-8401-343322be5d99}:c:\repos\challenges\array_01\program.cs
+i:{41587b76-adef-4cd9-a5b6-3dfb2ad49339}:c:\repos\challenges\array_02\program.cs
+i:{09e9b4fe-59cc-4cd7-8f6c-d97f0da63aba}:c:\repos\challenges\array_03\program.cs
+i:{95623010-51f8-401c-8af3-2178c220f285}:c:\repos\challenges\array_04\program.cs
+i:{54e4d550-e5e4-4154-a4f8-88b5763b9db4}:c:\repos\challenges\array_05\program.cs
+i:{becaaf1d-a813-4c7e-9bce-0c3b4c458238}:c:\repos\challenges\array_06\program.cs
+i:{c8d4b776-81b1-4460-a206-c482ca31b9eb}:c:\repos\challenges\array_07\program.cs
+i:{f1743237-c894-47aa-95fe-2d71b35bbbe7}:c:\repos\challenges\strings_01\program.cs
+i:{73c13af6-dbc6-4610-a3ac-efcc64956304}:c:\repos\challenges\strings_02\program.cs
+i:{10c6337b-f1e3-480e-ab1f-b72c94e62bd7}:c:\repos\challenges\strings_03\program.cs
+i:{28ac96d4-969b-4ad2-806c-f39854509e7c}:c:\repos\challenges\strings_04\program.cs
+i:{f71539d1-6e01-48e1-9a2a-8ebf771aa86a}:c:\repos\challenges\31_trimspace\program.cs
+i:{4a7a89ba-fc9b-440e-963a-5ecd1785efed}:c:\repos\challenges\32_xyz\program.cs
+i:{0d70fc0d-2006-49f1-9d67-2268e4599190}:c:\repos\challenges\33_checkif\program.cs
+++12_AbundantNumbers
+i:{00000000-0000-0000-0000-000000000000}:12_AbundantNumbers
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:c:\repos\challenges\12_abundantnumbers\12_abundantnumbers.csproj
+++12_AbundantNumbers.Tests
+i:{00000000-0000-0000-0000-000000000000}:12_AbundantNumbers.Tests
+++coverlet.collector (3.0.2)
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:>5208
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:>5271
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:>5220
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:>5193
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:>5194
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:>5172
+++Microsoft.NET.Test.Sdk (16.9.4)
+i:{3cd54640-121a-457a-89f5-e799f3679ed1}:>5205
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:>5268
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:>5217
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:>5188
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:>5187
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:>5169
+++21_NameSearch.Tests
+i:{00000000-0000-0000-0000-000000000000}:21_NameSearch.Tests
+++21_NameSearch
+i:{a9103390-d121-42f5-8102-fbd1c307304e}:c:\repos\challenges\21_namesearch\21_namesearch.csproj
+i:{00000000-0000-0000-0000-000000000000}:21_NameSearch
+++23_CountOnes
+i:{00000000-0000-0000-0000-000000000000}:23_CountOnes
+i:{b6339e96-1e97-49a0-8588-d6b990dc9d19}:c:\repos\challenges\23_countones\23_countones.csproj
+++27_CountOccurrenceOfCharacter
+i:{00000000-0000-0000-0000-000000000000}:27_CountOccurrenceOfCharacter
+i:{b68c7fd1-37ec-4734-8851-eefade6353c4}:c:\repos\challenges\27_countoccurrenceofcharacter\27_countoccurrenceofcharacter.csproj
+++27_CountOccurrenceOfCharacter.Tests
+i:{00000000-0000-0000-0000-000000000000}:27_CountOccurrenceOfCharacter.Tests
+++30_DecimalToOctal
+i:{00000000-0000-0000-0000-000000000000}:30_DecimalToOctal
+i:{4751a885-ed9c-43a4-8d0b-fcb629db4bc3}:c:\repos\challenges\30_decimaltooctal\30_decimaltooctal.csproj
+++Strings_02.Tests
+i:{00000000-0000-0000-0000-000000000000}:Strings_02.Tests
+++Strings_02
+i:{d1ed8766-8583-42d7-bc98-6ef1029a525a}:c:\repos\challenges\strings_02\strings_02.csproj
+i:{00000000-0000-0000-0000-000000000000}:Strings_02
+++Strings_03.Tests
+i:{00000000-0000-0000-0000-000000000000}:Strings_03.Tests
+++Strings_03
+i:{f95fa165-f584-4335-8562-c5c8e75d6f81}:c:\repos\challenges\strings_03\strings_03.csproj
+i:{00000000-0000-0000-0000-000000000000}:Strings_03
+++Strings_04.Tests
+i:{00000000-0000-0000-0000-000000000000}:Strings_04.Tests
+++Strings_04
+i:{0f8f1af6-ebcb-476e-ad51-73c593743b5e}:c:\repos\challenges\strings_04\strings_04.csproj
+i:{00000000-0000-0000-0000-000000000000}:Strings_04
+++34_SumOfPrime
+i:{00000000-0000-0000-0000-000000000000}:34_SumOfPrime
+i:{769c9dd8-5d5d-48d9-bbda-cf673f455754}:c:\repos\challenges\34_sumofprime\34_sumofprime.csproj
+++34_SumOfPrime.Tests
+i:{00000000-0000-0000-0000-000000000000}:34_SumOfPrime.Tests
+++Strings_05
+i:{00000000-0000-0000-0000-000000000000}:Strings_05
+i:{1613cd87-442d-486c-8e86-80feaf70b8cf}:c:\repos\challenges\strings_05\strings_05.csproj
+++Strings_05.Tests
+i:{00000000-0000-0000-0000-000000000000}:Strings_05.Tests
+++36_SumTwoInts
+i:{00000000-0000-0000-0000-000000000000}:36_SumTwoInts
+i:{f12bb5a4-b6c6-427a-9c24-0ebbfd521474}:c:\repos\challenges\36_sumtwoints\36_sumtwoints.csproj
+++36_SumTwoInts.Tests
+i:{00000000-0000-0000-0000-000000000000}:36_SumTwoInts.Tests
+++37_NeededInts
+i:{00000000-0000-0000-0000-000000000000}:37_NeededInts
+i:{277e95da-f72a-4cf6-bfa9-fb33c79d86ab}:c:\repos\challenges\37_neededints\37_neededints.csproj
+++37_NeededInts.Tests
+i:{00000000-0000-0000-0000-000000000000}:37_NeededInts.Tests
+++38_NextPrime
+i:{00000000-0000-0000-0000-000000000000}:38_NextPrime
+i:{8587abc5-1d11-4bae-a47d-feac5ed0f301}:c:\repos\challenges\38_nextprime\38_nextprime.csproj
+++38_NextPrime.Tests
+i:{00000000-0000-0000-0000-000000000000}:38_NextPrime.Tests
+++39_Switchcharacters
+i:{00000000-0000-0000-0000-000000000000}:39_Switchcharacters
+i:{822ec944-2ce1-4586-a18f-c5a04afb0213}:c:\repos\challenges\39_switchcharacters\bin\debug\net5.0\39_switchcharacters.dll
+++39_Switchcharacters.Tests
+i:{00000000-0000-0000-0000-000000000000}:39_Switchcharacters.Tests
+++40_RepeatFirstTwo
+i:{00000000-0000-0000-0000-000000000000}:40_RepeatFirstTwo
+i:{f6720c0c-3fb5-4d33-8bfb-6bb2bfe8e4a6}:c:\repos\challenges\40_repeatfirsttwo\bin\debug\net5.0\40_repeatfirsttwo.dll
+++40_RepeatFirstTwo.Tests
+i:{00000000-0000-0000-0000-000000000000}:40_RepeatFirstTwo.Tests
+++01_ReverseArray
+i:{00000000-0000-0000-0000-000000000000}:01_ReverseArray
+i:{99325fb7-ea93-4de2-8888-a70f31092053}:c:\repos\challenges\01_reversearray\01_reversearray.csproj
+++ReverseArrayHelper.cs
+i:{7047590a-9040-47a0-ba96-14edf8e70792}:c:\repos\challenges\01_reversearray\reversearrayhelper.cs
+++01_ReverseArray.Tests
+i:{00000000-0000-0000-0000-000000000000}:01_ReverseArray.Tests
+++11_SortThreeNumbers
+i:{00000000-0000-0000-0000-000000000000}:11_SortThreeNumbers
+i:{15702d13-f7c7-473d-ab91-127ebb2c97ec}:c:\repos\challenges\11_sortthreenumbers\11_sortthreenumbers.csproj
+++11_SortThreeNumbers.Tests
+i:{00000000-0000-0000-0000-000000000000}:11_SortThreeNumbers.Tests
+++13_CatesianToPolarCoordinates
+i:{00000000-0000-0000-0000-000000000000}:13_CatesianToPolarCoordinates
+i:{46f74f20-4a9c-445f-9998-4a7a15ceeb5f}:c:\repos\challenges\13_catesiantopolarcoordinates\13_catesiantopolarcoordinates.csproj
+++13_CatesianToPolarCoordinates.Tests
+i:{00000000-0000-0000-0000-000000000000}:13_CatesianToPolarCoordinates.Tests
+++14_IndianRupeesFormat
+i:{00000000-0000-0000-0000-000000000000}:14_IndianRupeesFormat
+i:{9d7199fa-06c5-4df1-9fe5-5b446f3b5777}:c:\repos\challenges\14_indianrupeesformat\14_indianrupeesformat.csproj
+++14_IndianRupeesFormat.Tests
+i:{00000000-0000-0000-0000-000000000000}:14_IndianRupeesFormat.Tests
+++15_PerfectNumber
+i:{00000000-0000-0000-0000-000000000000}:15_PerfectNumber
+i:{2fbf481f-f92d-421e-ab53-5b6f2366dd80}:c:\repos\challenges\15_perfectnumber\15_perfectnumber.csproj
+++15_PerfectNumber.Tests
+i:{00000000-0000-0000-0000-000000000000}:15_PerfectNumber.Tests
+++16_PrimeFactors
+i:{00000000-0000-0000-0000-000000000000}:16_PrimeFactors
+i:{e4d8711b-0156-46f5-9add-84d7da312f6e}:c:\repos\challenges\16_primefactors\16_primefactors.csproj
+++16_PrimeFactors.Tests
+i:{00000000-0000-0000-0000-000000000000}:16_PrimeFactors.Tests
+++17_NumberOccurencesInArray
+i:{00000000-0000-0000-0000-000000000000}:17_NumberOccurencesInArray
+i:{1f747930-4788-41ca-921e-d01cdc64b0ed}:c:\repos\challenges\17_numberoccurencesinarray\17_numberoccurencesinarray.csproj
+++17_NumberOccurencesInArray.Tests
+i:{00000000-0000-0000-0000-000000000000}:17_NumberOccurencesInArray.Tests
+++18_WindChill
+i:{00000000-0000-0000-0000-000000000000}:18_WindChill
+i:{417dee52-842c-450a-acb4-4614fffb2614}:c:\repos\challenges\18_windchill\18_windchill.csproj
+++18_WindChill.Tests
+i:{00000000-0000-0000-0000-000000000000}:18_WindChill.Tests
+++19_GreyCode
+i:{00000000-0000-0000-0000-000000000000}:19_GreyCode
+i:{a5fc1944-d18f-46da-ad19-de5b8adfc00f}:c:\repos\challenges\19_greycode\19_greycode.csproj
+++19_GreyCode.Tests
+i:{00000000-0000-0000-0000-000000000000}:19_GreyCode.Tests
+++02_SumOfOddNumbers
+i:{00000000-0000-0000-0000-000000000000}:02_SumOfOddNumbers
+i:{a4b2bd59-e7ea-4e15-a2f6-aee2683a6929}:c:\repos\challenges\02_sumofoddnumbers\02_sumofoddnumbers.csproj
+++03_NumberToStringFormat
+i:{00000000-0000-0000-0000-000000000000}:03_NumberToStringFormat
+i:{f775f131-6fd5-461a-be23-29fbc704ea97}:c:\repos\challenges\03_numbertostringformat\03_numbertostringformat.csproj
+++03_NumberToStringFormat.Tests
+i:{00000000-0000-0000-0000-000000000000}:03_NumberToStringFormat.Tests
+++04_LastSamplesOfNumber
+i:{00000000-0000-0000-0000-000000000000}:04_LastSamplesOfNumber
+i:{97a9e0f1-7d1b-4f6c-9b51-17037b55cb99}:c:\repos\challenges\04_lastsamplesofnumber\04_lastsamplesofnumber.csproj
+++04_LastSamplesOfNumber.Tests
+i:{00000000-0000-0000-0000-000000000000}:04_LastSamplesOfNumber.Tests
+++05_MaxAndMin
+i:{00000000-0000-0000-0000-000000000000}:05_MaxAndMin
+i:{3a85c831-fbaf-4816-88dd-c3b591d25678}:c:\repos\challenges\05_maxandmin\05_maxandmin.csproj
+++05_MaxAndMin.Tests
+i:{00000000-0000-0000-0000-000000000000}:05_MaxAndMin.Tests
+++06_PrintBinaryTriangle
+i:{00000000-0000-0000-0000-000000000000}:06_PrintBinaryTriangle
+i:{5348c8a1-6663-4f98-a538-85fbdac546d4}:c:\repos\challenges\06_printbinarytriangle\06_printbinarytriangle.csproj
+++06_PrintBinaryTriangle.Tests
+i:{00000000-0000-0000-0000-000000000000}:06_PrintBinaryTriangle.Tests
+++07_NumberOfOccurence
+i:{00000000-0000-0000-0000-000000000000}:07_NumberOfOccurence
+i:{4a8870b1-d5d6-4cd0-890c-f9cf2c19a853}:c:\repos\challenges\07_numberofoccurence\07_numberofoccurence.csproj
+++07_NumberOfOccurence.Tests
+i:{00000000-0000-0000-0000-000000000000}:07_NumberOfOccurence.Tests
+++08_PrintRectangle
+i:{00000000-0000-0000-0000-000000000000}:08_PrintRectangle
+++09_StatementReverse
+i:{00000000-0000-0000-0000-000000000000}:09_StatementReverse
+i:{e9a51222-b047-47f8-87a0-1eb634da1173}:c:\repos\challenges\09_statementreverse\09_statementreverse.csproj
+++09_StatementReverse.Tests
+i:{00000000-0000-0000-0000-000000000000}:09_StatementReverse.Tests
+++02_SumOfOddNumbers.Tests
+i:{00000000-0000-0000-0000-000000000000}:02_SumOfOddNumbers.Tests
+++20_SexyPairs
+i:{00000000-0000-0000-0000-000000000000}:20_SexyPairs
+i:{96facb9c-2add-44c2-b3d8-aafe49645f80}:c:\repos\challenges\20_sexypairs\20_sexypairs.csproj
+++20_SexyPairs.Tests
+i:{00000000-0000-0000-0000-000000000000}:20_SexyPairs.Tests
+++22_Capitalization
+i:{00000000-0000-0000-0000-000000000000}:22_Capitalization
+i:{6d92c6bb-974c-44f1-8ffb-27dc09fd714b}:c:\repos\challenges\22_capitalization\22_capitalization.csproj
+++22_Capitalization.Tests
+i:{00000000-0000-0000-0000-000000000000}:22_Capitalization.Tests
+++23_CountOnes.Tests
+i:{00000000-0000-0000-0000-000000000000}:23_CountOnes.Tests
+++24_SumOfTheDigits
+i:{00000000-0000-0000-0000-000000000000}:24_SumOfTheDigits
+i:{ca48f9bb-e1d3-46fd-af2e-63521917f653}:c:\repos\challenges\24_sumofthedigits\24_sumofthedigits.csproj
+++24_SumOfTheDigits.Tests
+i:{00000000-0000-0000-0000-000000000000}:24_SumOfTheDigits.Tests
+++25_MatrixMultiplication
+i:{00000000-0000-0000-0000-000000000000}:25_MatrixMultiplication
+i:{05f9438a-ec61-479b-87d4-482b2746565b}:c:\repos\challenges\25_matrixmultiplication\25_matrixmultiplication.csproj
+++25_MatrixMultiplication.Tests
+i:{00000000-0000-0000-0000-000000000000}:25_MatrixMultiplication.Tests
+++26_NumberSequence
+i:{00000000-0000-0000-0000-000000000000}:26_NumberSequence
+i:{51f5919f-cc95-4866-b5ca-df0eb67c81e7}:c:\repos\challenges\26_numbersequence\26_numbersequence.csproj
+++26_NumberSequence.Tests
+i:{00000000-0000-0000-0000-000000000000}:26_NumberSequence.Tests
+++28_QuadrantOfAnAngle
+i:{00000000-0000-0000-0000-000000000000}:28_QuadrantOfAnAngle
+i:{b4aa747e-76d6-4295-8007-9a45f83c16dc}:c:\repos\challenges\28_quadrantofanangle\28_quadrantofanangle.csproj
+++28_QuadrantOfAnAngle.Tests
+i:{00000000-0000-0000-0000-000000000000}:28_QuadrantOfAnAngle.Tests
+++29_ISBNValidation
+i:{00000000-0000-0000-0000-000000000000}:29_ISBNValidation
+i:{1f7476c3-503a-4307-b045-5e48d0e48a35}:c:\repos\challenges\29_isbnvalidation\29_isbnvalidation.csproj
+++29_ISBNValidation.Tests
+i:{00000000-0000-0000-0000-000000000000}:29_ISBNValidation.Tests
+++30_DecimalToOctal.Tests
+i:{00000000-0000-0000-0000-000000000000}:30_DecimalToOctal.Tests
+++Array_01
+i:{00000000-0000-0000-0000-000000000000}:Array_01
+i:{8677568a-d0f7-43b7-9c17-e77e276539a2}:c:\repos\challenges\array_01\array_01.csproj
+++Array_01.Tests
+i:{00000000-0000-0000-0000-000000000000}:Array_01.Tests
+++Array_02
+i:{00000000-0000-0000-0000-000000000000}:Array_02
+i:{76f5f7f1-a6c4-49df-a023-62c35569a9e7}:c:\repos\challenges\array_02\array_02.csproj
+++Array_02.Tests
+i:{00000000-0000-0000-0000-000000000000}:Array_02.Tests
+++Array_03
+i:{00000000-0000-0000-0000-000000000000}:Array_03
+i:{ebb138b8-fb3a-43c0-aaeb-80124f7996ee}:c:\repos\challenges\array_03\array_03.csproj
+++Array_03.Tests
+i:{00000000-0000-0000-0000-000000000000}:Array_03.Tests
+++Array_04
+i:{00000000-0000-0000-0000-000000000000}:Array_04
+i:{be2f0df7-e56d-4fd8-97be-3d9f07deea0c}:c:\repos\challenges\array_04\array_04.csproj
+++Array_04.Tests
+i:{00000000-0000-0000-0000-000000000000}:Array_04.Tests
+++Array_05
+i:{00000000-0000-0000-0000-000000000000}:Array_05
+i:{c5bd39d6-4122-4d2a-aa4e-8c6fac7f63c8}:c:\repos\challenges\array_05\array_05.csproj
+++Array_05.Tests
+i:{00000000-0000-0000-0000-000000000000}:Array_05.Tests
+++Array_06
+i:{00000000-0000-0000-0000-000000000000}:Array_06
+i:{4743135f-f014-4045-92a6-979d0f7b0962}:c:\repos\challenges\array_06\array_06.csproj
+++Array_06.Tests
+i:{00000000-0000-0000-0000-000000000000}:Array_06.Tests
+++Array_07
+i:{00000000-0000-0000-0000-000000000000}:Array_07
+i:{40bcd6bc-8e64-4d41-96cb-f5a3df2c4e4c}:c:\repos\challenges\array_07\array_07.csproj
+++Array_07.Tests
+i:{00000000-0000-0000-0000-000000000000}:Array_07.Tests
+++Strings_01
+i:{00000000-0000-0000-0000-000000000000}:Strings_01
+i:{bb0a1e0a-79ad-4fbf-adcc-4ab133caec6e}:c:\repos\challenges\strings_01\strings_01.csproj
+++Strings_01.Tests
+i:{00000000-0000-0000-0000-000000000000}:Strings_01.Tests
+++31_TrimSpace
+i:{00000000-0000-0000-0000-000000000000}:31_TrimSpace
+i:{e999a5a9-43b2-450c-a07b-c595aa523cbd}:c:\repos\challenges\31_trimspace\31_trimspace.csproj
+++31_TrimSpace.Tests
+i:{00000000-0000-0000-0000-000000000000}:31_TrimSpace.Tests
+++32_XYZ
+i:{00000000-0000-0000-0000-000000000000}:32_XYZ
+i:{89a155f2-669d-4ac7-bb3b-d17c55438e41}:c:\repos\challenges\32_xyz\32_xyz.csproj
+++32_XYZ.Tests
+i:{00000000-0000-0000-0000-000000000000}:32_XYZ.Tests
+++33_CheckIf
+i:{00000000-0000-0000-0000-000000000000}:33_CheckIf
+i:{e7baa821-a040-4ff7-b6eb-06656504d4de}:c:\repos\challenges\33_checkif\33_checkif.csproj
+++33_CheckIf.Tests
+i:{00000000-0000-0000-0000-000000000000}:33_CheckIf.Tests
