@@ -205,9 +205,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41_CheckInts", "41_CheckInt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41_CheckInts.Tests", "41_CheckInts.Tests\41_CheckInts.Tests.csproj", "{8B001A52-E879-4E51-BDF0-0E25ADBDA804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42_Findyt", "42_Findyt\42_Findyt.csproj", "{FB01DFE7-E421-4EC4-ADC1-9BE45B291E72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "42_Findyt", "42_Findyt\42_Findyt.csproj", "{FB01DFE7-E421-4EC4-ADC1-9BE45B291E72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42_Findyt.Tests", "42_Findyt.Tests\42_Findyt.Tests.csproj", "{5562DB2D-F92C-4787-AF28-6E425B0EFEFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "42_Findyt.Tests", "42_Findyt.Tests\42_Findyt.Tests.csproj", "{5562DB2D-F92C-4787-AF28-6E425B0EFEFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "43_CheckNearst100", "43_CheckNearst100\43_CheckNearst100.csproj", "{E4F66328-2DD3-47BA-A003-411F1456ADB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "43_CheckNearst100.Tests", "43_CheckNearst100.Tests\43_CheckNearst100.Tests.csproj", "{29AE52E1-EE8C-4833-ACE4-FAB26C2EA105}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -627,6 +631,14 @@ Global
 		{5562DB2D-F92C-4787-AF28-6E425B0EFEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5562DB2D-F92C-4787-AF28-6E425B0EFEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5562DB2D-F92C-4787-AF28-6E425B0EFEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F66328-2DD3-47BA-A003-411F1456ADB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F66328-2DD3-47BA-A003-411F1456ADB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F66328-2DD3-47BA-A003-411F1456ADB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F66328-2DD3-47BA-A003-411F1456ADB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AE52E1-EE8C-4833-ACE4-FAB26C2EA105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AE52E1-EE8C-4833-ACE4-FAB26C2EA105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AE52E1-EE8C-4833-ACE4-FAB26C2EA105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AE52E1-EE8C-4833-ACE4-FAB26C2EA105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
