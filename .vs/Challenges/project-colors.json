@@ -600,7 +600,17 @@
       "ProjectGuid": "5562db2d-f92c-4787-af28-6e425b0efefe",
       "DisplayName": "42_Findyt.Tests",
       "ColorIndex": 6
+    },
+    "e4f66328-2dd3-47ba-a003-411f1456adb3": {
+      "ProjectGuid": "e4f66328-2dd3-47ba-a003-411f1456adb3",
+      "DisplayName": "43_CheckNearst100",
+      "ColorIndex": 7
+    },
+    "29ae52e1-ee8c-4833-ace4-fab26c2ea105": {
+      "ProjectGuid": "29ae52e1-ee8c-4833-ace4-fab26c2ea105",
+      "DisplayName": "43_CheckNearst100.Tests",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }
