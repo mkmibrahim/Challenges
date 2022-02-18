@@ -610,7 +610,17 @@
       "ProjectGuid": "29ae52e1-ee8c-4833-ace4-fab26c2ea105",
       "DisplayName": "43_CheckNearst100.Tests",
       "ColorIndex": 8
+    },
+    "c1728aab-8c9d-4730-97e2-773aee1c1998": {
+      "ProjectGuid": "c1728aab-8c9d-4730-97e2-773aee1c1998",
+      "DisplayName": "44_RangeInclusive",
+      "ColorIndex": 9
+    },
+    "51682ae2-5aa5-48c6-9bb2-ead08b729ae1": {
+      "ProjectGuid": "51682ae2-5aa5-48c6-9bb2-ead08b729ae1",
+      "DisplayName": "44_RangeInclusive.Tests",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 11
 }
