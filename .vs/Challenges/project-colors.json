@@ -650,7 +650,17 @@
       "ProjectGuid": "a0162d2f-3323-4f83-88a3-b64200576a36",
       "DisplayName": "47_ConvertLastThreeChars.Tests",
       "ColorIndex": 0
+    },
+    "cef7cd5e-d532-4aa3-8401-b12023fb3d7d": {
+      "ProjectGuid": "cef7cd5e-d532-4aa3-8401-b12023fb3d7d",
+      "DisplayName": "48_RepeatFirstChars",
+      "ColorIndex": 1
+    },
+    "49067cab-8971-461e-9789-c489ab1712b1": {
+      "ProjectGuid": "49067cab-8971-461e-9789-c489ab1712b1",
+      "DisplayName": "48_RepeatFirstChars.Tests",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

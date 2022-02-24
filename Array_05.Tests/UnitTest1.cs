@@ -13,7 +13,7 @@ namespace Array_05.Tests
             for (int i = 0; i < 10; i++)
             {
                 var value = arrayInstance.GetElement(i);
-                Assert.True(value > 0);
+                Assert.True(value >= 0);
                 Assert.True(value < 50);
             }
         }
