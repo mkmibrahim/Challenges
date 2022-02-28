@@ -651,14 +651,14 @@
       "DisplayName": "47_ConvertLastThreeChars.Tests",
       "ColorIndex": 0
     },
-    "cef7cd5e-d532-4aa3-8401-b12023fb3d7d": {
-      "ProjectGuid": "cef7cd5e-d532-4aa3-8401-b12023fb3d7d",
-      "DisplayName": "48_RepeatFirstChars",
+    "7f5dda90-d19b-457a-ac08-b9db576f5ec2": {
+      "ProjectGuid": "7f5dda90-d19b-457a-ac08-b9db576f5ec2",
+      "DisplayName": "49_Countaa",
       "ColorIndex": 1
     },
-    "49067cab-8971-461e-9789-c489ab1712b1": {
-      "ProjectGuid": "49067cab-8971-461e-9789-c489ab1712b1",
-      "DisplayName": "48_RepeatFirstChars.Tests",
+    "140b50bb-1b86-4293-925b-20158f67e02e": {
+      "ProjectGuid": "140b50bb-1b86-4293-925b-20158f67e02e",
+      "DisplayName": "49_Countaa.Tests",
       "ColorIndex": 2
     }
   },
