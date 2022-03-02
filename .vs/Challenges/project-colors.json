@@ -660,7 +660,17 @@
       "ProjectGuid": "140b50bb-1b86-4293-925b-20158f67e02e",
       "DisplayName": "49_Countaa.Tests",
       "ColorIndex": 2
+    },
+    "314c87a2-ef88-4e8c-ac60-9ed1722d7497": {
+      "ProjectGuid": "314c87a2-ef88-4e8c-ac60-9ed1722d7497",
+      "DisplayName": "50_CheckFirstA",
+      "ColorIndex": 3
+    },
+    "b9876f22-6885-4132-9229-04831689825f": {
+      "ProjectGuid": "b9876f22-6885-4132-9229-04831689825f",
+      "DisplayName": "50_CheckFirstA.Tests",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
