@@ -30,7 +30,14 @@ namespace _51_EveryOtherChar
     {
         internal static  string EveryOtherChar(this string str)
         {
-            return str.ToLowerInvariant();
+            var result = "";
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (i % 2 == 0)
+                    result += str[i];
+            }
+
+            return result.Trim();
         }
     }
 }

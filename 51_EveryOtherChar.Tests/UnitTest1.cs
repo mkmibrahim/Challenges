@@ -7,6 +7,8 @@ namespace _51_EveryOtherChar.Tests
     {
         [Theory]
         [InlineData("Python", "Pto")]
+        [InlineData("PHP", "PP")]
+        [InlineData("JS", "J")]
         public void Test1(string inputString, string expectedOutputString)
         {
             var str = inputString;
