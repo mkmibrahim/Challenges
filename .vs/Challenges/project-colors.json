@@ -670,7 +670,12 @@
       "ProjectGuid": "b9876f22-6885-4132-9229-04831689825f",
       "DisplayName": "50_CheckFirstA.Tests",
       "ColorIndex": 4
+    },
+    "87acb8a9-0b06-4aca-b189-1f850d66630d": {
+      "ProjectGuid": "87acb8a9-0b06-4aca-b189-1f850d66630d",
+      "DisplayName": "51_EveryOtherChar",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
