@@ -313,6 +313,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71_MVCApplication", "71_MVC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71_MVCApplication.Tests", "71_MVCApplication.Tests\71_MVCApplication.Tests.csproj", "{40521D32-7300-45A6-B1C9-AD81688FAE8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "72_RazoreApp", "72_RazoreApp\72_RazoreApp.csproj", "{252BD550-F4AF-4DD3-8EC4-51C35456BC7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -939,6 +941,10 @@ Global
 		{40521D32-7300-45A6-B1C9-AD81688FAE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40521D32-7300-45A6-B1C9-AD81688FAE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40521D32-7300-45A6-B1C9-AD81688FAE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252BD550-F4AF-4DD3-8EC4-51C35456BC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252BD550-F4AF-4DD3-8EC4-51C35456BC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252BD550-F4AF-4DD3-8EC4-51C35456BC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252BD550-F4AF-4DD3-8EC4-51C35456BC7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
