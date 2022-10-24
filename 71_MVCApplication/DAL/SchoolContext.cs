@@ -23,6 +23,8 @@ namespace _71_MVCApplication.DAL
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+
     }
 
     
