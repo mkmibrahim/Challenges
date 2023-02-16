@@ -315,7 +315,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "73_MVCApp", "73_MVCApp\73_M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "71_MVCApplication", "71_MVCApplication\71_MVCApplication.csproj", "{2F2325A5-3AFC-4CB5-80A8-3BDD4C5C1533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "75_ListCertificates", "75_ListCertificates\75_ListCertificates.csproj", "{BA9C3C55-A418-45AB-A13F-04779391ADEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "75_ListCertificates", "75_ListCertificates\75_ListCertificates.csproj", "{BA9C3C55-A418-45AB-A13F-04779391ADEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76_Yarp", "76_Yarp\76_Yarp.csproj", "{A4D55842-ADED-4F26-AC46-59EDBB89E0A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -951,6 +953,10 @@ Global
 		{BA9C3C55-A418-45AB-A13F-04779391ADEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA9C3C55-A418-45AB-A13F-04779391ADEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA9C3C55-A418-45AB-A13F-04779391ADEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D55842-ADED-4F26-AC46-59EDBB89E0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D55842-ADED-4F26-AC46-59EDBB89E0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D55842-ADED-4F26-AC46-59EDBB89E0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D55842-ADED-4F26-AC46-59EDBB89E0A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
