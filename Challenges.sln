@@ -323,7 +323,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "77_CheckSSLCertificate", "7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "77_CheckSSLCertificate.Tests", "77_CheckSSLCertificate.Tests\77_CheckSSLCertificate.Tests.csproj", "{078BEC25-184B-4BEF-BCF1-FCAFDF42DEA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "78_Lasagna", "78_Lasagna\78_Lasagna.csproj", "{2B1219CE-12FF-4216-84A5-D7DAFC2FC186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "78_Lasagna", "78_Lasagna\78_Lasagna.csproj", "{2B1219CE-12FF-4216-84A5-D7DAFC2FC186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "79_Booleans", "79_Booleans\79_Booleans.csproj", "{4D1E5048-3C67-4756-82A8-3F87D2D010AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -975,6 +977,10 @@ Global
 		{2B1219CE-12FF-4216-84A5-D7DAFC2FC186}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1219CE-12FF-4216-84A5-D7DAFC2FC186}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B1219CE-12FF-4216-84A5-D7DAFC2FC186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1E5048-3C67-4756-82A8-3F87D2D010AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1E5048-3C67-4756-82A8-3F87D2D010AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1E5048-3C67-4756-82A8-3F87D2D010AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1E5048-3C67-4756-82A8-3F87D2D010AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
