@@ -19,8 +19,6 @@
 
     internal class Lasagna
     {
-        private int numberOfMinutesInOven;
-
         internal int ExpectedMinutesInOven()
         {
             return 40;
