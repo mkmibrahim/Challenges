@@ -325,7 +325,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "77_CheckSSLCertificate.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "78_Lasagna", "78_Lasagna\78_Lasagna.csproj", "{2B1219CE-12FF-4216-84A5-D7DAFC2FC186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "79_Booleans", "79_Booleans\79_Booleans.csproj", "{4D1E5048-3C67-4756-82A8-3F87D2D010AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "79_Booleans", "79_Booleans\79_Booleans.csproj", "{4D1E5048-3C67-4756-82A8-3F87D2D010AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "80_Arrays", "80_Arrays\80_Arrays.csproj", "{AB04A3F5-43EE-4C4D-99B9-ABA3FF0D56AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "80_Arrays.Tests", "80_Arrays.Tests\80_Arrays.Tests.csproj", "{D292CCB4-0468-4AE0-8B46-554944149D89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -981,6 +985,14 @@ Global
 		{4D1E5048-3C67-4756-82A8-3F87D2D010AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D1E5048-3C67-4756-82A8-3F87D2D010AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D1E5048-3C67-4756-82A8-3F87D2D010AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB04A3F5-43EE-4C4D-99B9-ABA3FF0D56AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB04A3F5-43EE-4C4D-99B9-ABA3FF0D56AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB04A3F5-43EE-4C4D-99B9-ABA3FF0D56AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB04A3F5-43EE-4C4D-99B9-ABA3FF0D56AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D292CCB4-0468-4AE0-8B46-554944149D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D292CCB4-0468-4AE0-8B46-554944149D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D292CCB4-0468-4AE0-8B46-554944149D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D292CCB4-0468-4AE0-8B46-554944149D89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
