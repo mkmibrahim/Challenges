@@ -14,11 +14,15 @@ namespace _81_Casting
     {
         public string GetDisplayName(TeamSupport support)
         {
-            if (support is Security
-                & ( support.GetType() != typeof(SecurityJunior) | 
-                    support.GetType() != typeof(SecurityIntern) | 
-                    support.GetType() != typeof(PoliceLiaison) 
-                    ))
+            //if (support is Security &
+            //    support.GetType() != typeof(SecurityJunior) & 
+            //    support.GetType() != typeof(SecurityIntern) & 
+            //    support.GetType() != typeof(PoliceLiaison) 
+            //    )
+            if (support is Security &
+                !(support.GetType() == typeof(SecurityJunior) |
+                  support.GetType() == typeof(SecurityIntern) |
+                  support.GetType() == typeof(PoliceLiaison)))
                 return support.Title + " Priority Personnel";
             if (support is Staff)
                 return support.Title;
