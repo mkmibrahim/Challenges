@@ -33,7 +33,6 @@ namespace _90_Sets
             else
                 return false;
         }
-        // TODO: implement equality and GetHashCode() methods
     }
 
     public class Identity
@@ -60,7 +59,6 @@ namespace _90_Sets
             else
                 return false;
         }
-        // TODO: implement equality and GetHashCode() methods
     }
 
     public class Authenticator
