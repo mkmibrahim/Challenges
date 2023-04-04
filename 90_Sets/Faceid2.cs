@@ -20,18 +20,21 @@ namespace _90_Sets
 
         public override bool Equals(object? obj)
         {
-            if (obj == null)
-                return false;
-            if (obj is FacialFeatures)
+            var otherObject = obj as FacialFeatures;
+            if (otherObject != null)
             {
-                var otherObject = (FacialFeatures)obj;
-                if (otherObject.EyeColor == EyeColor & otherObject.PhiltrumWidth == PhiltrumWidth)
+                if (otherObject.EyeColor == EyeColor && otherObject.PhiltrumWidth == PhiltrumWidth)
                     return true;
                 else
                     return false;
             }
             else
                 return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(EyeColor, PhiltrumWidth);
         }
     }
 
@@ -58,6 +61,11 @@ namespace _90_Sets
             }
             else
                 return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(this.Email, this.FacialFeatures);
         }
     }
 
