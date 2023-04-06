@@ -371,7 +371,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "91_Exceptions", "91_Excepti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "91_Exceptions.Tests", "91_Exceptions.Tests\91_Exceptions.Tests.csproj", "{F6ABAB41-17C6-4824-8D2A-272185B0B091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "92_Ternary", "92_Ternary\92_Ternary.csproj", "{8160DA29-45B8-427C-AC4F-9221F43967A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "92_Ternary", "92_Ternary\92_Ternary.csproj", "{8160DA29-45B8-427C-AC4F-9221F43967A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "93_Attributes", "93_Attributes\93_Attributes.csproj", "{472672B8-08BC-4EE5-98C7-2548CF9D8A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "93_Attributes.Tests", "93_Attributes.Tests\93_Attributes.Tests.csproj", "{5B359222-8779-4E89-B7F0-CFB929CDFA5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1119,6 +1123,14 @@ Global
 		{8160DA29-45B8-427C-AC4F-9221F43967A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8160DA29-45B8-427C-AC4F-9221F43967A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8160DA29-45B8-427C-AC4F-9221F43967A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472672B8-08BC-4EE5-98C7-2548CF9D8A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472672B8-08BC-4EE5-98C7-2548CF9D8A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472672B8-08BC-4EE5-98C7-2548CF9D8A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472672B8-08BC-4EE5-98C7-2548CF9D8A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B359222-8779-4E89-B7F0-CFB929CDFA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B359222-8779-4E89-B7F0-CFB929CDFA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B359222-8779-4E89-B7F0-CFB929CDFA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B359222-8779-4E89-B7F0-CFB929CDFA5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
