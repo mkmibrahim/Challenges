@@ -377,9 +377,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "93_Attributes", "93_Attribu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "93_Attributes.Tests", "93_Attributes.Tests\93_Attributes.Tests.csproj", "{5B359222-8779-4E89-B7F0-CFB929CDFA5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "94_Loops", "94_Loops\94_Loops.csproj", "{9B4E103E-463B-4362-A804-DE5BF839CA7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "94_Loops", "94_Loops\94_Loops.csproj", "{9B4E103E-463B-4362-A804-DE5BF839CA7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "94_Loops.Tests", "94_Loops.Tests\94_Loops.Tests.csproj", "{A5DD086C-664D-49D3-9627-A6D3528BCD77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "94_Loops.Tests", "94_Loops.Tests\94_Loops.Tests.csproj", "{A5DD086C-664D-49D3-9627-A6D3528BCD77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "95_Identity", "95_Identity\95_Identity.csproj", "{F902D44A-3D90-458E-8C39-A4ED1245A6A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1143,6 +1145,10 @@ Global
 		{A5DD086C-664D-49D3-9627-A6D3528BCD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5DD086C-664D-49D3-9627-A6D3528BCD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5DD086C-664D-49D3-9627-A6D3528BCD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F902D44A-3D90-458E-8C39-A4ED1245A6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F902D44A-3D90-458E-8C39-A4ED1245A6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F902D44A-3D90-458E-8C39-A4ED1245A6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F902D44A-3D90-458E-8C39-A4ED1245A6A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
