@@ -1,73 +1,74 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _97_Numbers
+﻿namespace _97_Numbers
 {
-    internal class Telemetry
+    enum ValueType
     {
+        uShortType = 2,
+        uIntType = 4,
+        longType = 248,
+        intType = 252,
+        shortType = 254,
     }
 
-    
     public static class TelemetryBuffer
     {
         public static byte[] ToBuffer(long reading)
         {
             var result = new List<byte>();
-            int numberOfBits;
-            if (reading >= long.MinValue && reading < int.MinValue)
-                numberOfBits = 248;
-            else if (reading >= int.MinValue && reading < short.MinValue)
-            {
-                numberOfBits = 252;
-                reading = Convert.ToInt32(reading);
+            ValueType readingType = GetReadingType(reading);
+            int prefixNumber = (int) readingType;
+            result.Add((byte)prefixNumber);
 
-                result.Add((byte)numberOfBits);
-                result.AddRange(BitConverter.GetBytes((int)reading));
-
-                result.AddRange(new byte[4] { 0, 0, 0, 0 });
-                return result.ToArray<byte>();
-            }
-            else if (reading <= -1) // ushort
-            {
-                numberOfBits = 254;
-                reading = (ushort)reading;
-            }
-            else if (reading <= ushort.MaxValue)
-                numberOfBits = 2;
-            else if (reading <= int.MaxValue)
-                numberOfBits = 252; //256-4
-            else if (reading <= uint.MaxValue)
-                numberOfBits = 4;
-            else if (reading <= long.MaxValue)
-                numberOfBits = 256 - 8;
-            else
-                numberOfBits = 4;
-
-            result.Add((byte)numberOfBits);
-            result.AddRange( BitConverter.GetBytes(reading));
-
+            byte[] payloadBytes = GetReadingBytes(reading, readingType);
+            result.AddRange(payloadBytes);
+            while (result.Count < 9)
+                result.Add(0x0);
             return result.ToArray<byte>();
+        }
+
+        private static byte[] GetReadingBytes(long reading, ValueType readingType)
+        {
+            if (readingType == ValueType.shortType)
+                return BitConverter.GetBytes((short)reading);
+            if (readingType == ValueType.intType)
+                return BitConverter.GetBytes(Convert.ToInt32(reading));
+            return BitConverter.GetBytes(reading);
+        }
+
+        private static ValueType GetReadingType(long reading)
+        {
+            if (reading >= long.MinValue && reading < int.MinValue)
+                return ValueType.longType;
+            if (reading >= int.MinValue && reading < short.MinValue)
+                return ValueType.intType;
+            if (reading  >= short.MinValue && reading <= -1 )
+                return ValueType.shortType;
+            if (reading >= 0 && reading <= ushort.MaxValue)
+                return ValueType.uShortType;
+            if (reading > ushort.MaxValue && reading <= int.MaxValue)
+                return ValueType.intType;
+            if (reading > int.MaxValue && reading <= uint.MaxValue)
+                return ValueType.uIntType;
+            else if (reading > uint.MaxValue && reading <= long.MaxValue)
+                return ValueType.longType;
+            else 
+                throw new ArgumentException("Reading "+ reading +" can not be processed");
         }
 
         public static long FromBuffer(byte[] buffer)
         {
             long result;
+            var payloadType = (ValueType)buffer[0];
             var bufferList = buffer.ToList();
-            var first = (int)bufferList.FirstOrDefault();
             bufferList.RemoveAt(0);
-            if (first == 254)
+            if (payloadType == ValueType.shortType)
                 result = BitConverter.ToInt16(bufferList.ToArray<byte>());
-            else if (first == 248)
+            else if (payloadType == ValueType.longType)
                 result = BitConverter.ToInt64(bufferList.ToArray<byte>());
-            else if (first == 252)
+            else if (payloadType == ValueType.intType)
                 result = BitConverter.ToInt32(bufferList.ToArray<byte>());
-            else if (first == 4)
+            else if (payloadType == ValueType.uIntType)
                 result = BitConverter.ToUInt32(bufferList.ToArray<byte>());
-            else if (first == 2)
+            else if (payloadType == ValueType.uShortType)
                 result = BitConverter.ToUInt16(bufferList.ToArray<byte>());
             else
                 result = 0;
