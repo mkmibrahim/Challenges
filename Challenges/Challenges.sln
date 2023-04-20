@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_AI_Speech", "01_AI_Speec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_AI_Speech_Translation", "02_AI_Speech_Translation\02_AI_Speech_Translation.csproj", "{BD1497C7-C037-487C-9E87-2B721619FBC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Methods", "03_Methods\03_Methods.csproj", "{3326B681-ECA3-47AC-9012-C8C1A76928E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Methods", "03_Methods\03_Methods.csproj", "{3326B681-ECA3-47AC-9012-C8C1A76928E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Methods.Tests", "03_Methods.Tests\03_Methods.Tests.csproj", "{9774BF6A-908E-44B6-B194-9E0A128A9B92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Methods.Tests", "03_Methods.Tests\03_Methods.Tests.csproj", "{9774BF6A-908E-44B6-B194-9E0A128A9B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_LanguageService", "04_LanguageService\04_LanguageService.csproj", "{70071821-7D35-40F4-8528-C52AA10AA1DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9774BF6A-908E-44B6-B194-9E0A128A9B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9774BF6A-908E-44B6-B194-9E0A128A9B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9774BF6A-908E-44B6-B194-9E0A128A9B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70071821-7D35-40F4-8528-C52AA10AA1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70071821-7D35-40F4-8528-C52AA10AA1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70071821-7D35-40F4-8528-C52AA10AA1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70071821-7D35-40F4-8528-C52AA10AA1DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
