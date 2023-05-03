@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Initializers", "09_Initi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Initializers.Tests", "09_Initializers.Tests\09_Initializers.Tests.csproj", "{C1BA25E9-644C-43B6-80E5-D7401BB2684E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Overloading", "10_Overloading\10_Overloading.csproj", "{17D022AA-5E57-4BBF-A22A-45F0DA9866AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Overloading", "10_Overloading\10_Overloading.csproj", "{17D022AA-5E57-4BBF-A22A-45F0DA9866AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Overloading.Tests", "10_Overloading.Tests\10_Overloading.Tests.csproj", "{D7363A7D-3AEE-4518-BC8B-A6243780B657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Overloading.Tests", "10_Overloading.Tests\10_Overloading.Tests.csproj", "{D7363A7D-3AEE-4518-BC8B-A6243780B657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Identity", "11_Identity\11_Identity.csproj", "{2F78D14E-E879-49F0-9EFC-7B5D125F1E4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{D7363A7D-3AEE-4518-BC8B-A6243780B657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7363A7D-3AEE-4518-BC8B-A6243780B657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7363A7D-3AEE-4518-BC8B-A6243780B657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F78D14E-E879-49F0-9EFC-7B5D125F1E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F78D14E-E879-49F0-9EFC-7B5D125F1E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F78D14E-E879-49F0-9EFC-7B5D125F1E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F78D14E-E879-49F0-9EFC-7B5D125F1E4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
