@@ -47,9 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Param", "13_Param\13_Par
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Param.Tests", "13_Param.Tests\13_Param.Tests.csproj", "{F0A1B298-39D2-4843-AF86-673106E468D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Properties", "14_Properties\14_Properties.csproj", "{7E209454-2FBD-400B-8F1D-8DDE84A34799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Properties", "14_Properties\14_Properties.csproj", "{7E209454-2FBD-400B-8F1D-8DDE84A34799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Properties.Tests", "14_Properties.Tests\14_Properties.Tests.csproj", "{616F183C-E6EC-4D24-BCA4-679093F6B3D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Properties.Tests", "14_Properties.Tests\14_Properties.Tests.csproj", "{616F183C-E6EC-4D24-BCA4-679093F6B3D6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "15_Bootstrap", "15_Bootstrap\15_Bootstrap.fsproj", "{D98AC78D-1877-4187-8D97-1A51817A3D91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{616F183C-E6EC-4D24-BCA4-679093F6B3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{616F183C-E6EC-4D24-BCA4-679093F6B3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616F183C-E6EC-4D24-BCA4-679093F6B3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98AC78D-1877-4187-8D97-1A51817A3D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98AC78D-1877-4187-8D97-1A51817A3D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98AC78D-1877-4187-8D97-1A51817A3D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98AC78D-1877-4187-8D97-1A51817A3D91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
