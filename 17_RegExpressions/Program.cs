@@ -1,7 +1,5 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Net.Http.Headers;
-using System.Runtime.InteropServices;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace _17_RegExpressions
@@ -10,11 +8,9 @@ namespace _17_RegExpressions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello World!");
         }
     }
-
-    
 
     public class LogParser
     {
@@ -59,27 +55,60 @@ namespace _17_RegExpressions
                     result.Add(beforeSeparator);
                 if (!result.Contains(afterSeparator) && !string.IsNullOrEmpty(afterSeparator))
                     result.Add(afterSeparator);
-                //Console.WriteLine("Before: " + beforeSeparator);
-                //Console.WriteLine("After: " + afterSeparator);
-                //Console.WriteLine("----");
             }
+            if (result.Count ==  0)
+                result.Add(String.Empty);
             return result.ToArray();
         }
 
         public int CountQuotedPasswords(string lines)
         {
-            throw new NotImplementedException($"Please implement the LogParser.CountQuotedPasswords() method");
+            string pattern = @"""[^""\n]*password[^""\n]*""";
+
+            MatchCollection matches = Regex.Matches(lines, pattern, RegexOptions.IgnoreCase);
+            var result = matches.Count;
+            return result;
         }
 
         public string RemoveEndOfLineText(string line)
         {
-            throw new NotImplementedException($"Please implement the LogParser.RemoveEndOfLineText() method");
+            return Regex.Replace(line, @"end-of-line\d+", "");
+            
         }
 
         public string[] ListLinesWithPasswords(string[] lines)
         {
-            throw new NotImplementedException($"Please implement the LogParser.ListLinesWithPasswords() method");
-        }
-    }
+            List<string> result = new List<string>();
 
+            foreach (string line in lines)
+            {
+                if (HasOffendingPassword(line))
+                {
+                    string offendingPassword = GetOffendingPassword(line);
+                    result.Add($"{offendingPassword}: {line}");
+                }
+                else
+                {
+                    result.Add($"--------: {line}");
+                }
+            }
+
+            return result.ToArray();
+        }
+
+        private bool HasOffendingPassword(string line)
+        {
+            
+            string expressionString = @"\bpassword[a-zA-Z0-9]+\b";
+            var result =  Regex.IsMatch(line, expressionString, RegexOptions.IgnoreCase);
+            return result;
+        }
+
+        private string GetOffendingPassword(string line)
+        {
+            Match match = Regex.Match(line, @"\bpassword[a-zA-Z0-9]+\b", RegexOptions.IgnoreCase);
+            return match.Value;
+        }
+        
+    }
 }

@@ -32,8 +32,42 @@ namespace _17_RegExpressions.Tests
                 "[INF] \"The secret password was added by the user\""; // count this one
 
             var lp = new LogParser();
-            Assert.Equal(2, lp.CountQuotedPasswords(lines));
-            
+            Assert.Equal(2, lp.CountQuotedPasswords(lines));   
+        }
+
+        [Fact]
+        public void Test4()
+        {
+            var lp = new LogParser();
+            Assert.Equal("[INF]  Network Failure ", lp.RemoveEndOfLineText("[INF] end-of-line23033 Network Failure end-of-line27"));
+        }
+
+        [Fact]
+        public void Test5()
+        {
+            var lp = new LogParser();
+            var result = lp.ListLinesWithPasswords(new string[] {"my passwordsecret is great"});
+            var expectedResult = new String[]{"passwordsecret: my passwordsecret is great"};
+            Assert.Equal(expectedResult, result);
+            result =  lp.ListLinesWithPasswords(new string[] {"my password secret"});
+            expectedResult = new string[]{ "--------: my password secret" };
+            Assert.Equal(expectedResult, result);
+        }
+
+        [Fact]
+        public void Test6()
+        {
+            var lp = new LogParser();
+            Assert.Equal(new string[]{string.Empty}, lp.SplitLogLine(string.Empty));
+        }
+
+        [Fact]
+        public void Test7()
+        {
+            var lp = new LogParser();
+            string[] lines = {"[INF] passWordaa", "passWord mysecret", "[INF] password KeyToTheCastle for nobody", "[INF] password password123 for everybody"};
+            string[] expected = {"passWordaa: [INF] passWordaa", "--------: passWord mysecret", "--------: [INF] password KeyToTheCastle for nobody", "password123: [INF] password password123 for everybody"};
+            Assert.Equal(expected, lp.ListLinesWithPasswords(lines));
         }
     }
 }
