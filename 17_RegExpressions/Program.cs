@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace _17_RegExpressions
@@ -14,67 +15,19 @@ namespace _17_RegExpressions
 
     public class LogParser
     {
-        public bool IsValidLine(string text)
-        {
-            var pattern =  @"^\[(\w{3})\]";
-            Match match = Regex.Match(text, pattern);
+        private string validLinePattern  =  @"^\[(TRC|DBG|INF|WRN|ERR|FTL)\]";
+        private readonly string splitLinePattern = @"<[\^*=-]+>";
+        private readonly string quotedPasswordsPattern =  @""".*password.*""";
+        private readonly string endOfLinePattern = @"end-of-line\d+";
 
-            if (match.Success)
-            {
-                var result = Enum.TryParse<LogLevel>(match.Groups[1].Value, out LogLevel test);
-                return result;
-            }
-            else
-                return false;
+        public bool IsValidLine(string text) => Regex.IsMatch(text, validLinePattern);
 
-        }
+        public string[] SplitLogLine(string text) => Regex.Split(text, splitLinePattern);
 
-        enum LogLevel
-        {
-            TRC,
-            DBG,
-            INF,
-            WRN,
-            ERR,
-            FTL
-        }
-       
+        public int CountQuotedPasswords(string lines) => Regex.Matches(lines, quotedPasswordsPattern, RegexOptions.IgnoreCase).Count;
 
-        public string[] SplitLogLine(string text)
-        {
-            var result = new List<string>();
-            string pattern = @"(.*?)<[-=^*]+>(.*?)(?=<[-=^*]+>|$)";
+        public string RemoveEndOfLineText(string line) => Regex.Replace(line, endOfLinePattern, string.Empty);
 
-            MatchCollection matches = Regex.Matches(text, pattern);
-            foreach (Match match in matches)
-            {
-                string beforeSeparator = match.Groups[1].Value.Trim();
-                string afterSeparator = match.Groups[2].Value.Trim();
-
-                if (!result.Contains(beforeSeparator) && !String.IsNullOrEmpty(beforeSeparator))
-                    result.Add(beforeSeparator);
-                if (!result.Contains(afterSeparator) && !string.IsNullOrEmpty(afterSeparator))
-                    result.Add(afterSeparator);
-            }
-            if (result.Count ==  0)
-                result.Add(String.Empty);
-            return result.ToArray();
-        }
-
-        public int CountQuotedPasswords(string lines)
-        {
-            string pattern = @"""[^""\n]*password[^""\n]*""";
-
-            MatchCollection matches = Regex.Matches(lines, pattern, RegexOptions.IgnoreCase);
-            var result = matches.Count;
-            return result;
-        }
-
-        public string RemoveEndOfLineText(string line)
-        {
-            return Regex.Replace(line, @"end-of-line\d+", "");
-            
-        }
 
         public string[] ListLinesWithPasswords(string[] lines)
         {
@@ -98,7 +51,6 @@ namespace _17_RegExpressions
 
         private bool HasOffendingPassword(string line)
         {
-            
             string expressionString = @"\bpassword[a-zA-Z0-9]+\b";
             var result =  Regex.IsMatch(line, expressionString, RegexOptions.IgnoreCase);
             return result;
