@@ -56,47 +56,52 @@ namespace _18_ObjRelMapping
 
     public class Orm :IDisposable
     {
-        private Database database;
+        private Database _database;
 
         public Orm(Database database)
         {
-            this.database = database;
+            this._database = database;
         }
 
         public void Begin()
         {
-             if (database.DbState != State.Closed)
-                throw new InvalidOperationException ("Database state is " + database.DbState);
-            database.BeginTransaction();
+             if (_database.DbState != State.Closed)
+                throw new InvalidOperationException ("Database state is " + _database.DbState);
+             try
+             {
+                _database.BeginTransaction();
+                
+             }
+             catch
+             {
+                _database.Dispose();
+             }
         }
 
         public void Write(string data)
         {
             try {
-                    if (database.DbState == State.TransactionStarted )
-                        {
-                            database.Write(data);
-                        }
-            }
-            catch{
-                    database.Dispose();
+                    _database.Write(data);
+                }
+            catch {
+                    _database.Dispose();
             }
         }
 
         public void Commit()
         {
             try {
-                database.EndTransaction();
+                _database.EndTransaction();
             }
             catch
             {
-                database.Dispose();
+                _database.Dispose();
             }
         }
 
         public void Dispose()
         {
-            database.Dispose();
+            _database.Dispose();
         }
     }
 }
