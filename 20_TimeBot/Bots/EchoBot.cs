@@ -3,6 +3,7 @@
 //
 // Generated with EchoBot .NET Template version v4.17.1
 
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -15,8 +16,17 @@ namespace EchoBot.Bots
     {
         protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
-            var replyText = $"Echo: {turnContext.Activity.Text}";
-            await turnContext.SendActivityAsync(MessageFactory.Text(replyText, replyText), cancellationToken);
+            //var replyText = $"Echo: {turnContext.Activity.Text}";
+            //await turnContext.SendActivityAsync(MessageFactory.Text(replyText, replyText), cancellationToken);
+
+            string inputMessage = turnContext.Activity.Text;
+            string responseMessage = "Ask me what the time is.";
+            if (inputMessage.ToLower().StartsWith("what") && inputMessage.ToLower().Contains("time"))
+            {
+                var now = DateTime.Now;
+                responseMessage = "The time is " + now.Hour.ToString() + ":" + now.Minute.ToString("D2");
+            }
+            await turnContext.SendActivityAsync(MessageFactory.Text(responseMessage, responseMessage), cancellationToken);
         }
 
         protected override async Task OnMembersAddedAsync(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken)
