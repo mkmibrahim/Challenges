@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Globalization;
+using System.Runtime.CompilerServices;
 
 [assembly:InternalsVisibleTo("21_Strings.Tests")]
 
@@ -8,17 +9,46 @@ namespace _21_Strings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(HighSchoolSweethearts.DisplaySingleLine("Hello", "World"));
         }
     }
 
-    internal class HighSchoolSweethearts
+    public static class HighSchoolSweethearts
     {
-        internal static string DisplaySingleLine(string v1, string v2)
+        public static string DisplaySingleLine(string studentA, string studentB)
         {
-            char c1 = '\u9825';
-            var result = string.Format("{0, 39}", $"{v1}  {c1} {v2}").PadLeft(10);
+            var result = ($"{studentA} ♡ {studentB}").PadLeft(41).PadRight(61);
 
+            return result;
+        }
+
+        public static string DisplayBanner(string studentA, string studentB)
+        {
+            var result = @$" ******       ******
+   **      **   **      **
+ **         ** **         **
+**            *            **
+**                         **
+**     {studentA}  +  {studentB}     **
+ **                       **
+   **                   **
+     **               **
+       **           **
+         **       **
+           **   **
+             ***
+              *";
+
+            return result;
+        }
+
+        public static string DisplayGermanExchangeStudents(string studentA
+            , string studentB, DateTime start, float hours)
+        {
+            var result = String.Format(new System.Globalization.CultureInfo("en-DE"),
+                $"{studentA} and {studentB} have been dating since " +
+                $"{start.ToString("dd.MM.yyyy", new System.Globalization.CultureInfo("en-DE"))}" +
+                $" - that's {hours.ToString("N2", new System.Globalization.CultureInfo("en-DE"))} hours");
             return result;
         }
     }
