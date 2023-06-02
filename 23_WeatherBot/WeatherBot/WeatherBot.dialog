@@ -104,6 +104,29 @@
           "dialog": "GetWeather"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "thbv8k",
+        "name": "CancelRequest"
+      },
+      "intent": "CancelRequest",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "7rCENV"
+          },
+          "activity": "${SendActivity_7rCENV()}"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "uJLUrn"
+          }
+        }
+      ]
     }
   ],
   "generator": "WeatherBot.lg",
@@ -114,6 +137,10 @@
       {
         "intent": "WeatherRequested",
         "pattern": "weather"
+      },
+      {
+        "intent": "CancelRequest",
+        "pattern": "cancel"
       }
     ]
   }

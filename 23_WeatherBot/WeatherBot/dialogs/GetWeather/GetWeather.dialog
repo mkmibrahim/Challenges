@@ -24,10 +24,9 @@
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
-          "allowInterruptions": false,
+          "allowInterruptions": true,
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
-          "defaultValueResponse": "",
           "prompt": "${TextInput_Prompt_38eDjj()}",
           "property": "dialog.city",
           "outputFormat": "=trim(this.value)"

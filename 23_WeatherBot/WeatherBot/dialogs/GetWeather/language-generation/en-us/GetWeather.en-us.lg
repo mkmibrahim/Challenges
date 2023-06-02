@@ -1,8 +1,9 @@
 [import](common.lg)
 
 # TextInput_Prompt_38eDjj()
-[Activity
-    Text = ${TextInput_Prompt_38eDjj_text()}
+[Activity    
+    Text = Enter your city.
+    SuggestedActions = Cancel
 ]
 
 # TextInput_Prompt_38eDjj_text()
@@ -16,7 +17,9 @@
 - I got an error: ${dialog.api_response.content.message}.
 # SendActivity_2wtixw()
 [Activity
-    Text = ${SendActivity_2wtixw_text()}
+   title = Weather for ${dialog.city}
+    text = ${dialog.weather} (${dialog.temp}&deg;)
+    image = http://openweathermap.org/img/w/${dialog.icon}.png  
 ]
 
 # SendActivity_2wtixw_text()

@@ -28,3 +28,10 @@
 
 # SendActivity_cn7tOi_text()
 - Hello ${user.name}, nice to meet you!
+# SendActivity_7rCENV()
+[Activity
+    Text = ${SendActivity_7rCENV_text()}
+]
+
+# SendActivity_7rCENV_text()
+- OK. Whenever you're ready, you can ask me about the weather.
