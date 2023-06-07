@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace _26_DateTime
 {
@@ -52,7 +53,7 @@ namespace _26_DateTime
             if (alertLevel.Equals(AlertLevel.Early))
                 return appointment.AddDays(-1);
             if (alertLevel.Equals(AlertLevel.Standard))
-                return appointment.AddMinutes(-45);
+                return appointment.AddMinutes(-105);
             if (alertLevel.Equals(AlertLevel.Late))
                 return appointment.AddMinutes(-30);
             else
@@ -62,13 +63,18 @@ namespace _26_DateTime
         public static bool HasDaylightSavingChanged(DateTime dt, Location location)
         {
             var result = false;
-            var timeZoneObject = GetTimeZoneObject(location);
-            var adjustmentRules = timeZoneObject.GetAdjustmentRules();
-            foreach (TimeZoneInfo.AdjustmentRule adjustmentRule in adjustmentRules)
+            TimeZoneInfo timeZoneObject = GetTimeZoneObject(location);
+
+            var startDate = dt.AddDays(-7);
+            var endDate = dt.AddDays(7);
+
+            for (DateTime date =startDate; date <= endDate; date = date.AddDays(1))
             {
-                if ((adjustmentRule.DateStart - dt <= TimeSpan.FromDays(7)) ||
-                    dt - adjustmentRule.DateStart <= TimeSpan.FromDays(7))
+                if (timeZoneObject.IsDaylightSavingTime(date))
+                {
                     result = true;
+                    break;
+                }
             }
             return result;
         }

@@ -45,5 +45,24 @@ namespace _26_DateTime.Tests
             Assert.Equal(expectedResult, result);
 
         }
+
+        [Fact]
+        public void Test00()
+        {
+            Assert.Equal(new DateTime(2019, 07, 25, 14, 15, 0), 
+                Appointment.GetAlertTime(new DateTime(2019, 7, 25, 16, 0, 0), AlertLevel.Standard));
+        }
+
+        [Fact]
+        public void Test01()
+        {
+            Assert.False(Appointment.HasDaylightSavingChanged(new DateTime(2019, 12, 25, 0, 0, 0), Location.NewYork));
+        }
+
+        [Fact]
+        public void Test02()
+        {
+            Assert.True(Appointment.HasDaylightSavingChanged(new DateTime(2019, 11, 7, 0, 0, 0), Location.NewYork));
+        }
     }
 }
