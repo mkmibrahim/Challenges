@@ -27,10 +27,7 @@ namespace _26_DateTime
 
     public static class Appointment
     {
-        public static DateTime ShowLocalTime(DateTime dtUtc)
-        {
-            return dtUtc.ToLocalTime();
-        }
+        public static DateTime ShowLocalTime(DateTime dtUtc) => dtUtc.ToLocalTime();
 
         public static DateTime Schedule(string appointmentDateDescription, Location location)
         {
@@ -40,7 +37,6 @@ namespace _26_DateTime
                 ,out var date))
             {
                 TimeZoneInfo timeZoneObject = GetTimeZoneObject(location);
-
                 var utcDateTime = TimeZoneInfo.ConvertTimeToUtc(date, timeZoneObject);
                 return utcDateTime;
             }
@@ -48,27 +44,21 @@ namespace _26_DateTime
                 throw new ArgumentException();
         }
 
-        public static DateTime GetAlertTime(DateTime appointment, AlertLevel alertLevel)
-        {
-            if (alertLevel.Equals(AlertLevel.Early))
-                return appointment.AddDays(-1);
-            if (alertLevel.Equals(AlertLevel.Standard))
-                return appointment.AddMinutes(-105);
-            if (alertLevel.Equals(AlertLevel.Late))
-                return appointment.AddMinutes(-30);
-            else
-                throw new Exception();
-        }
+        public static DateTime GetAlertTime(DateTime appointment, AlertLevel alertLevel) =>
+            alertLevel switch
+            {
+                AlertLevel.Early => appointment.AddDays(-1),
+                AlertLevel.Standard => appointment.AddMinutes(-105),
+                AlertLevel.Late => appointment.AddMinutes(-30),
+                _ => throw new ArgumentException()
+            };
 
         public static bool HasDaylightSavingChanged(DateTime dt, Location location)
         {
             var result = false;
             TimeZoneInfo timeZoneObject = GetTimeZoneObject(location);
 
-            var startDate = dt.AddDays(-7);
-            var endDate = dt.AddDays(7);
-
-            for (DateTime date =startDate; date <= endDate; date = date.AddDays(1))
+            for (DateTime date = dt.AddDays(-7); date <= dt.AddDays(7); date = date.AddDays(1))
             {
                 if (timeZoneObject.IsDaylightSavingTime(date))
                 {
@@ -81,45 +71,28 @@ namespace _26_DateTime
 
         public static DateTime NormalizeDateTime(string dtStr, Location location)
         {
-            DateTime dt = new DateTime();
-            if (location.Equals(Location.NewYork))
-                DateTime.TryParse(dtStr, 
-                    System.Globalization.CultureInfo.GetCultureInfo("en-US"),
+            bool dateTimeStringParseSuccess = DateTime.TryParse(dtStr,
+                    GetCultureInfo(location),
                     System.Globalization.DateTimeStyles.None
-                    ,out dt);
-            else if (location.Equals(Location.London))
-                DateTime.TryParse(dtStr, 
-                    System.Globalization.CultureInfo.GetCultureInfo("en-GB"),
-                    System.Globalization.DateTimeStyles.None
-                    ,out dt);
-            else 
-                DateTime.TryParse(dtStr, 
-                    System.Globalization.CultureInfo.GetCultureInfo("fr-FR"),
-                    System.Globalization.DateTimeStyles.None
-                    ,out dt);
-            return dt;
+                    , out var dt);
+            return dateTimeStringParseSuccess ? dt : new(1, 1, 1);
         }
 
         #region helperfunctions
-        private static TimeZoneInfo GetTimeZoneObject(Location location)
+        private static TimeZoneInfo GetTimeZoneObject(Location location) => location switch
         {
-            TimeZoneInfo timeZoneObject;
-            switch (location)
-            {
-                case Location.NewYork:
-                    timeZoneObject = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
-                    break;
-                case Location.London:
-                    timeZoneObject = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
-                    break;
-                default:
-                    timeZoneObject = TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time");
-                    break;
-            }
-
-            return timeZoneObject;
-        }
-
+            Location.NewYork => TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time"),
+            Location.London => TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time"),
+            Location.Paris => TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time"),
+            _ => throw new ArgumentException()
+        };
+        
+         private static CultureInfo GetCultureInfo(Location location) => location switch 
+         {
+             Location.NewYork => CultureInfo.GetCultureInfo("en-US"),
+             Location.London => CultureInfo.GetCultureInfo("en-GB"),
+             Location.Paris => CultureInfo.GetCultureInfo("fr-FR")
+         };
         #endregion
     }
 
