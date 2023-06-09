@@ -91,9 +91,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_DateTime", "26_DateTime\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_DateTime.Tests", "26_DateTime.Tests\26_DateTime.Tests.csproj", "{841F7EAA-8A03-4B2B-B3EF-6FDB489BE9F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_Tuples", "27_Tuples\27_Tuples.csproj", "{763C4071-D120-456B-834C-6EF4024DBD58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_Tuples", "27_Tuples\27_Tuples.csproj", "{763C4071-D120-456B-834C-6EF4024DBD58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_Tuples.Tests", "27_Tuples.Tests\27_Tuples.Tests.csproj", "{34647EF9-0FBD-4E61-81D5-C6B7C0526167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_Tuples.Tests", "27_Tuples.Tests\27_Tuples.Tests.csproj", "{34647EF9-0FBD-4E61-81D5-C6B7C0526167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_ComputerVision", "28_ComputerVision\28_ComputerVision.csproj", "{6F975276-D871-433A-9397-2479F36766E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +287,10 @@ Global
 		{34647EF9-0FBD-4E61-81D5-C6B7C0526167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34647EF9-0FBD-4E61-81D5-C6B7C0526167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34647EF9-0FBD-4E61-81D5-C6B7C0526167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F975276-D871-433A-9397-2479F36766E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F975276-D871-433A-9397-2479F36766E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F975276-D871-433A-9397-2479F36766E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F975276-D871-433A-9397-2479F36766E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
