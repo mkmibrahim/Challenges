@@ -117,9 +117,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35_LeapYear", "35_LeapYear\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35_LeapYear.Tests", "35_LeapYear.Tests\35_LeapYear.Tests.csproj", "{8933D12A-9F0A-4D18-A872-ECFAD2C44B03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_GigaSecond", "36_GigaSecond\36_GigaSecond.csproj", "{26EFC886-7CEE-49D8-8E0B-2F3CC3D3063C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36_GigaSecond", "36_GigaSecond\36_GigaSecond.csproj", "{26EFC886-7CEE-49D8-8E0B-2F3CC3D3063C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_GigaSecond.Tests", "36_GigaSecond.Tests\36_GigaSecond.Tests.csproj", "{7AC17972-E903-493E-9402-3F0C8666F700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36_GigaSecond.Tests", "36_GigaSecond.Tests\36_GigaSecond.Tests.csproj", "{7AC17972-E903-493E-9402-3F0C8666F700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_ResistorColor", "37_ResistorColor\37_ResistorColor.csproj", "{7EE5D8AD-34AE-49EC-ABC1-BF3EE3F06A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_ResistorColor.Tests", "37_ResistorColor.Tests\37_ResistorColor.Tests.csproj", "{8F780E08-9959-4AD3-A1E3-675636A6AB7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -363,6 +367,14 @@ Global
 		{7AC17972-E903-493E-9402-3F0C8666F700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AC17972-E903-493E-9402-3F0C8666F700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AC17972-E903-493E-9402-3F0C8666F700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE5D8AD-34AE-49EC-ABC1-BF3EE3F06A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE5D8AD-34AE-49EC-ABC1-BF3EE3F06A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE5D8AD-34AE-49EC-ABC1-BF3EE3F06A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE5D8AD-34AE-49EC-ABC1-BF3EE3F06A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F780E08-9959-4AD3-A1E3-675636A6AB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F780E08-9959-4AD3-A1E3-675636A6AB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F780E08-9959-4AD3-A1E3-675636A6AB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F780E08-9959-4AD3-A1E3-675636A6AB7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
