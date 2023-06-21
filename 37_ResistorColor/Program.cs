@@ -31,13 +31,6 @@ namespace _37_ResistorColor
             return (int) colorCode;
         }
 
-        public static string[] Colors()
-        {
-            var test1 = Enum.GetValues(typeof(colorEnum));
-            var test2 = test1.Select(c => c.toString());
-            var test3 = test2.Cast<string>();
-            var test4 = test3.ToArray();
-            return Enum.GetValues(typeof(colorEnum)).Cast<colorEnum>().Cast<string>().ToArray();
-        }
+        public static string[] Colors() => Enum.GetNames(typeof(colorEnum));
     }
 }
