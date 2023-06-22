@@ -23,7 +23,7 @@ using Microsoft.CognitiveServices.Speech.Audio;
 
 using System.Media;
 
-namespace speaking_clock
+namespace _01_AI_Speech
 {
     class Program
     {
@@ -45,7 +45,7 @@ namespace speaking_clock
                 // Get spoken input
                 string command = "";
                 command = await TranscribeCommand();
-                if (command.ToLower()=="what time is it?")
+                if (command.ToLower() == "what time is it?")
                 {
                     await TellTime();
                 }
@@ -61,11 +61,11 @@ namespace speaking_clock
         static async Task<string> TranscribeCommand()
         {
             string command = "";
-            
+
             // Configure speech recognition
-             using AudioConfig audioConfig = AudioConfig.FromDefaultMicrophoneInput();
-             using SpeechRecognizer speechRecognizer = new SpeechRecognizer(speechConfig, audioConfig);
-             Console.WriteLine("Speak now ...");
+            using AudioConfig audioConfig = AudioConfig.FromDefaultMicrophoneInput();
+            using SpeechRecognizer speechRecognizer = new SpeechRecognizer(speechConfig, audioConfig);
+            Console.WriteLine("Speak now ...");
 
             // Process speech input
             SpeechRecognitionResult speech = await speechRecognizer.RecognizeOnceAsync();
@@ -94,16 +94,16 @@ namespace speaking_clock
         {
             var now = DateTime.Now;
             string responseText = "The time is " + now.Hour.ToString() + ":" + now.Minute.ToString("D2");
-                        
+
             // Configure speech synthesis
             speechConfig.SpeechSynthesisVoiceName = "en-GB-LibbyNeural"; //"en-GB-RyanNeural";
-            using SpeechSynthesizer speechSynthesizer  = new SpeechSynthesizer(speechConfig);
+            using SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer(speechConfig);
 
             // Synthesize spoken output
             //SpeechSynthesisResult speak = await speechSynthesizer.SpeakTextAsync(responseText);
             //if (speak.Reason != ResultReason.SynthesizingAudioCompleted)
             //    Console.WriteLine(speak.Reason);
-             string responseSsml = $@"
+            string responseSsml = $@"
                  <speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>
                      <voice name='en-GB-LibbyNeural'>
                          {responseText}
@@ -111,11 +111,11 @@ namespace speaking_clock
                          Time to end this lab!
                      </voice>
                  </speak>";
-             SpeechSynthesisResult speak = await speechSynthesizer.SpeakSsmlAsync(responseSsml);
-             if (speak.Reason != ResultReason.SynthesizingAudioCompleted)
-             {
-                 Console.WriteLine(speak.Reason);
-             }
+            SpeechSynthesisResult speak = await speechSynthesizer.SpeakSsmlAsync(responseSsml);
+            if (speak.Reason != ResultReason.SynthesizingAudioCompleted)
+            {
+                Console.WriteLine(speak.Reason);
+            }
 
             // Print the response
             Console.WriteLine(responseText);
