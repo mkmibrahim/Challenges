@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace RedRemoteControlCarTeam 
+namespace _05_Namespaces
 //public static class RedRemoteControlCarTeam
 {
     public class RemoteControlCar
@@ -35,7 +35,7 @@ namespace RedRemoteControlCarTeam
     }
 }
 
-namespace BlueRemoteControlCarTeam 
+namespace BlueRemoteControlCarTeam
 //public static class BlueRemoteControlCarTeam
 {
     public class RemoteControlCar
@@ -63,27 +63,27 @@ namespace BlueRemoteControlCarTeam
 }
 
 
-namespace Combined 
+namespace Combined
+{
+    public static class CarBuilder
     {
-        public static class CarBuilder
+        public static RemoteControlCar BuildRed()
         {
-            public static RedRemoteControlCarTeam.RemoteControlCar BuildRed()
-            {
-                return new RedRemoteControlCarTeam.RemoteControlCar(
-                    new RedRemoteControlCarTeam.Motor(),
-                    new RedRemoteControlCarTeam.Chassis(),
-                    new RedRemoteControlCarTeam.Telemetry(),
-                    new RedRemoteControlCarTeam.RunningGear()
-                );
-            }
+            return new RedRemoteControlCarTeam.RemoteControlCar(
+                new RedRemoteControlCarTeam.Motor(),
+                new RedRemoteControlCarTeam.Chassis(),
+                new RedRemoteControlCarTeam.Telemetry(),
+                new RedRemoteControlCarTeam.RunningGear()
+            );
+        }
 
-            public static BlueRemoteControlCarTeam.RemoteControlCar BuildBlue()
-            {
-                return new BlueRemoteControlCarTeam.RemoteControlCar(
-                    new BlueRemoteControlCarTeam.Motor(),
-                    new BlueRemoteControlCarTeam.Chassis(),
-                    new BlueRemoteControlCarTeam.Telemetry()
-                );
-            }
+        public static BlueRemoteControlCarTeam.RemoteControlCar BuildBlue()
+        {
+            return new BlueRemoteControlCarTeam.RemoteControlCar(
+                new BlueRemoteControlCarTeam.Motor(),
+                new BlueRemoteControlCarTeam.Chassis(),
+                new BlueRemoteControlCarTeam.Telemetry()
+            );
         }
     }
+}
