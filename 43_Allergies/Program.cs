@@ -32,21 +32,13 @@ namespace _43_Allergies
             _allergies = mask;
         }
 
-        public bool IsAllergicTo(Allergen allergen)
-        {
-            var result = (_allergies & (1 << (int)allergen) ) != 0;
-            return result;
-        }
+        public bool IsAllergicTo(Allergen allergen) => (_allergies & (1 << (int)allergen) ) != 0;
 
         public Allergen[] List()
         {
-            var result = new List<Allergen>();
             var AllergenValues = Enum.GetValues(typeof(Allergen));
-            foreach (var item in AllergenValues)
-            {
-                if (IsAllergicTo((Allergen)item))
-                    result.Add((Allergen)item);
-            }
+            var result = AllergenValues.Cast<Allergen>()
+                .Where(value => IsAllergicTo(value));
             return result.ToArray();
         }
     }
