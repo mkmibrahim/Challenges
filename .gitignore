@@ -11,3 +11,5 @@ Challenges/01_AI_Speech/appsettings.json
 32_ImageClassification/appsettings.json
 34_ImageDetection/appsettings.json
 /44_ExtractText/appsettings.json
+/45_FormRecognizer/appsettings.json
+/45_FormRecognizerTestModel/appsettings.json
