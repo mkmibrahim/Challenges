@@ -15,29 +15,52 @@ namespace _55_SpiralMatrix
         public static int[,] GetMatrix(int size)
         {
             var result = new int[size,size];
-            
 
-            int currentNumber = 1;
-            for (int i = 0;i < size; i++)
+            int rowStart = 0 , rowEnd = size - 1;
+            int colStart = 0, colEnd = size - 1;
+            int value = 1;
+
+            while (rowStart <= rowEnd && colStart <= colEnd)
             {
-                for (int j = 0;j< size; j++)
+                // Print top row
+                for (int col = colStart; col <= colEnd; col++)
                 {
-                    while (ArrayContainsZeros(result))
-                    {
-
-                    }
+                    result[rowStart, col] = value++;
                 }
+                rowStart++;
+
+                // Print right column
+                for (int row = rowStart; row <= rowEnd; row++)
+                {
+                    result[row, colEnd] = value++;
+                }
+                colEnd--;
+
+                // Print bottom row
+                if (rowStart <= rowEnd)
+                {
+                    for (int col = colEnd; col >= colStart; col--)
+                        result[rowEnd, col] = value++;
+                }
+                rowEnd--;
+
+                 // Print left column
+                if (colStart < colEnd)
+                {
+                    for (int row = rowEnd; row >= rowStart; row--)
+                    {
+                        result[row, colStart] = value++;
+                    }
+                    colStart++;
+                }
+           
             }
+
+           
             return result;
         }
 
-        private static bool ArrayContainsZeros(int[,] inputMatrix)
-        {
-            foreach(var numberInResult in inputMatrix)
-                if(numberInResult == 0)
-                    return false;
-            return true;
-        }
+        
     }
 
 }
