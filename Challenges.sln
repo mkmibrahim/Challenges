@@ -189,9 +189,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "55_SpiralMatrix", "55_Spira
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "55_SpiralMatrix.Tests", "55_SpiralMatrix.Tests\55_SpiralMatrix.Tests.csproj", "{AC96F4D3-AC83-44C5-A4E5-D41FDCAE9742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "56_Tournament", "56_Tournament\56_Tournament.csproj", "{9A88E7E1-D0C8-4D33-8F27-BCF1A1B72181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "56_Tournament", "56_Tournament\56_Tournament.csproj", "{9A88E7E1-D0C8-4D33-8F27-BCF1A1B72181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "56_Tournament.Tests", "56_Tournament.Tests\56_Tournament.Tests.csproj", "{FD401366-27A1-40C5-BEBD-A9E68ABEBBEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "56_Tournament.Tests", "56_Tournament.Tests\56_Tournament.Tests.csproj", "{FD401366-27A1-40C5-BEBD-A9E68ABEBBEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "57_MathForKids", "57_MathForKids\57_MathForKids.csproj", "{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -579,6 +581,10 @@ Global
 		{FD401366-27A1-40C5-BEBD-A9E68ABEBBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD401366-27A1-40C5-BEBD-A9E68ABEBBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD401366-27A1-40C5-BEBD-A9E68ABEBBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
