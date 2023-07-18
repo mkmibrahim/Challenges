@@ -1,87 +1,96 @@
-﻿using System;
-using System.IO;
-using iText.IO.Font.Constants;
-using iText.Kernel.Font;
-using iText.Kernel.Pdf;
+﻿using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
-
+using System;
+using System.Net.Http.Headers;
 
 namespace _57_MathForKids
 {
     internal class Program
     {
-        //public const String DEST = "../../../results/chapter01/hello_world.pdf";
-
-        // public static void Main(String[] args) {
-        //     FileInfo file = new FileInfo(DEST);
-        //     file.Directory.Create();
-        //     new Program().CreatePdf(DEST);
-        // }
-
-        // public virtual void CreatePdf(String dest) {
-        //     //Initialize PDF writer
-        //     PdfWriter writer = new PdfWriter(dest);
-        //     //Initialize PDF document
-        //     PdfDocument pdf = new PdfDocument(writer);
-        //     // Initialize document
-        //     Document document = new Document(pdf);
-        //     //Add paragraph to the document
-        //     document.Add(new Paragraph("Hello World!"));
-        //     //Close document
-        //     document.Close();
-        // }
+        
 
         public static void Main(String[] args)
         {
-            MathExerciseGenerator generator = new MathExerciseGenerator();
-            generator.GeneratePDF("math_exercises.pdf", 100);
+            MathExercisePdfGenerator generator = new MathExercisePdfGenerator();
+            generator.GenerateMathExercisePdf("math_exercises.pdf");
+        }
+    }
+    
+    
+
+    public class MathExercisePdfGenerator
+    {
+        public void GenerateMathExercisePdf(string filePath)
+        {
+            using (PdfWriter writer = new PdfWriter(filePath))
+            using (PdfDocument pdf = new PdfDocument(writer))
+            using (Document document = new Document(pdf))
+            {
+                document.SetMargins(20, 20, 20, 20);
+
+                // Calculate the number of rows per column
+                int rowsPerColumn = (int)Math.Ceiling((double)100 / 2);
+                document.Add(new Paragraph("Makkelijk!"));
+                Table table = CreateExcercieTable(30);
+                document.Add(table);
+
+                document.Add(new Paragraph("Een beetje moeilijker!"));
+                table = CreateExcercieTable(50);
+                document.Add(table);
+
+                document.Add(new Paragraph("Nog moeilijker 1!"));
+                table = CreateExcercieTable(50);
+                document.Add(table);
+
+                document.Add(new Paragraph("Nog moeilijker 2!"));
+                table = CreateExcercieTable(100);
+                document.Add(table);
+
+                document.Add(new Paragraph("Nog moeilijker3 !"));
+                table = CreateExcercieTable(200);
+                document.Add(table);
+            }
         }
 
-    }
-        public class MathExerciseGenerator
-    {
-        public void GeneratePDF(string filePath, int numExercises)
+        private Table CreateExcercieTable(int maxInt)
         {
-            PdfWriter writer = new PdfWriter(filePath);
-            PdfDocument pdf = new PdfDocument(writer);
-            Document document = new Document(pdf);
+            // Create a table with two columns
+            Table table = new Table(2);
+            table.UseAllAvailableWidth();
 
-            // Set up the font for exercise text
-            PdfFont font = PdfFontFactory.CreateFont(StandardFonts.HELVETICA);
-            iText.Layout.Style style = new iText.Layout.Style().SetFont(font).SetFontSize(14);
-
-            // Generate exercises
-            for (int i = 1; i <= numExercises; i++)
+            for (int i = 1; i <= 138; i++)
             {
-                string exercise = GenerateExercise();
-                Paragraph paragraph = new Paragraph(exercise).AddStyle(style);
-                document.Add(paragraph);
+                // Generate the math exercise content
+                string exercise = GenerateMathExercise(maxInt);
+
+                // Create a cell for the exercise and add it to the table
+                Cell cell = new Cell();
+                cell.Add(new Paragraph(exercise));
+                table.AddCell(cell);
             }
 
-            document.Close();
+            return table;
         }
 
-        private string GenerateExercise()
+        private string GenerateMathExercise(int maxInt)
         {
             Random random = new Random();
 
-            // Generate two random numbers between 1 and 10
-            int number1 = random.Next(1, 99);
-            int number2 = random.Next(1, 99);
-
-            // Generate an operator (+ or -)
-            char[] operators = { '+', '-' };
+            char[] operators =  { '+', '-'};
             char selectedOperator = operators[random.Next(operators.Length)];
 
-            // Create the exercise string
-            string number1String = number1 < 10 ? (number1+"  ") : number1.ToString();
-            string number2String = number2 < 10 ? (number2+"  ") : number2.ToString();
-            string exercise = $"{number1String} {selectedOperator} {number2String} = _______";
+            int number1 = random.Next(1, maxInt);
+            int number2 = selectedOperator == '-' ? random.Next(0,number1) : random.Next(1, maxInt);
 
-            return exercise;
+            string number1String = number1 < 10 ? (number1 + "  ") : number1.ToString();
+            string number2String = number2 < 10 ? (number2 + "  ") : number2.ToString();
+
+            return $"{number1String} {selectedOperator} {number2String} = _______";
         }
     }
+
+
 
     
 }
