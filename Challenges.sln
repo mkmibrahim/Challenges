@@ -193,7 +193,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "56_Tournament", "56_Tournam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "56_Tournament.Tests", "56_Tournament.Tests\56_Tournament.Tests.csproj", "{FD401366-27A1-40C5-BEBD-A9E68ABEBBEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "57_MathForKids", "57_MathForKids\57_MathForKids.csproj", "{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "57_MathForKids", "57_MathForKids\57_MathForKids.csproj", "{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58_IndexPush", "58_IndexPush\58_IndexPush.csproj", "{3868006C-20A4-4E58-A951-69D01FE5DA5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -585,6 +587,10 @@ Global
 		{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3868006C-20A4-4E58-A951-69D01FE5DA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3868006C-20A4-4E58-A951-69D01FE5DA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3868006C-20A4-4E58-A951-69D01FE5DA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3868006C-20A4-4E58-A951-69D01FE5DA5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
