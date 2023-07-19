@@ -10,10 +10,9 @@
 
     public static class Tournament
     {   
-        private static Dictionary<string, TeamStat> teamsResults = new Dictionary<string, TeamStat>();
-
         public static void Tally(Stream inStream, Stream outStream)
         {
+            Dictionary<string, TeamStat> teamsResults = new Dictionary<string, TeamStat>();
             using (StreamReader reader = new StreamReader(inStream)) {
                 using (StreamWriter writer = new StreamWriter(outStream))
                 {
@@ -45,20 +44,22 @@
                                 break;
                         }
                     }
-                    DetermineRanking();
-                    foreach (KeyValuePair<string, TeamStat> team in teamsResults.OrderByDescending(value => value.Value.Points))
+                    DetermineRanking(ref teamsResults);
+                    var sortedDict = from team in teamsResults orderby team.Value.Points descending, team.Key select team;
+                    
+                    foreach( var team in sortedDict )
                     {
                         result += "\n";
                         string nameString = team.Key.PadRight(30);
-                        
-                        result +=  $"{nameString} |  {team.Value.MatchesPlayed} |  {team.Value.Won} |  {team.Value.Drawn} |  {team.Value.Lost} |  {team.Value.Points}";
-                            }
+
+                        result += $"{nameString} | {team.Value.MatchesPlayed,2} | {team.Value.Won,2} | {team.Value.Drawn,2} | {team.Value.Lost,2} | {team.Value.Points, 2}";
+                    }
                     writer.Write(result);
                 }
             }
         }
 
-        private static void DetermineRanking()
+        private static void DetermineRanking(ref Dictionary<string, TeamStat> teamsResults)
         {
             foreach(string teamName in teamsResults.Keys)
             {
@@ -75,14 +76,5 @@
         public int Lost;
         public int Points;
         public int MatchesPlayed;
-
     }
-
-    enum matchResult
-    {
-        win,
-        draw,
-        loss
-    }
-
 }
