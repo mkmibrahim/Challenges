@@ -10,6 +10,8 @@
 
     public static class Tournament
     {   
+        private static Dictionary<string, TeamStat> teamsResults = new Dictionary<string, TeamStat>();
+
         public static void Tally(Stream inStream, Stream outStream)
         {
             using (StreamReader reader = new StreamReader(inStream)) {
@@ -17,7 +19,7 @@
                 {
                     string result = "Team                           | MP |  W |  D |  L |  P";
                     string line;
-                    Dictionary<string, TeamStat> teamsResults = new Dictionary<string, TeamStat>();
+                    
                     while ((line = reader.ReadLine()) != null)
                     {
                         var matchResult = line.Split(";");
@@ -30,28 +32,38 @@
                         switch (matchResult[2])
                         {
                             case "win":
-                                var oldStat = teamsResults[matchResult[0]];
-                                teamsResults[matchResult[0]] = new TeamStat{Won = oldStat.Won++, Drawn = oldStat.Drawn, Lost = oldStat.Lost};
-                                oldStat = teamsResults[matchResult[1]];
-                                teamsResults[matchResult[0]] = new TeamStat{Won = oldStat.Won, Drawn = oldStat.Drawn, Lost = oldStat.Lost++};
+                                teamsResults[matchResult[0]].Won++;
+                                teamsResults[matchResult[1]].Lost++;
                                 break;
                             case "draw":
-                                oldStat = teamsResults[matchResult[0]];
-                                teamsResults[matchResult[0]] = new TeamStat{Won = oldStat.Won, Drawn = oldStat.Drawn++, Lost = oldStat.Lost};
-                                oldStat = teamsResults[matchResult[1]];
-                                teamsResults[matchResult[0]] = new TeamStat{Won = oldStat.Won, Drawn = oldStat.Drawn++, Lost = oldStat.Lost};
+                                teamsResults[matchResult[0]].Drawn++;
+                                teamsResults[matchResult[1]].Drawn++;
                                 break;
                             default:
-                                oldStat = teamsResults[matchResult[0]];
-                                teamsResults[matchResult[0]] = new TeamStat{Won = oldStat.Won, Drawn = oldStat.Drawn, Lost = oldStat.Lost++};
-                                oldStat = teamsResults[matchResult[1]];
-                                teamsResults[matchResult[0]] = new TeamStat{Won = oldStat.Won++, Drawn = oldStat.Drawn, Lost = oldStat.Lost};
+                                teamsResults[matchResult[0]].Lost++;
+                                teamsResults[matchResult[1]].Won++;
                                 break;
                         }
                     }
-
+                    DetermineRanking();
+                    foreach (KeyValuePair<string, TeamStat> team in teamsResults.OrderByDescending(value => value.Value.Points))
+                    {
+                        result += "\n";
+                        string nameString = team.Key.PadRight(30);
+                        
+                        result +=  $"{nameString} |  {team.Value.MatchesPlayed} |  {team.Value.Won} |  {team.Value.Drawn} |  {team.Value.Lost} |  {team.Value.Points}";
+                            }
                     writer.Write(result);
                 }
+            }
+        }
+
+        private static void DetermineRanking()
+        {
+            foreach(string teamName in teamsResults.Keys)
+            {
+                teamsResults[teamName].Points = 3 * teamsResults[teamName].Won + teamsResults[teamName].Drawn;
+                teamsResults[teamName].MatchesPlayed = teamsResults[teamName].Won + teamsResults[teamName].Drawn + teamsResults[teamName].Lost;
             }
         }
     }
@@ -61,6 +73,9 @@
         public int Won;
         public int Drawn;
         public int Lost;
+        public int Points;
+        public int MatchesPlayed;
+
     }
 
     enum matchResult
