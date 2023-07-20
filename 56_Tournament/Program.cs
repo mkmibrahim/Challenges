@@ -16,38 +16,20 @@
             using (StreamReader reader = new StreamReader(inStream)) {
                 using (StreamWriter writer = new StreamWriter(outStream))
                 {
-                    string result = "Team                           | MP |  W |  D |  L |  P";
                     string line;
                     
                     while ((line = reader.ReadLine()) != null)
                     {
                         var matchResult = line.Split(";");
-                        if (!teamsResults.ContainsKey(matchResult[0])) {
-                            teamsResults.Add(matchResult[0], new TeamStat{ Won = 0, Drawn = 0, Lost = 0});
-                            };
-                        if (!teamsResults.ContainsKey(matchResult[1])) {
-                            teamsResults.Add(matchResult[1], new TeamStat{ Won = 0, Drawn = 0, Lost = 0});
-                            };
-                        switch (matchResult[2])
-                        {
-                            case "win":
-                                teamsResults[matchResult[0]].Won++;
-                                teamsResults[matchResult[1]].Lost++;
-                                break;
-                            case "draw":
-                                teamsResults[matchResult[0]].Drawn++;
-                                teamsResults[matchResult[1]].Drawn++;
-                                break;
-                            default:
-                                teamsResults[matchResult[0]].Lost++;
-                                teamsResults[matchResult[1]].Won++;
-                                break;
-                        }
+                        IfNewTeamAddTeam(teamsResults, matchResult[0]);
+                        IfNewTeamAddTeam(teamsResults, matchResult[1]);
+                        CalculatePoints(teamsResults, matchResult);
                     }
-                    DetermineRanking(ref teamsResults);
-                    var sortedDict = from team in teamsResults orderby team.Value.Points descending, team.Key select team;
+                    DetermineRankings(ref teamsResults);
                     
-                    foreach( var team in sortedDict )
+                    string result = "Team                           | MP |  W |  D |  L |  P";
+                    var sortedTeams = from team in teamsResults orderby team.Value.Points descending, team.Key select team;
+                    foreach( var team in sortedTeams )
                     {
                         result += "\n";
                         string nameString = team.Key.PadRight(30);
@@ -59,7 +41,35 @@
             }
         }
 
-        private static void DetermineRanking(ref Dictionary<string, TeamStat> teamsResults)
+        private static void IfNewTeamAddTeam(Dictionary<string, TeamStat> teamsResults, string teamName)
+        {
+            if (!teamsResults.ContainsKey(teamName))
+                teamsResults.Add(teamName, new TeamStat { Won = 0, Drawn = 0, Lost = 0 });
+
+        }
+
+        private static void CalculatePoints(Dictionary<string, TeamStat> teamsResults, string[] matchResult)
+        {
+            switch (matchResult[2])
+            {
+                case "win":
+                    teamsResults[matchResult[0]].Won++;
+                    teamsResults[matchResult[1]].Lost++;
+                    break;
+                case "draw":
+                    teamsResults[matchResult[0]].Drawn++;
+                    teamsResults[matchResult[1]].Drawn++;
+                    break;
+                default:
+                    teamsResults[matchResult[0]].Lost++;
+                    teamsResults[matchResult[1]].Won++;
+                    break;
+            }
+        }
+
+        
+
+        private static void DetermineRankings(ref Dictionary<string, TeamStat> teamsResults)
         {
             foreach(string teamName in teamsResults.Keys)
             {
