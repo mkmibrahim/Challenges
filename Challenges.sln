@@ -195,7 +195,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "56_Tournament.Tests", "56_T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "57_MathForKids", "57_MathForKids\57_MathForKids.csproj", "{8C3617C2-D088-4FE3-8ACE-BAF1383DDB97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58_IndexPush", "58_IndexPush\58_IndexPush.csproj", "{3868006C-20A4-4E58-A951-69D01FE5DA5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "58_IndexPush", "58_IndexPush\58_IndexPush.csproj", "{3868006C-20A4-4E58-A951-69D01FE5DA5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59_VLQ", "59_VLQ\59_VLQ.csproj", "{0D9A1F1B-522B-4699-86B9-72D87B962FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59_VLQ.Tests", "59_VLQ.Tests\59_VLQ.Tests.csproj", "{E09B64C9-C3B1-4C43-98E8-A33A9C123EE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -591,6 +595,14 @@ Global
 		{3868006C-20A4-4E58-A951-69D01FE5DA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3868006C-20A4-4E58-A951-69D01FE5DA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3868006C-20A4-4E58-A951-69D01FE5DA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9A1F1B-522B-4699-86B9-72D87B962FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9A1F1B-522B-4699-86B9-72D87B962FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9A1F1B-522B-4699-86B9-72D87B962FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9A1F1B-522B-4699-86B9-72D87B962FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09B64C9-C3B1-4C43-98E8-A33A9C123EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09B64C9-C3B1-4C43-98E8-A33A9C123EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09B64C9-C3B1-4C43-98E8-A33A9C123EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09B64C9-C3B1-4C43-98E8-A33A9C123EE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
