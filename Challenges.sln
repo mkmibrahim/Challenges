@@ -209,9 +209,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61_AzureOpenAI", "61_AzureO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "62_AICodeGeneration", "61_AzureOpenAI\Labfiles\04-code-generation\CSharp\62_AICodeGeneration.csproj", "{9386D9E4-ACB9-4DE6-80F0-58B914BF611D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "63_Forth", "63_Forth\63_Forth.csproj", "{B354E765-B861-4DCF-8AC9-C4466EF722B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "63_Forth", "63_Forth\63_Forth.csproj", "{B354E765-B861-4DCF-8AC9-C4466EF722B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "63_Forth.Tests", "63_Forth.Tests\63_Forth.Tests.csproj", "{B3FB52BE-1B9E-402A-91C3-7C005B69F456}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "63_Forth.Tests", "63_Forth.Tests\63_Forth.Tests.csproj", "{B3FB52BE-1B9E-402A-91C3-7C005B69F456}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "64_AI_ImageGeneration", "61_AzureOpenAI\Labfiles\05-image-generation\CSharp\64_AI_ImageGeneration.csproj", "{F2D5A1FC-2A36-4B9F-A5B4-9160CB6288DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -639,6 +641,10 @@ Global
 		{B3FB52BE-1B9E-402A-91C3-7C005B69F456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3FB52BE-1B9E-402A-91C3-7C005B69F456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3FB52BE-1B9E-402A-91C3-7C005B69F456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D5A1FC-2A36-4B9F-A5B4-9160CB6288DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D5A1FC-2A36-4B9F-A5B4-9160CB6288DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D5A1FC-2A36-4B9F-A5B4-9160CB6288DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D5A1FC-2A36-4B9F-A5B4-9160CB6288DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
