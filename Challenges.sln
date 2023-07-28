@@ -207,6 +207,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "60_Dominoes.Tests", "60_Dom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61_AzureOpenAI", "61_AzureOpenAI\Labfiles\02-nlp-azure-openai\CSharp\61_AzureOpenAI.csproj", "{172296B9-C621-4E3F-8B38-39C06DA01BA1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "62_AICodeGeneration", "61_AzureOpenAI\Labfiles\04-code-generation\CSharp\62_AICodeGeneration.csproj", "{9386D9E4-ACB9-4DE6-80F0-58B914BF611D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -621,6 +623,10 @@ Global
 		{172296B9-C621-4E3F-8B38-39C06DA01BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{172296B9-C621-4E3F-8B38-39C06DA01BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{172296B9-C621-4E3F-8B38-39C06DA01BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9386D9E4-ACB9-4DE6-80F0-58B914BF611D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9386D9E4-ACB9-4DE6-80F0-58B914BF611D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9386D9E4-ACB9-4DE6-80F0-58B914BF611D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9386D9E4-ACB9-4DE6-80F0-58B914BF611D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
