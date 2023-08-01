@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace _63_Forth
 {
@@ -12,22 +16,42 @@ namespace _63_Forth
 
     public static class Forth
     {
+        
         public static string Evaluate(string[] instructions)
         {
-            var stack = new Stack<object>();
+            Dictionary<string, string> userDefinedWords = new Dictionary<string, string>();
+            var stack = new Stack<int>();
             for(int i = 0; i < instructions.Length; i++)
             {
                 string instruction = instructions[i];
-                var instructionSplit = instruction.Split(' ');
-                if (instructionSplit.Length > 1)
+                if (instruction.StartsWith(":") && instruction.EndsWith(";"))
                 {
-                    foreach (var item in instructionSplit)
-                    {
-                        AddToStack(stack, item);
-                    }
-                    //continue;
+                    var instructionSplit = instruction.Split(' ');
+                    AddUserDefined(instructionSplit[1], instruction.Substring(instructionSplit[1].Length+3,
+                        instruction.Length - (instructionSplit[1].Length+5)), userDefinedWords);
                 }
-                AddToStack(stack, instruction);
+                else
+                { 
+                    var instructionSplit = instruction.Split(' ');
+                
+                    for (int j = 0; j <  instructionSplit.Count(); j++)
+                    {
+                        if (userDefinedWords.ContainsKey(instructionSplit[j].ToLower()))
+                        {
+                            var userDefinedInstruction = userDefinedWords[instructionSplit[j].ToLower()];
+                            var userDefinedInstructionSplit = userDefinedInstruction.Split(' ');
+                            for (int k = 0; k < userDefinedInstructionSplit.Count(); k++)
+                            {
+                                AddToStack(stack, userDefinedInstructionSplit[k]);
+                            }
+                        }
+                        else
+                        {
+                            AddToStack(stack, instructionSplit[j]);
+                        }
+                        
+                    }
+                }
             }
             var stackResult = new StringBuilder();
             while(stack.Count > 0)
@@ -37,7 +61,32 @@ namespace _63_Forth
             return stackResult.ToString().Trim();
         }
 
-        private static void AddToStack(Stack<object> stack, string instruction)
+        private static void AddUserDefined(string wordName, string definition, Dictionary<string, string> userDefinedWords)
+        {
+            if (int.TryParse(wordName, out int result))
+                throw new InvalidOperationException("Invalid Definition");
+            definition = CheckExistingNamesInDefinition(definition, userDefinedWords);
+            if (userDefinedWords.ContainsKey(wordName.ToLower()))
+                userDefinedWords[wordName] = definition;
+            else
+                userDefinedWords.Add(wordName.ToLower(), definition);
+        }
+
+        private static string CheckExistingNamesInDefinition(string definition, Dictionary<string, string> userDefinedWords)
+        {
+            var definitionSplit = definition.Split(' ');
+            for (var i = 0; i < definitionSplit.Count(); i++)
+            {
+                if (userDefinedWords.ContainsKey(definitionSplit[i].ToLower()))
+                {
+                    definition = definition.Replace(definitionSplit[i], userDefinedWords[definitionSplit[i]]);
+                }
+            }
+
+            return definition;
+        }
+
+        private static void AddToStack(Stack<int> stack, string instruction)
         {
             if (int.TryParse(instruction, out int intResult))
             {
@@ -69,7 +118,7 @@ namespace _63_Forth
                     stack.Push(b / a);
                 }
             }
-            else if (instruction == "dup")
+            else if (instruction.ToLower() == "dup")
             {
                 if (stack.Count < 1)
                 {
@@ -79,7 +128,7 @@ namespace _63_Forth
                 stack.Push(a);
                 stack.Push(a);
             }
-            else if (instruction == "drop")
+            else if (instruction.ToLower() == "drop")
             {
                 if (stack.Count < 1)
                 {
@@ -87,7 +136,7 @@ namespace _63_Forth
                 }
                 stack.Pop();
             }
-            else if (instruction == "swap")
+            else if (instruction.ToLower() == "swap")
             {
                 if (stack.Count < 2)
                 {
@@ -98,7 +147,7 @@ namespace _63_Forth
                 stack.Push(a);
                 stack.Push(b);
             }
-            else if (instruction == "over")
+            else if (instruction.ToLower() == "over")
             {
                 if (stack.Count < 2)
                 {
@@ -110,9 +159,9 @@ namespace _63_Forth
                 stack.Push(a);
                 stack.Push(b);
             }
-            if (!string.IsNullOrWhiteSpace(instruction))
+            else 
             {
-                stack.Push(instruction);
+                throw new InvalidOperationException();
             }
         }
     }
