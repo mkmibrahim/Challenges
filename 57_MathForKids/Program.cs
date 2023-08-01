@@ -33,24 +33,28 @@ namespace _57_MathForKids
 
                 // Calculate the number of rows per column
                 int rowsPerColumn = (int)Math.Ceiling((double)100 / 2);
-                document.Add(new Paragraph("Makkelijk!"));
+            
+                document.Add(new Paragraph("Makkelijk 1"));
                 Table table = CreateExcercieTable(30, Level.Easy);
                 document.Add(table);
 
-                document.Add(new Paragraph("Een beetje moeilijker!"));
+                document.Add(new Paragraph("Makkelijk 2"));
+                table = CreateExcercieTable(30, Level.Easy);
+                document.Add(table);
+
+                document.Add(new Paragraph("Makkelijk 3"));
+                table = CreateExcercieTable(30, Level.Easy);
+                document.Add(table);
+
+                document.Add(new Paragraph("Een beetje moeilijker 1"));
                 table = CreateExcercieTable(50, Level.Easy);
                 document.Add(table);
 
-                document.Add(new Paragraph("Nog moeilijker 1!"));
-                table = CreateExcercieTable(50, Level.Medium);
+                document.Add(new Paragraph("Een beetje moeilijker 2"));
+                table = CreateExcercieTable(50, Level.Easy);
                 document.Add(table);
-
-                document.Add(new Paragraph("Nog moeilijker 2!"));
-                table = CreateExcercieTable(100, Level.Medium);
-                document.Add(table);
-
-                document.Add(new Paragraph("Nog moeilijker3 !"));
-                table = CreateExcercieTable(200, Level.Hard);
+                document.Add(new Paragraph("Een beetje moeilijker 3"));
+                table = CreateExcercieTable(50, Level.Easy);
                 document.Add(table);
             }
         }
@@ -59,6 +63,7 @@ namespace _57_MathForKids
 
         private Table CreateExcercieTable(int maxInt, Level requestedLevel)
         {
+
             // Create a table with two columns
             Table table = new Table(2);
             table.UseAllAvailableWidth();
@@ -81,7 +86,7 @@ namespace _57_MathForKids
         {
             Random random = new Random();
 
-            char[] operators =  { '+', '-', '*'};
+            char[] operators =  { '+', '-', '*', '/'};
             char selectedOperator = operators[random.Next(operators.Length)];
 
             int number1 = random.Next(1, maxInt);
@@ -118,50 +123,49 @@ namespace _57_MathForKids
             {
                 if (requestedLEvel == Level.Easy)
                 {
-                    number1 = random.Next(1, 10);
-                    number2 = random.Next(1, 10);
-                    var currentResult = number1 / number2;
-                    while (!checkNumberisInt(currentResult))
-                    {
-                        number1 = random.Next(1, 10);
-                        number2 = random.Next(1, 10);
-                        currentResult = number1 / number2;
-                    }
+                    number1 = random.Next(1, 6);
+                    number2 = random.Next(1, 6);
+                    number1 *= number2;
                 }
                 else if (requestedLEvel == Level.Medium)
                 {
-                    number1 = random.Next(1, 20);
-                    number2 = random.Next(1, 20);
-                    var currentResult = number1 / number2;
-                    while (!checkNumberisInt(currentResult))
-                    {
-                        number1 = random.Next(1, 20);
-                        number2 = random.Next(1, 20);
-                        currentResult = number1 / number2;
-                    }
+                    number1 = random.Next(1, 10);
+                    number2 = random.Next(1, 10);
+                    number1 *= number2;
                 }
                 else if (requestedLEvel == Level.Hard)
                 {
-                    number1 = random.Next(1, 50);
-                    number2 = random.Next(1, 50);
-                    var currentResult = number1 / number2;
-                    while (!checkNumberisInt(currentResult))
-                    {
-                        number1 = random.Next(1, 50);
-                        number2 = random.Next(1, 50);
-                        currentResult = number1 / number2;
-                    }
+                    number1 = random.Next(1, 20);
+                    number2 = random.Next(1, 20);
+                    number1 *= number2;
                 }
             }
             string number1String = number1 < 10 ? (number1 + "  ") : number1.ToString();
             string number2String = number2 < 10 ? (number2 + "  ") : number2.ToString();
-
-            return $"{number1String} {selectedOperator} {number2String} = _______";
+            string operatorString = getOperatorString(selectedOperator);
+            return $"{number1String} {operatorString} {number2String} = ";
         }
 
-        private bool checkNumberisInt(int number)
+        private string getOperatorString(char selectedOperator)
         {
-            return number % 1 == 0;
+            if (selectedOperator == '+')
+            {
+                return "+";
+            }
+            else if (selectedOperator == '-')
+            {
+                return "-";
+            }
+            else if (selectedOperator == '*')
+            {
+                return "x";
+            }
+            else if (selectedOperator == '/')
+            {
+                return "÷";
+            }
+            else
+                return "";
         }
     }
 

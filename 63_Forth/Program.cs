@@ -14,7 +14,7 @@ namespace _63_Forth
     {
         public static string Evaluate(string[] instructions)
         {
-            var stack = new Stack<int>();
+            var stack = new Stack<object>();
             for(int i = 0; i < instructions.Length; i++)
             {
                 string instruction = instructions[i];
@@ -37,21 +37,21 @@ namespace _63_Forth
             return stackResult.ToString().Trim();
         }
 
-        private static void AddToStack(Stack<int> stack, string instruction)
+        private static void AddToStack(Stack<object> stack, string instruction)
         {
             if (int.TryParse(instruction, out int intResult))
             {
                 stack.Push(intResult);
             }
-            if (instruction == "+" || instruction == "-"
+            else if (instruction == "+" || instruction == "-"
                 || instruction == "*" || instruction == "/")
             {
                 if (stack.Count < 2)
                 {
                     throw new InvalidOperationException();
                 }
-                int a = stack.Pop();
-                int b = stack.Pop();
+                int a = (int)stack.Pop();
+                int b = (int)stack.Pop();
                 if (instruction == "+")
                 {
                     stack.Push(a + b);
@@ -69,17 +69,17 @@ namespace _63_Forth
                     stack.Push(b / a);
                 }
             }
-            if (instruction == "dup")
+            else if (instruction == "dup")
             {
                 if (stack.Count < 1)
                 {
                     throw new InvalidOperationException();
                 }
-                int a = stack.Pop();
+                var a = stack.Pop();
                 stack.Push(a);
                 stack.Push(a);
             }
-            if (instruction == "drop")
+            else if (instruction == "drop")
             {
                 if (stack.Count < 1)
                 {
@@ -87,28 +87,32 @@ namespace _63_Forth
                 }
                 stack.Pop();
             }
-            if (instruction == "swap")
+            else if (instruction == "swap")
             {
                 if (stack.Count < 2)
                 {
                     throw new InvalidOperationException();
                 }
-                int a = stack.Pop();
-                int b = stack.Pop();
+                int a = (int)stack.Pop();
+                int b = (int)stack.Pop();
                 stack.Push(a);
                 stack.Push(b);
             }
-            if (instruction == "over")
+            else if (instruction == "over")
             {
                 if (stack.Count < 2)
                 {
                     throw new InvalidOperationException();
                 }
-                int a = stack.Pop();
-                int b = stack.Pop();
+                int a = (int)stack.Pop();
+                int b = (int)stack.Pop();
                 stack.Push(b);
                 stack.Push(a);
                 stack.Push(b);
+            }
+            if (!string.IsNullOrWhiteSpace(instruction))
+            {
+                stack.Push(instruction);
             }
         }
     }
