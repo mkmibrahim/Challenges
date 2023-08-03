@@ -16,10 +16,9 @@ namespace _63_Forth
 
     public static class Forth
     {
-        
         public static string Evaluate(string[] instructions)
         {
-            Dictionary<string, string> userDefinedWords = new Dictionary<string, string>();
+            IDictionary<string, string> userDefinedWords = new Dictionary<string, string>();
             var stack = new Stack<int>();
             for(int i = 0; i < instructions.Length; i++)
             {
@@ -42,14 +41,13 @@ namespace _63_Forth
                             var userDefinedInstructionSplit = userDefinedInstruction.Split(' ');
                             for (int k = 0; k < userDefinedInstructionSplit.Count(); k++)
                             {
-                                AddToStack(stack, userDefinedInstructionSplit[k]);
+                                ProcessToStack(stack, userDefinedInstructionSplit[k]);
                             }
                         }
                         else
                         {
-                            AddToStack(stack, instructionSplit[j]);
+                            ProcessToStack(stack, instructionSplit[j]);
                         }
-                        
                     }
                 }
             }
@@ -61,7 +59,8 @@ namespace _63_Forth
             return stackResult.ToString().Trim();
         }
 
-        private static void AddUserDefined(string wordName, string definition, Dictionary<string, string> userDefinedWords)
+        private static void AddUserDefined(string wordName, string definition, 
+            IDictionary<string, string> userDefinedWords)
         {
             if (int.TryParse(wordName, out int result))
                 throw new InvalidOperationException("Invalid Definition");
@@ -72,7 +71,8 @@ namespace _63_Forth
                 userDefinedWords.Add(wordName.ToLower(), definition);
         }
 
-        private static string CheckExistingNamesInDefinition(string definition, Dictionary<string, string> userDefinedWords)
+        private static string CheckExistingNamesInDefinition(string definition, 
+            IDictionary<string, string> userDefinedWords)
         {
             var definitionSplit = definition.Split(' ');
             for (var i = 0; i < definitionSplit.Count(); i++)
@@ -82,11 +82,10 @@ namespace _63_Forth
                     definition = definition.Replace(definitionSplit[i], userDefinedWords[definitionSplit[i]]);
                 }
             }
-
             return definition;
         }
 
-        private static void AddToStack(Stack<int> stack, string instruction)
+        private static void ProcessToStack(Stack<int> stack, string instruction)
         {
             if (int.TryParse(instruction, out int intResult))
             {
