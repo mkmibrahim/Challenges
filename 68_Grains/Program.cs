@@ -1,4 +1,6 @@
-﻿namespace _68_Grains
+﻿using System.Linq;
+
+namespace _68_Grains
 {
     internal class Program
     {
@@ -24,7 +26,10 @@
 
         public static ulong Total()
         {
-            return (Square(64) - 1)* 2 + 1;
+            //return (Square(64) - 1)* 2 + 1;
+            //var result = Enumerable.Range(1, 64).Sum(Square); // Square must return double
+            var result = Enumerable.Range(1, 64).Aggregate(0UL, (a, b) => a + Square(b));
+            return (ulong)result;
         }
     }
 }
