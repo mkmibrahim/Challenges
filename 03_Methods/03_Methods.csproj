@@ -6,4 +6,8 @@
     <RootNamespace>_03_Methods</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\04_LanguageService\04_LanguageService.csproj" />
+  </ItemGroup>
+
 </Project>
