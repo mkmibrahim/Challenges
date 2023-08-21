@@ -235,9 +235,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "69_PerfectNumbers", "69_Per
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "69_PerfectNumbers.Tests", "69_PerfectNumbers.Tests\69_PerfectNumbers.Tests.csproj", "{FC33347B-0C48-43F6-B805-4BDDA9B77728}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "70_CollatzConjecture", "70_CollatzConjecture\70_CollatzConjecture.csproj", "{6C23CD79-D85F-4E63-9B84-DBAF12EA40F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70_CollatzConjecture", "70_CollatzConjecture\70_CollatzConjecture.csproj", "{6C23CD79-D85F-4E63-9B84-DBAF12EA40F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "70_CollatzConjecture.Tests", "70_CollatzConjecture.Tests\70_CollatzConjecture.Tests.csproj", "{27D6206F-02DE-4C18-A09A-9F24A1D9A4F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70_CollatzConjecture.Tests", "70_CollatzConjecture.Tests\70_CollatzConjecture.Tests.csproj", "{27D6206F-02DE-4C18-A09A-9F24A1D9A4F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71_NANP", "71_NANP\71_NANP.csproj", "{859190BF-D82C-4529-AF5F-2DEE9BC6FB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71_NANP.Tests", "71_NANP.Tests\71_NANP.Tests.csproj", "{71459B92-17BE-4664-B755-9F1B384FB391}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -717,6 +721,14 @@ Global
 		{27D6206F-02DE-4C18-A09A-9F24A1D9A4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27D6206F-02DE-4C18-A09A-9F24A1D9A4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27D6206F-02DE-4C18-A09A-9F24A1D9A4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859190BF-D82C-4529-AF5F-2DEE9BC6FB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859190BF-D82C-4529-AF5F-2DEE9BC6FB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859190BF-D82C-4529-AF5F-2DEE9BC6FB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859190BF-D82C-4529-AF5F-2DEE9BC6FB04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71459B92-17BE-4664-B755-9F1B384FB391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71459B92-17BE-4664-B755-9F1B384FB391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71459B92-17BE-4664-B755-9F1B384FB391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71459B92-17BE-4664-B755-9F1B384FB391}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
