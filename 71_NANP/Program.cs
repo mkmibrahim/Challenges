@@ -14,13 +14,29 @@
         {
             if (phoneNumber.Length < 10)
                 throw new ArgumentException();
-            var number = RemoveCountryCode(phoneNumber);
-            number = number.Replace(".", "")
-                        .Replace(" ","");
+            var number = phoneNumber.Replace(".", "")
+                        .Replace(" ","")
+                        .Replace("(","")
+                        .Replace(")","")
+                        .Replace("-","");
+            if (!checkOnlydigits(number))
+                throw new ArgumentException();
+            number = RemoveCountryCode(number);
             var areaCode = GetAreaCode(number);
             var localNumber = GetLocalNumber(number);
 
             var result = areaCode + localNumber;
+            return result;
+        }
+
+        private static bool checkOnlydigits(string number)
+        {
+            var result = true;
+            foreach (var item in number)
+            {
+                if (!char.IsDigit(item))
+                    result = false;
+            }
             return result;
         }
 
@@ -47,10 +63,14 @@
 
         private static string RemoveCountryCode(string phoneNumber)
         {
-            if (phoneNumber.Length == 11 && phoneNumber[0] != '1')
+            if (phoneNumber[0] == '+')
+                phoneNumber = phoneNumber.Substring(1);
+            if (phoneNumber.Length > 10 && phoneNumber[0] != '1')
                 throw new ArgumentException();
             if (phoneNumber[0] == '1')
                 return phoneNumber.Substring(1);
+            if (phoneNumber.Substring(0, 2) == "+1")
+                return phoneNumber.Substring(2);
             else
                 return phoneNumber;
         }
