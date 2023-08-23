@@ -12,67 +12,67 @@
     {
         public static string Clean(string phoneNumber)
         {
-            if (phoneNumber.Length < 10)
+            const int MinimumPhoneNumberLength = 10;
+
+            if (phoneNumber.Length < MinimumPhoneNumberLength)
                 throw new ArgumentException();
-            var number = phoneNumber.Replace(".", "")
-                        .Replace(" ","")
-                        .Replace("(","")
-                        .Replace(")","")
-                        .Replace("-","");
-            if (!checkOnlydigits(number))
+
+            string cleanedNumber = RemoveNonDigitSymbols(phoneNumber);
+            cleanedNumber = RemoveCountryCode(cleanedNumber);
+
+            if (cleanedNumber.Length < 10)
                 throw new ArgumentException();
-            number = RemoveCountryCode(number);
-            var areaCode = GetAreaCode(number);
-            var localNumber = GetLocalNumber(number);
+            
+            if (cleanedNumber.Length > 10)
+                throw new ArgumentException();
+            
+            var areaCode = GetAreaCode(cleanedNumber);
+            var localNumber = GetLocalNumber(cleanedNumber);
 
-            var result = areaCode + localNumber;
-            return result;
+            return areaCode + localNumber;
         }
 
-        private static bool checkOnlydigits(string number)
-        {
-            var result = true;
-            foreach (var item in number)
-            {
-                if (!char.IsDigit(item))
-                    result = false;
-            }
-            return result;
-        }
-
-        private static string GetLocalNumber(string number)
-        {
-            if (number.Contains(")"))
-            {
-                number = number.Replace("-", "");
-               return number.Substring(6);
-            }
-            else
-                return number.Substring(3);
-        }
-
-        private static object GetAreaCode(string number)
-        {
-            if (number[0]== '(')
-                return number.Substring(1, 3);
-            if (number.Length == 10)
-                return number.Substring(0, 3);
-            else
-                return number.Substring(1, 3);
-        }
+        private static string RemoveNonDigitSymbols(string phoneNumber) =>
+            new string(phoneNumber.Where(char.IsDigit).ToArray());
 
         private static string RemoveCountryCode(string phoneNumber)
         {
-            if (phoneNumber[0] == '+')
+            if (phoneNumber[0] == '+' || phoneNumber[0] == '1')
                 phoneNumber = phoneNumber.Substring(1);
-            if (phoneNumber.Length > 10 && phoneNumber[0] != '1')
-                throw new ArgumentException();
-            if (phoneNumber[0] == '1')
-                return phoneNumber.Substring(1);
+
             if (phoneNumber.Substring(0, 2) == "+1")
                 return phoneNumber.Substring(2);
             else
                 return phoneNumber;
         }
+
+        private static string GetLocalNumber(string number)
+        {
+            var result = "";
+            if (number.Contains(")"))
+            {
+               number = number.Replace("-", "");
+               result = number.Substring(6);
+            }
+            else
+                result = number.Substring(3);
+            if (result[0] == '0' || result[0] == '1')
+                throw new ArgumentException();
+            return result;
+        }
+
+        private static object GetAreaCode(string number)
+        {
+            var result = "";
+            if (number.Length == 10)
+                result =  number.Substring(0, 3);
+            else
+                result = number.Substring(1, 3);
+            if (result[0] == '0' || result[0] == '1')
+                throw new ArgumentException();
+            return result;
+        }
+
+       
     }
 }
