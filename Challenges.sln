@@ -239,9 +239,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70_CollatzConjecture", "70_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70_CollatzConjecture.Tests", "70_CollatzConjecture.Tests\70_CollatzConjecture.Tests.csproj", "{27D6206F-02DE-4C18-A09A-9F24A1D9A4F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71_NANP", "71_NANP\71_NANP.csproj", "{859190BF-D82C-4529-AF5F-2DEE9BC6FB04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "71_NANP", "71_NANP\71_NANP.csproj", "{859190BF-D82C-4529-AF5F-2DEE9BC6FB04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71_NANP.Tests", "71_NANP.Tests\71_NANP.Tests.csproj", "{71459B92-17BE-4664-B755-9F1B384FB391}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "71_NANP.Tests", "71_NANP.Tests\71_NANP.Tests.csproj", "{71459B92-17BE-4664-B755-9F1B384FB391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "72_ScrabbleScore", "72_ScrabbleScore\72_ScrabbleScore.csproj", "{8BBABF10-447C-44F2-BF23-E51970A22EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "72_ScrabbleScore.Tests", "72_ScrabbleScore.Tests\72_ScrabbleScore.Tests.csproj", "{96029758-A08A-4D6F-9964-8B3F09B50D1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -729,6 +733,14 @@ Global
 		{71459B92-17BE-4664-B755-9F1B384FB391}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71459B92-17BE-4664-B755-9F1B384FB391}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71459B92-17BE-4664-B755-9F1B384FB391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBABF10-447C-44F2-BF23-E51970A22EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBABF10-447C-44F2-BF23-E51970A22EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBABF10-447C-44F2-BF23-E51970A22EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBABF10-447C-44F2-BF23-E51970A22EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96029758-A08A-4D6F-9964-8B3F09B50D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96029758-A08A-4D6F-9964-8B3F09B50D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96029758-A08A-4D6F-9964-8B3F09B50D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96029758-A08A-4D6F-9964-8B3F09B50D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
