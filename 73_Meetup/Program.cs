@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace _73_Meetup
+﻿namespace _73_Meetup
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello, World!");
         }
@@ -15,10 +13,10 @@ namespace _73_Meetup
     public enum Schedule
     {
         Teenth,
-        First = 1,
-        Second = 2,
-        Third = 3,
-        Fourth = 4,
+        First,
+        Second,
+        Third,
+        Fourth,
         Last
     }
 
@@ -33,27 +31,25 @@ namespace _73_Meetup
 
         public DateTime Day(DayOfWeek dayOfWeek, Schedule schedule)
         {
-            DateTime day;
+            DateTime day = default;
             switch (schedule)
             {
                 case Schedule.Teenth:
-                    day = getTeenth(dayOfWeek);
+                    day = GetTeenth(dayOfWeek);
                     break;
                 case Schedule.First:
                 case Schedule.Second:
                 case Schedule.Third:
                 case Schedule.Fourth:
-                    day = getDay(dayOfWeek, schedule);
-                    break;
-                default:
-                    throw new ArgumentException();
+                case Schedule.Last:
+                    day = GetDay(dayOfWeek, schedule);
                     break;
             }
              
             return day;
         }
 
-        private DateTime getDay(DayOfWeek dayOfWeek, Schedule schedule)
+        private DateTime GetDay(DayOfWeek dayOfWeek, Schedule schedule)
         {
             var daysInMonth = DateTime.DaysInMonth(_year, _month);
             var dayOfWeekOccured = 0;
@@ -65,23 +61,14 @@ namespace _73_Meetup
                     dayOfWeekOccured++;
                     if (dayOfWeekOccured == (int)schedule)
                         return currentDay;
+                    if (schedule == Schedule.Last && daysInMonth - i < 7)
+                        return currentDay;
                 }
             }
             throw new ArgumentException();
         }
 
-        private DateTime getFirst(DayOfWeek dayOfWeek)
-        {
-            for (int i = 1; i < 8; i++)
-            {
-                var currenDatetime = new DateTime(_year, _month, i);
-                if (currenDatetime.DayOfWeek == dayOfWeek)
-                    return currenDatetime;
-            }
-            throw new ArgumentException();
-        }
-
-        private DateTime getTeenth(DayOfWeek dayOfWeek)
+        private DateTime GetTeenth(DayOfWeek dayOfWeek)
         {
             for (int i = 13; i < 20; i++)
             {
