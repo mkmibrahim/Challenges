@@ -255,9 +255,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "74_DifferenceOfSquares", "7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "74_DifferenceOfSquares.Tests", "74_DifferenceOfSquares.Tests\74_DifferenceOfSquares.Tests.csproj", "{99EBA39E-50A6-4FEC-B18C-AAFF1E697D3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "75_ResistorColorDuo", "75_ResistorColorDuo\75_ResistorColorDuo.csproj", "{3B3434BF-C066-41E6-8370-8979068212B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "75_ResistorColorDuo", "75_ResistorColorDuo\75_ResistorColorDuo.csproj", "{3B3434BF-C066-41E6-8370-8979068212B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "75_ResistorColorDuo.Tests", "75_ResistorColorDuo.Tests\75_ResistorColorDuo.Tests.csproj", "{76C80787-CDCA-430F-8A2B-EE5798A1319D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "75_ResistorColorDuo.Tests", "75_ResistorColorDuo.Tests\75_ResistorColorDuo.Tests.csproj", "{76C80787-CDCA-430F-8A2B-EE5798A1319D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76_ResistorColorDuo_2", "76_ResistorColorDuo_2\76_ResistorColorDuo_2.csproj", "{10F4705D-DE70-4D20-BC98-6C372F434128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76_ResistorColorDuo_2.Tests", "76_ResistorColorDuo_2.Tests\76_ResistorColorDuo_2.Tests.csproj", "{39BB034C-79B5-4615-BD19-05281615FE62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -777,6 +781,14 @@ Global
 		{76C80787-CDCA-430F-8A2B-EE5798A1319D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76C80787-CDCA-430F-8A2B-EE5798A1319D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76C80787-CDCA-430F-8A2B-EE5798A1319D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F4705D-DE70-4D20-BC98-6C372F434128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F4705D-DE70-4D20-BC98-6C372F434128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F4705D-DE70-4D20-BC98-6C372F434128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F4705D-DE70-4D20-BC98-6C372F434128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BB034C-79B5-4615-BD19-05281615FE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BB034C-79B5-4615-BD19-05281615FE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BB034C-79B5-4615-BD19-05281615FE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BB034C-79B5-4615-BD19-05281615FE62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
