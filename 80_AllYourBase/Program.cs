@@ -12,29 +12,34 @@
     {
         public static int[] Rebase(int inputBase, int[] inputDigits, int outputBase)
         {
-            var result = new int[inputDigits.Length];
-            for (int i = 0; i< inputDigits.Length; i++)
+            if (inputBase <= 1 || outputBase <= 1 
+                               || inputDigits.Any(digit => digit < 0 || digit >= inputBase))
             {
-                var numberofDigits = Math.Floor(Math.Log10(inputDigits[i]) + 1);
-                //var test = Math.Pow(inputDigits[i], inputBase);
-                
-                //var temp = raiseToPower(inputBase, numberofDigits);
-                var tempNum = int.Parse(inputDigits[i].ToString()) * raiseToPower(inputBase, numberofDigits);
-                    
-                    
-                result[i] = tempNum;
+                throw new ArgumentException();
             }
-            return result;
+
+            int valueDecimal = 0;
+            for (int i = 0; i < inputDigits.Length; i++)
+            {
+                valueDecimal = valueDecimal * inputBase + inputDigits[i];
+            }
+
+            if (valueDecimal == 0)
+            {
+                return new int[] { 0 };
+            }
+
+            List<int> resultDigits = new List<int>();
+            while (valueDecimal > 0)
+            {
+                int remainder = valueDecimal % outputBase;
+                resultDigits.Insert(0, remainder);
+                valueDecimal = valueDecimal /outputBase;
+            }
+
+            return resultDigits.ToArray();
         }
 
-        private static int raiseToPower(int inputBase, double inputNumber)
-        {
-            var result = inputNumber;
-            for(var i = 0; i < inputNumber; i++)
-            {
-                result *= inputNumber;
-            }
-            return (int)result;
-        }
+       
     }
 }
