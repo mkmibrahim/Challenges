@@ -20,41 +20,47 @@ namespace _81_LargestSeriesProduct
             var result = 0;
             for (int i = 0; i < digits.Length; i++)
             {
-                var currentProduct = 1;
-                var numberDigitsUsedInCurrentProduct = 0;
-                for (int j = 0; j < span; j++)
-                {
-                    if (i + j >= digits.Length)
-                        continue;
-                    currentProduct *= Int16.Parse(digits[i + j].ToString());
-                    numberDigitsUsedInCurrentProduct++;
-                }
-
-                if (numberDigitsUsedInCurrentProduct == span)
-                    result = result > currentProduct ? result : currentProduct;
+                result = getCurrentProduct(digits, span, result, i);
             }
 
             return result;
         }
-        // Solution 2: 
-            //return Enumerable.Range(0, digits.Length - span + 1)
-            //    .Select(i => ints.Skip(i).Take(span))
-            //    .Max(s => s.Aggregate(1, (i, p) => i * p));
 
-            // Solution 3:
-            //    return digits.Digits().Windowed(span).Max(Product);
-            //}
+        private static int getCurrentProduct(string digits, int span, int result, int i)
+        {
+            var currentProduct = 1;
+            var numberDigitsUsedInCurrentProduct = 0;
+            for (int j = 0; j < span; j++)
+            {
+                if (i + j >= digits.Length)
+                    continue;
+                currentProduct *= Int16.Parse(digits[i + j].ToString());
+                numberDigitsUsedInCurrentProduct++;
+            }
 
-            //private static int[] Digits(this string str) =>
-            //    str.Select(CharUnicodeInfo.GetDecimalDigitValue).ToArray();
-
-            //private static IEnumerable<IEnumerable<T>> Windowed<T>(this T[] enumerable, int size)
-            //{
-            //   for (var i = 0; i < enumerable.Length - size + 1; i++)
-            //        yield return enumerable.Skip(i).Take(size);
-            //}
-            //private static int Product(this IEnumerable<int> numbers) =>
-            //        numbers.Aggregate(1, (x, product) => x * product);
-            //}
+            if (numberDigitsUsedInCurrentProduct == span)
+                result = result > currentProduct ? result : currentProduct;
+            return result;
         }
+        // Solution 2: 
+        //return Enumerable.Range(0, digits.Length - span + 1)
+        //    .Select(i => ints.Skip(i).Take(span))
+        //    .Max(s => s.Aggregate(1, (i, p) => i * p));
+
+        // Solution 3:
+        //    return digits.Digits().Windowed(span).Max(Product);
+        //}
+
+        //private static int[] Digits(this string str) =>
+        //    str.Select(CharUnicodeInfo.GetDecimalDigitValue).ToArray();
+
+        //private static IEnumerable<IEnumerable<T>> Windowed<T>(this T[] enumerable, int size)
+        //{
+        //   for (var i = 0; i < enumerable.Length - size + 1; i++)
+        //        yield return enumerable.Skip(i).Take(size);
+        //}
+        //private static int Product(this IEnumerable<int> numbers) =>
+        //        numbers.Aggregate(1, (x, product) => x * product);
+        //}
+    }
 }
