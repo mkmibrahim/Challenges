@@ -14,7 +14,7 @@ namespace _82_PascalsTriangle.Tests
         {
             Assert.Empty(PascalsTriangle.Calculate(0));
         }
-        [Fact(Skip = "Remove this Skip property to run this test")]
+        [Fact]
         public void Single_row()
         {
             var expected = new[]
@@ -23,7 +23,7 @@ namespace _82_PascalsTriangle.Tests
         };
             Assert.Equal(expected, PascalsTriangle.Calculate(1));
         }
-        [Fact(Skip = "Remove this Skip property to run this test")]
+        [Fact]
         public void Two_rows()
         {
             var expected = new[]
@@ -33,7 +33,7 @@ namespace _82_PascalsTriangle.Tests
         };
             Assert.Equal(expected, PascalsTriangle.Calculate(2));
         }
-        [Fact(Skip = "Remove this Skip property to run this test")]
+        [Fact]
         public void Three_rows()
         {
             var expected = new[]
@@ -44,7 +44,7 @@ namespace _82_PascalsTriangle.Tests
         };
             Assert.Equal(expected, PascalsTriangle.Calculate(3));
         }
-        [Fact(Skip = "Remove this Skip property to run this test")]
+        [Fact]
         public void Four_rows()
         {
             var expected = new[]
@@ -56,7 +56,7 @@ namespace _82_PascalsTriangle.Tests
         };
             Assert.Equal(expected, PascalsTriangle.Calculate(4));
         }
-        [Fact(Skip = "Remove this Skip property to run this test")]
+        [Fact]
         public void Five_rows()
         {
             var expected = new[]
@@ -69,7 +69,7 @@ namespace _82_PascalsTriangle.Tests
         };
             Assert.Equal(expected, PascalsTriangle.Calculate(5));
         }
-        [Fact(Skip = "Remove this Skip property to run this test")]
+        [Fact]
         public void Six_rows()
         {
             var expected = new[]
@@ -83,7 +83,7 @@ namespace _82_PascalsTriangle.Tests
         };
             Assert.Equal(expected, PascalsTriangle.Calculate(6));
         }
-        [Fact(Skip = "Remove this Skip property to run this test")]
+        [Fact]
         public void Ten_rows()
         {
             var expected = new[]
