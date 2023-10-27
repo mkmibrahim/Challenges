@@ -283,9 +283,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "81_LargestSeriesProduct", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "81_LargestSeriesProduct.Tests", "81_LargestSeriesProduct.Tests\81_LargestSeriesProduct.Tests.csproj", "{EDB6D9D4-7C04-415B-A667-2749E03AF0CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_PascalsTriangle", "82_PascalsTriangle\82_PascalsTriangle.csproj", "{B27F8CFC-E92E-4E22-BD50-FA2C7186F150}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "82_PascalsTriangle", "82_PascalsTriangle\82_PascalsTriangle.csproj", "{B27F8CFC-E92E-4E22-BD50-FA2C7186F150}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_PascalsTriangle.Tests", "82_PascalsTriangle.Tests\82_PascalsTriangle.Tests.csproj", "{F2FDAE4A-63E1-4B95-B6DE-5E7C27909E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "82_PascalsTriangle.Tests", "82_PascalsTriangle.Tests\82_PascalsTriangle.Tests.csproj", "{F2FDAE4A-63E1-4B95-B6DE-5E7C27909E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83_PrimeFactors", "83_PrimeFactors\83_PrimeFactors.csproj", "{EB7205C3-3144-4985-8156-C570EC4FA12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83_PrimeFactors.Tests", "83_PrimeFactors.Tests\83_PrimeFactors.Tests.csproj", "{B1C4DC33-669E-4839-A4E0-790ADCA2683E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -861,6 +865,14 @@ Global
 		{F2FDAE4A-63E1-4B95-B6DE-5E7C27909E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2FDAE4A-63E1-4B95-B6DE-5E7C27909E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2FDAE4A-63E1-4B95-B6DE-5E7C27909E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7205C3-3144-4985-8156-C570EC4FA12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7205C3-3144-4985-8156-C570EC4FA12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7205C3-3144-4985-8156-C570EC4FA12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7205C3-3144-4985-8156-C570EC4FA12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C4DC33-669E-4839-A4E0-790ADCA2683E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C4DC33-669E-4839-A4E0-790ADCA2683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C4DC33-669E-4839-A4E0-790ADCA2683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C4DC33-669E-4839-A4E0-790ADCA2683E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
