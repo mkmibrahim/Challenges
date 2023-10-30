@@ -13,19 +13,18 @@
         public static long[] Factors(long number)
         {
             var result = new List<long>();
-            var devisorsRemaining = true;
-            var currentdevisor = 2;
-            while (devisorsRemaining)
+            long remaining = number;
+            int currentDivisor = 2;
+            while (currentDivisor <= remaining )
             {
-                if (currentdevisor > number)
-                    devisorsRemaining = false;
-                if (number % currentdevisor == 0)
+                if (remaining % currentDivisor == 0)
                 {
-                    result.Add(currentdevisor);
+                    result.Add(currentDivisor);
+                    remaining = remaining / currentDivisor;
                 }
-                currentdevisor++;
+                else
+                    currentDivisor++;
             }
-            
             return result.ToArray();
         }
     }
