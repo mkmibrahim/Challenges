@@ -17,20 +17,16 @@
             {
                 for (var j = i; j < sum; j++)
                 {
-                    for (var k = j; k < sum; k++)
+                    var k = sum - i - j;
+                    if (i + j + k == sum &&
+                        i < j && j < k &&
+                        i*i + j*j == k*k 
+                        )
                     {
-                        if (i + j + k == sum &&
-                            i < j && j < k &&
-                            Math.Pow(i, 2) + Math.Pow(j, 2) == Math.Pow(k, 2) 
-                             
-                            )
-                        {
-                            result.Add((i, j, k));
-                        }
+                        result.Add((i, j, k));
                     }
                 }
             }
-
             return result;
         }
     }
