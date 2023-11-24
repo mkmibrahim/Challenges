@@ -16,7 +16,7 @@ namespace _90_RationalNumbers
     {
         public static double Expreal(this int realNumber, RationalNumber r)
         {
-            throw new NotImplementedException("You need to implement this extension method.");
+            return r.Expreal(realNumber);
         }
     }
 
@@ -30,10 +30,6 @@ namespace _90_RationalNumbers
             Numerator = numerator;
             Denominator = denominator;
         }
-
-        //public RationalNumber(int numerator, int denominator)
-        //{
-        //}
 
         private static int LCM(int a, int b)
         {
@@ -53,32 +49,34 @@ namespace _90_RationalNumbers
 
         public static RationalNumber operator +(RationalNumber r1, RationalNumber r2)
         {
-            int lcm = LCM(r1.Denominator, r2.Denominator);
-            int num1 = r1.Numerator * (lcm / r1.Denominator);
-            int num2 = r2.Numerator * (lcm / r2.Denominator);
-            return new RationalNumber(num1 + num2, lcm).Reduce();
+            return new(
+                r1.Numerator * r2.Denominator + r2.Numerator * r1.Denominator,
+                r1.Denominator * r2.Denominator);
         }
 
         public static RationalNumber operator -(RationalNumber r1, RationalNumber r2)
         {
-            int lcm = LCM(r1.Denominator, r2.Denominator);
-            int num1 = r1.Numerator * (lcm / r1.Denominator);
-            int num2 = r2.Numerator * (lcm / r2.Denominator);
-            return new RationalNumber(num1 - num2, lcm).Reduce();
+            return new RationalNumber(
+                r1.Numerator * r2.Denominator - r2.Numerator * r1.Denominator,
+                r1.Denominator * r2.Denominator).Reduce();
         }
 
         public static RationalNumber operator *(RationalNumber r1, RationalNumber r2)
         {
-            int num = r1.Numerator * r2.Numerator;
-            int den = r1.Denominator * r2.Denominator;
-            return new RationalNumber(num, den).Reduce();
+            return new RationalNumber(
+                r1.Numerator * r2.Numerator,
+                r1.Denominator * r2.Denominator).Reduce();
         }
 
         public static RationalNumber operator /(RationalNumber r1, RationalNumber r2)
         {
-            int num = r1.Numerator * r2.Denominator;
-            int den = r1.Denominator * r2.Numerator;
-            return new RationalNumber(num, den).Reduce();
+            if (r2.Numerator == 0)
+            {
+                throw new DivideByZeroException();
+            }
+            return new RationalNumber(
+                r1.Numerator * r2.Denominator,
+                r1.Denominator * r2.Numerator);
         }
 
         public RationalNumber Abs()
