@@ -19,15 +19,9 @@
             _imaginary = imaginary;
         }
 
-        public double Real()
-        {
-            return _real;
-        }
+        public double Real() => _real;
 
-        public double Imaginary()
-        {
-            return _imaginary;
-        }
+        public double Imaginary() => _imaginary;
 
         public ComplexNumber Mul(ComplexNumber other)
         {
@@ -35,6 +29,15 @@
             var result = new ComplexNumber();
             result._real = _real * other._real - _imaginary * other._imaginary;
             result._imaginary = _imaginary * other._real + _real * other._imaginary;
+            return result;
+        }
+
+        public ComplexNumber Mul(double other)
+        {
+            // (a + i * b) * c = (a * c) + (b * c) * i
+            var result = new ComplexNumber();
+            result._real = _real * other;
+            result._imaginary = _imaginary * other;
             return result;
         }
 
@@ -47,12 +50,30 @@
             return result;
         }
 
+        public ComplexNumber Add(double other)
+        {
+            // (a + i * b) + c = (a + c) + b * i
+            var result = new ComplexNumber();
+            result._real = _real + other;
+            result._imaginary = _imaginary;
+            return result;
+        }
+
         public ComplexNumber Sub(ComplexNumber other)
         {
             // (a + i * b) - (c + i * d) = (a - c) + (b - d) * i.
             var result = new ComplexNumber();
             result._real = _real - other._real;
             result._imaginary = _imaginary - other._imaginary;
+            return result;
+        }
+
+        public ComplexNumber Sub(double other)
+        {
+            // (a + i * b) - c = (a - c) + b * i
+            var result = new ComplexNumber();
+            result._real = _real - other;
+            result._imaginary = _imaginary;
             return result;
         }
 
@@ -67,19 +88,38 @@
             return result;
         }
 
+        public ComplexNumber Div(double other)
+        {
+            // (a + i * b) / c = (a / c) + (b / c) * i
+            var result = new ComplexNumber();
+            result._real = _real / other;
+            result._imaginary = _imaginary / other;
+            return result;
+        }
+
         public double Abs()
         {
-            throw new NotImplementedException("You need to implement this function.");
+            var result = Math.Sqrt(_real * _real + _imaginary * _imaginary);
+            return result;
         }
 
         public ComplexNumber Conjugate()
         {
-            throw new NotImplementedException("You need to implement this function.");
+            var result = new ComplexNumber
+            {
+                _real = _real,
+                _imaginary = -_imaginary
+            };
+            return result;
         }
 
         public ComplexNumber Exp()
         {
-            throw new NotImplementedException("You need to implement this function.");
+            // e^(a + i * b) = e^a * e^(i * b) = e^a * (cos(b) + i * sin(b))
+            var result = new ComplexNumber();
+            result._real = Math.Exp(_real) * Math.Cos(_imaginary);
+            result._imaginary = Math.Exp(_real) * Math.Sin(_imaginary);
+            return result;
         }
     }
 }
