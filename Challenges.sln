@@ -313,9 +313,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "90_RationalNumbers", "90_Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "90_RationalNumbers.Tests", "90_RationalNumbers.Tests\90_RationalNumbers.Tests.csproj", "{A6F10B93-8953-4772-A7C9-8292E2550456}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "91_ComplexNumbers", "91_ComplexNumbers\91_ComplexNumbers.csproj", "{358C9389-74EF-4B3A-A742-1992F3E18680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "91_ComplexNumbers", "91_ComplexNumbers\91_ComplexNumbers.csproj", "{358C9389-74EF-4B3A-A742-1992F3E18680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "91_ComplexNumbers.Tests", "91_ComplexNumbers.Tests\91_ComplexNumbers.Tests.csproj", "{392BF6EC-C25D-4544-A824-594261D2901A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "91_ComplexNumbers.Tests", "91_ComplexNumbers.Tests\91_ComplexNumbers.Tests.csproj", "{392BF6EC-C25D-4544-A824-594261D2901A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "92_Raindrops", "92_Raindrops\92_Raindrops.csproj", "{0FFCCD3B-04FD-446E-B81D-6C153A033BD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "92_Raindrops.Tests", "92_Raindrops.Tests\92_Raindrops.Tests.csproj", "{B776736A-F710-4D76-BE60-DD4F24F30802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -951,6 +955,14 @@ Global
 		{392BF6EC-C25D-4544-A824-594261D2901A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{392BF6EC-C25D-4544-A824-594261D2901A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{392BF6EC-C25D-4544-A824-594261D2901A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFCCD3B-04FD-446E-B81D-6C153A033BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFCCD3B-04FD-446E-B81D-6C153A033BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFCCD3B-04FD-446E-B81D-6C153A033BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFCCD3B-04FD-446E-B81D-6C153A033BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B776736A-F710-4D76-BE60-DD4F24F30802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B776736A-F710-4D76-BE60-DD4F24F30802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B776736A-F710-4D76-BE60-DD4F24F30802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B776736A-F710-4D76-BE60-DD4F24F30802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
