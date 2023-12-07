@@ -87,3 +87,22 @@ namespace Combined
         }
     }
 }
+
+namespace RedRemoteControlCarTeam
+{
+    public class Motor
+    {
+    }
+
+    public class Chassis
+    {
+    }
+
+    public class Telemetry
+    {
+    }
+
+    public class RunningGear
+    {
+    }
+}
