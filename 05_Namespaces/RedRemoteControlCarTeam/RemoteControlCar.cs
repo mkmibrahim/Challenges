@@ -13,7 +13,7 @@ namespace RedRemoteControlCarTeam
         private RedRemoteControlCarTeam.Telemetry telemetry;
         private RedRemoteControlCarTeam.RunningGear runningGear;
 
-        public RemoteControlCar(RedRemoteControlCarTeam.Motor motor, RedRemoteControlCarTeam.Chassis chassis, RedRemoteControlCarTeam.Telemetry telemetry, RedRemoteControlCarTeam.RunningGear runningGear)
+        public RemoteControlCar( Motor motor, Chassis chassis, Telemetry telemetry, RunningGear runningGear)
         {
             this.motor = motor;
             this.chassis = chassis;
