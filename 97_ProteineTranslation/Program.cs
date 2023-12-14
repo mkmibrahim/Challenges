@@ -18,21 +18,31 @@ namespace _97_ProteineTranslation
             if (String.IsNullOrEmpty(strand))
                 return result.ToArray();
 
-            var strandSplit = strand.Split(',');
-            var numberOfCommas = strandSplit.Length > 3 ? 3 : strandSplit.Length;
+            var strandSplit = strand.SplitByLength(3);
+            var numberOfCommas = strandSplit.Count() > 3 ? 3 : strandSplit.Count();
 
-            for (int i = 0; i < numberOfCommas; i++)
+            foreach(var currentProtein in strandSplit)
             {
-                result.Add(GetProtein(strandSplit[i]));
+                if (checkStop(currentProtein))
+                    break;
+                else
+                    result.Add(getProtein(currentProtein));
             }
-            
-            
             return result.ToArray();
         }
 
-        private static string GetProtein(string v) 
+        public static IEnumerable<string> SplitByLength(this string str, int maxLength)
         {
-            return v switch
+            for (int index = 0; index < str.Length; index += maxLength)
+            {
+                yield return str.Substring(index, Math.Min(maxLength, str.Length - index));
+            }
+        }
+
+        private static bool checkStop(string input) => 
+            input == "UAA" || input == "UAG" || input == "UGA";
+
+        private static string getProtein(string v) => v switch
             {
                 "AUG" => "Methionine",
                 "UUU" or "UUC" => "Phenylalanine",
@@ -44,7 +54,5 @@ namespace _97_ProteineTranslation
                 "UAA" or "UAG" or "UGA" => "",
                 _ => ""
             };
-
-        }
     }
 }
